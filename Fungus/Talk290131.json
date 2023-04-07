@@ -1,0 +1,1659 @@
+{
+  "Name": "Talk290131",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2783.441,-1551.073)",
+      "Commands": [
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "284(广陵城跑商引导-港口对话)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 333,
+      "Name": "任务进度更新",
+      "Description": "任务进度更新",
+      "Position": "(-3009.678,-1314.041)",
+      "Commands": [
+        {
+          "ItemID": 908,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 909,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 907,
+          "CmdType": "Fungus.AddItemToNpc"
+        },
+        {
+          "ItemID": 475,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 917,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 476,
+          "CmdType": "Fungus.SetTask"
+        }
+      ]
+    },
+    {
+      "ItemID": 281,
+      "Name": "打探消息后续",
+      "Description": "打探消息后续",
+      "Position": "(-2782.451,-1170.269)",
+      "Commands": [
+        {
+          "ItemID": 568,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "啊对了，忘了同你说，我们蓬莎岛修士是经常{color=#d0380a}以物易物{/color}的。既然大家所需的东西在别人身上都有，何必再换成灵石折腾一番。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 585,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "对你们来说，这说不定也是一种便宜的方式嘛。\r",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 569,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "以物易物？那这交换的物品种类和数量如何来定呢？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 586,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "这具体怎么定就是因人而异了，只要两边谈妥了就行。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 583,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "原来海外还有这种交易的方法，今日多谢{$daoyouPlayer}指点，让我了解诸多海外之事。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 571,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie <= 6"
+        },
+        {
+          "ItemID": 578,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "哎，摆摊之余随便聊聊罢了。{$daoyou}将来若是修为长进，也可以出海猎杀些妖兽，到各处去售卖材料嘛。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 572,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 579,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "哎，摆摊之余随便聊聊罢了。我看{$daoyou}也有几分本事，日后也可出海猎杀些妖兽，到各处去售卖材料嘛。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 573,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 570,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "不错，此番还算有所收获。刚才你这{xiaozi}还算机灵，要是你把心里话抖搂出来，恐怕此人就没那么好心情跟你说这么多了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "531(任务进度更新)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 386,
+      "Name": "普通交互",
+      "Description": "普通交互",
+      "Position": "(-3009.667,-1479.278)",
+      "Commands": [
+        {
+          "ItemID": 414,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "{$daoyou}看看有什么想买的？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 415,
+          "CmdType": "CmdOpenNPCPop"
+        }
+      ]
+    },
+    {
+      "ItemID": 392,
+      "Name": "海上还有交易会？",
+      "Description": "海上还有交易会？",
+      "Position": "(-3218.843,-1057.575)",
+      "Commands": [
+        {
+          "ItemID": 524,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "海上除了四座较大的岛屿，更多的是一些无人的小岛，不过有时会有碎星商会的人在岛上组织一些交易会，也会有不少散修聚到这些岛上用收集来多的妖兽材料换一些补给。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 523,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "依我的经验，这时候散修卖得材料大多会比商会卖的便宜一些，你要是运气好啊，这片北宁海没准就会有交易会。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 375,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "389(询问选项（返回）)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 473,
+      "Name": "还是算了",
+      "Description": "还是算了",
+      "Position": "(-2069.667,-1343.278)",
+      "Commands": [
+        {
+          "ItemID": 441,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这...还是算了吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 442,
+          "CmdType": "CmdOpenNPCPop"
+        }
+      ]
+    },
+    {
+      "ItemID": 888,
+      "Name": "仇恨发言",
+      "Description": "仇恨发言",
+      "Position": "(-2550.607,-1320.278)",
+      "Commands": [
+        {
+          "ItemID": 900,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 899,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 3"
+        },
+        {
+          "ItemID": 903,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "你又要来作甚！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 905,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 886,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "我好心和你说了这么多，而你转头便要抢我财物，你们宁州人好没良心!",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 891,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你不愿再理会他的咒骂声，扭头便走。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 902,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 896,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "530(仇恨状态处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 405,
+      "Name": "以物易物-完成",
+      "Description": "以物易物-完成",
+      "Position": "(-2547.667,-1489.102)",
+      "Commands": [
+        {
+          "ItemID": 396,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "没多少时日我们便要出海了，{$daoyou}看看还有什么要买的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 399,
+          "CmdType": "CmdOpenNPCPop"
+        }
+      ]
+    },
+    {
+      "ItemID": 326,
+      "Name": "对话框",
+      "Description": "对话框",
+      "Position": "(-3377.667,-1380.278)",
+      "Commands": [
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        }
+      ]
+    },
+    {
+      "ItemID": 394,
+      "Name": "询问选项",
+      "Description": "询问选项",
+      "Position": "(-2998.933,-1224.124)",
+      "Commands": [
+        {
+          "ItemID": 379,
+          "CmdType": "Fungus.Menu",
+          "Text": "猎杀妖兽要去哪儿呢？",
+          "TargetBlockID": "this:390(猎杀妖兽要去哪儿呢？)"
+        },
+        {
+          "ItemID": 380,
+          "CmdType": "Fungus.Menu",
+          "Text": "要是去蓬莎岛买，价格行情如何呢？",
+          "TargetBlockID": "this:391(要是去蓬莎岛买，价格行情如何呢？)"
+        },
+        {
+          "ItemID": 419,
+          "CmdType": "Fungus.Menu",
+          "Text": "海上还有交易会？",
+          "TargetBlockID": "this:392(海上还有交易会？)"
+        },
+        {
+          "ItemID": 420,
+          "CmdType": "Fungus.Menu",
+          "Text": "若要出海，需准备些什么？",
+          "TargetBlockID": "this:393(若要出海，需准备些什么？)"
+        }
+      ]
+    },
+    {
+      "ItemID": 327,
+      "Name": "打探信息 1",
+      "Description": "打探信息 1",
+      "Position": "(-2782.833,-1283.925)",
+      "Commands": [
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "哼，今天真是倒霉，刚上岸就和人吵了一架。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 493,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "他看到你向他走去，警惕地打量着你。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 492,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "怎么，你也想吵架？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 491,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "{$daoyouPlayer}误会，我只是正巧路过听到了你们争吵而已。请问你们可是专门卖这些海外材料的？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 494,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "到也谈不上专门卖这些，我们只是些散修，比不上那些大商会，不过此番确实是从蓬莎岛特地来广陵城售卖些材料。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 495,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "刚才听你们争吵，还以为你们是隶属于什么商会的呢。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 490,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "非也非也，{$daoyou}不会不知道我们蓬莎岛吧，我们只是个散修组织，平时组队猎杀些妖兽。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 563,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "只不过猎杀得来的材料会拿去各地交易，但依然是以个人名义售卖，哪来的什么商会。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 496,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "你们既然并非属于商会，那这些材料是否还有些还价的余地？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 488,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "哎哟，连你也来讨价还价？这价格真不算贵了，你可要知道我们从蓬莎海域大老远的跑来，海上至少可是要走一两年的，你算算这花在路上的时间不都是成本？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 489,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "时间对于修真者来说很是宝贵，我们散修也就靠着这样来回跑能多挣些灵石，也不能靠着这差事发财。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 564,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "况且这些东西我们要是便宜着卖给你们，那可就动了他们百里家的财路啦。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 497,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "动了百里家的财路？此话怎讲。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 499,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "他摆摆手示意你走近些。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 500,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "{$daoyou}看来是不知道此事呀，他们百里家啊，就是靠着倒卖海外来的这些货物在宁州发家的嘛，而且和海上的商会还颇有渊源呐。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 503,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "当年就是靠着广陵城这个出海口，掌控了海外货物往宁州的流通，你说这下价格不就任凭他们说了算了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 502,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "不过听说后来在海外惹出什么事，闹过一阵子，价格就差不多稳定到现在这样了，具体的事我也不太清楚，毕竟距离现在有些时间了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 501,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "我们这些零散的修士如今也能来港口卖点东西，不过价格还是得和百里家统一的。要是我们海外来的修士降价，大家都买我们的东西了，谁还买他们百里家的呀。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 504,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "对了，你刚才也瞧见那百里家的少爷了吧。他这一发话，就没人敢闹事了，所以在这广陵城啊，他们百里家才是一手遮天的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 921,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "他说完抬起头四处张望了一下。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 920,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "这些我都是听说来的啊，可别说是我讲给你听的，惹上什么麻烦我们不负责啊。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 299,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "529(打探信息 2)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 406,
+      "Name": "以物易物-交付",
+      "Description": "以物易物-交付",
+      "Position": "(-2550.02,-1388.278)",
+      "Commands": [
+        {
+          "ItemID": 403,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "{$daoyou}是来交换的吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 418,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "468(以物易物选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 387,
+      "Name": "以物易物-商议",
+      "Description": "以物易物-商议",
+      "Position": "(-3010.843,-1387.278)",
+      "Commands": [
+        {
+          "ItemID": 353,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "{$daoyou}又有何事啊？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 407,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "刚才那位和你争吵的女修士，她要的蓬莎巨蟹螯你这儿还有吗？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 411,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "今天可真是怪了，怎么现在你也要这玩意儿。但是说好了，我这儿可不能便宜卖给你，价格还是八千多灵石。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 410,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "不过我看你也算好讲道理，这样吧，我们此番来宁州除了售卖这些货物，还想顺便找些{color=#d0380a}补天芝{/color}。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 409,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "这种草药反倒是宁州独有，我们正准备拿来炼制一些丹药。你要是能拿来10株补天芝，我们便可以用蓬莎巨蟹螯和你交换。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 412,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "如此甚好，那{$daoyouPlayer}何时会离开港口？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 408,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "这个嘛，虽然我们船队会等下一个风浪较小的时段才出海，还会多待一些时日，但还望你尽快，这材料指不定会被谁先买走呢。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 358,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "333(任务进度更新)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 468,
+      "Name": "以物易物选项",
+      "Description": "以物易物选项",
+      "Position": "(-2402.667,-1386.278)",
+      "Commands": [
+        {
+          "ItemID": 429,
+          "CmdType": "Fungus.Menu",
+          "Text": "用补天芝换取蓬莎巨蟹螯",
+          "TargetBlockID": "this:469(用补天芝换取蓬莎巨蟹螯)"
+        },
+        {
+          "ItemID": 428,
+          "CmdType": "Fungus.Menu",
+          "Text": "支付灵石购买",
+          "TargetBlockID": "this:470(支付灵石购买)"
+        },
+        {
+          "ItemID": 421,
+          "CmdType": "Fungus.Menu",
+          "Text": "现在还不换",
+          "TargetBlockID": "this:471(现在还不换)"
+        }
+      ]
+    },
+    {
+      "ItemID": 282,
+      "Name": "分支框",
+      "Description": "分支框",
+      "Position": "(-3377.667,-1335.216)",
+      "Commands": [
+        {
+          "ItemID": 340,
+          "CmdType": "Fungus.If",
+          "Condition": "Error: No variable selected"
+        },
+        {
+          "ItemID": 341,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 342,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 385,
+      "Name": "分支判断",
+      "Description": "分支判断",
+      "Position": "(-2783.843,-1387.455)",
+      "Commands": [
+        {
+          "ItemID": 346,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 887,
+          "CmdType": "Fungus.If",
+          "Condition": "FavorLevel <= 2"
+        },
+        {
+          "ItemID": 898,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "888(仇恨发言)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 889,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 343,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue < 3"
+        },
+        {
+          "ItemID": 347,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "327(打探信息 1)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 351,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 3"
+        },
+        {
+          "ItemID": 348,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "386(普通交互)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 355,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 4"
+        },
+        {
+          "ItemID": 354,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "387(以物易物-商议)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 400,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 5"
+        },
+        {
+          "ItemID": 401,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "406(以物易物-交付)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 397,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue >= 6"
+        },
+        {
+          "ItemID": 398,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "405(以物易物-完成)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 345,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 472,
+      "Name": "购买",
+      "Description": "购买",
+      "Position": "(-2071.02,-1385.631)",
+      "Commands": [
+        {
+          "ItemID": 444,
+          "CmdType": "Fungus.GetMoney"
+        },
+        {
+          "ItemID": 445,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue >= 8226"
+        },
+        {
+          "ItemID": 486,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "557(购买完成处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 448,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 449,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "嗨，这些灵石分明不够嘛。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 452,
+          "CmdType": "CmdOpenNPCPop"
+        },
+        {
+          "ItemID": 446,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 530,
+      "Name": "仇恨状态处理",
+      "Description": "仇恨状态处理",
+      "Position": "(-2551.855,-1243.806)",
+      "Commands": [
+        {
+          "ItemID": 893,
+          "CmdType": "Fungus.SetStaticValue"
+        }
+      ]
+    },
+    {
+      "ItemID": 528,
+      "Name": "任务进度更新 以物易物",
+      "Description": "任务进度更新 以物易物",
+      "Position": "(-2020.678,-1467.688)",
+      "Commands": [
+        {
+          "ItemID": 478,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 481,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 918,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 479,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 914,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    },
+    {
+      "ItemID": 328,
+      "Name": "处理框",
+      "Description": "处理框",
+      "Position": "(-3377.678,-1291.688)",
+      "Commands": []
+    },
+    {
+      "ItemID": 529,
+      "Name": "打探信息 2",
+      "Description": "打探信息 2",
+      "Position": "(-2782.348,-1224.528)",
+      "Commands": [
+        {
+          "ItemID": 510,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "（这定价虽然听着像是迫不得已，但细想来，他们的利益也是和百里家绑定了吧。）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 515,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 514,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 566,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 565,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 512,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "（原先对百里家还不甚了解，今日倒是获得了不少消息。）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 910,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 911,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "（原先对百里家还不甚了解，今日倒是获得了不少消息，到时候去百里府上拜访可要多留个心眼。）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 567,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 516,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 513,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "（原先对百里家还不甚了解，今日倒是获得了不少消息，到时候去百里府上拜访可要多留个心眼。）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 517,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 511,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "听前辈这么一解释，这个价格我也只好认了，那有什么办法能便宜点弄到这些材料呢？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 518,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "{$daoyou}不像前面那丫头，还是个说得通道理的人。看你也没出过海，那我且告诉你吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 587,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "最省钱的办法，自然是像我们一样去海上猎杀妖兽，不然呢，就是上蓬莎岛去买，甚至还能去海上的交易会找找嘛。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 509,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "394(询问选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 897,
+      "Name": "任务进度更新 高价购买",
+      "Description": "任务进度更新 高价购买",
+      "Position": "(-1832.678,-1469.688)",
+      "Commands": [
+        {
+          "ItemID": 484,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 487,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 919,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 485,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 915,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    },
+    {
+      "ItemID": 469,
+      "Name": "用补天芝换取蓬莎巨蟹螯",
+      "Description": "用补天芝换取蓬莎巨蟹螯",
+      "Position": "(-2235.667,-1468.278)",
+      "Commands": [
+        {
+          "ItemID": 423,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "之前与{$daoyouPlayer}约好用补天芝换取蓬莎巨蟹螯，这补天芝我带来了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 430,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "好，那你且把草药拿出来让我对对数。\r\n",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 434,
+          "CmdType": "Fungus.ItemCheck"
+        },
+        {
+          "ItemID": 454,
+          "CmdType": "Fungus.If",
+          "Condition": "ItemCountBool == True"
+        },
+        {
+          "ItemID": 456,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "嘿嘿，正好10株，{$daoyou}收好这蟹螯。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 912,
+          "CmdType": "Fungus.ItemRemove"
+        },
+        {
+          "ItemID": 467,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 561,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 562,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 457,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "这就是我们蓬莎岛上经常干的“以物易物”了，{$daoyou}有机会去蓬莎岛啊，得先多准备些好东西，好去交换嘛。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 480,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "528(任务进度更新 以物易物)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 455,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 458,
+          "CmdType": "Fungus.ItemCheck"
+        },
+        {
+          "ItemID": 459,
+          "CmdType": "Fungus.If",
+          "Condition": "ItemCountBool == True"
+        },
+        {
+          "ItemID": 461,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "我数数...不对啊，这补天芝还少一株呢，{$daoyou}还是凑齐了再来吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 460,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 462,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "这些补天芝，分明看着数量不够吧。换不了换不了，{$daoyou}还是凑齐了再来吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 463,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 464,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 284,
+      "Name": "广陵城跑商引导-港口对话",
+      "Description": "广陵城跑商引导-港口对话",
+      "Position": "(-2811.79,-1486.896)",
+      "Commands": [
+        {
+          "ItemID": 336,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 533,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 453,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 859,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 860,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 861,
+          "CmdType": "Fungus.If",
+          "Condition": "daoyou == 前辈"
+        },
+        {
+          "ItemID": 862,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 863,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "daoyou == 道友"
+        },
+        {
+          "ItemID": 864,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 865,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "daoyou == 小友"
+        },
+        {
+          "ItemID": 871,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 878,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 332,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "385(分支判断)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 557,
+      "Name": "购买完成处理",
+      "Description": "购买完成处理",
+      "Position": "(-1809.49,-1384.631)",
+      "Commands": [
+        {
+          "ItemID": 548,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "嘿嘿，分文不少，这材料{$daoyou}可收好咯。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 549,
+          "CmdType": "Fungus.AddMoney"
+        },
+        {
+          "ItemID": 551,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 556,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 550,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 552,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "{$daoyou}不像先前那些人，和你做生意痛快多了。此番也是和{$daoyou}有缘，我这儿有份北宁海图，就送给你吧，待你下次出海便能派上用场。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 553,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 554,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "897(任务进度更新 高价购买)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 558,
+      "Name": "初始化",
+      "Description": "初始化",
+      "Position": "(-3377.79,-1447.896)",
+      "Commands": [
+        {
+          "ItemID": 535,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 536,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 537,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 538,
+          "CmdType": "CmdInitNPC"
+        }
+      ]
+    },
+    {
+      "ItemID": 389,
+      "Name": "询问选项（返回）",
+      "Description": "询问选项（返回）",
+      "Position": "(-2996.667,-932.2782)",
+      "Commands": [
+        {
+          "ItemID": 361,
+          "CmdType": "Fungus.Menu",
+          "Text": "猎杀妖兽要去哪儿呢？",
+          "TargetBlockID": "this:390(猎杀妖兽要去哪儿呢？)"
+        },
+        {
+          "ItemID": 364,
+          "CmdType": "Fungus.Menu",
+          "Text": "要是去蓬莎岛买，价格行情如何呢？",
+          "TargetBlockID": "this:391(要是去蓬莎岛买，价格行情如何呢？)"
+        },
+        {
+          "ItemID": 363,
+          "CmdType": "Fungus.Menu",
+          "Text": "海上还有交易会？",
+          "TargetBlockID": "this:392(海上还有交易会？)"
+        },
+        {
+          "ItemID": 362,
+          "CmdType": "Fungus.Menu",
+          "Text": "若要出海，需准备些什么？",
+          "TargetBlockID": "this:393(若要出海，需准备些什么？)"
+        },
+        {
+          "ItemID": 383,
+          "CmdType": "Fungus.Menu",
+          "Text": "我都了解了。",
+          "TargetBlockID": "this:281(打探消息后续)"
+        }
+      ]
+    },
+    {
+      "ItemID": 390,
+      "Name": "猎杀妖兽要去哪儿呢？",
+      "Description": "猎杀妖兽要去哪儿呢？",
+      "Position": "(-3241.37,-1152.492)",
+      "Commands": [
+        {
+          "ItemID": 366,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "海上的妖兽？那自然是海上到处都能碰见，但近海大都是一些实力接近于筑基后期的妖兽，他们身上的材料没啥值钱的.",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 520,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "如果要找金丹妖兽就得到深海区域了，像刚才那丫头要买的蓬莎巨蟹螯，产自金丹期的蓬莎巨蟹，主要出没于我们蓬莎海域的深海区。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 519,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "不过猎杀妖兽可没嘴上说说那么容易，因此我们大都寻找信得过的修士结伴出海，算是相互照应吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 373,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "389(询问选项（返回）)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 471,
+      "Name": "现在还不换",
+      "Description": "现在还不换",
+      "Position": "(-2238.667,-1336.278)",
+      "Commands": [
+        {
+          "ItemID": 427,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "现在还是先不换吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 431,
+          "CmdType": "CmdOpenNPCPop"
+        }
+      ]
+    },
+    {
+      "ItemID": 391,
+      "Name": "要是去蓬莎岛买，价格行情如何呢？",
+      "Description": "要是去蓬莎岛买，价格行情如何呢？",
+      "Position": "(-3306.821,-1104.989)",
+      "Commands": [
+        {
+          "ItemID": 368,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "若你去的是专门售卖材料的店铺，这价格嘛，倒也没便宜到哪儿去，也就相比你在这里买能便宜个两千灵石吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 522,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "当然蓬莎岛上还有坊市，价格会再便宜些，但找到特定的材料就需碰碰运气了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 521,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "去店铺买的好处自然是种类齐全，毕竟也是我们蓬莎修士的主要集散地，所以岛上各种妖兽材料都有得卖。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 580,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "除了蓬莎岛，还有哪儿能买到海外的材料？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 581,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "我想想...应该只有{color=#d0380a}南崖城{/color}的坊市了吧，不过南崖城离这儿最远，要从这里出海一路{color=#d0380a}南下{/color}，穿过两三个海域，为此跑一趟太耗时。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 582,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "相比起来，蓬莎岛离这儿就近的多，从广陵城港口出海，一路{color=#d0380a}向东{/color}便能到蓬莎海域了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 374,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "389(询问选项（返回）)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 393,
+      "Name": "若要出海，需准备些什么？",
+      "Description": "若要出海，需准备些什么？",
+      "Position": "(-3262.525,-1009.85)",
+      "Commands": [
+        {
+          "ItemID": 527,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "那自然要先准备一艘{color=#d0380a}灵舟{/color}了，海上会碰到一些乱流和风暴，要是没有灵舟的保护就会伤及自身。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 526,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "还有啊，在海上一漂少则几个月，动辄好几年，你要是{color=#d0380a}遁速{/color}不快，恐怕是早晚老死在海上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 576,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie <= 6"
+        },
+        {
+          "ItemID": 525,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "我看{$daoyou}现在修为尚显不足，还是好好修炼，离出海还早着呐。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 574,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 577,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "嗯...以{$daoyou}显露出来的修为，去海上闯一闯应该不是什么难事，不过还是要十分小心。即便是身经百战的蓬莎到修士出海，仍有舟毁人亡的风险，这种事我们见得太多了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 575,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 376,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "389(询问选项（返回）)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 470,
+      "Name": "支付灵石购买",
+      "Description": "支付灵石购买",
+      "Position": "(-2240.667,-1386.278)",
+      "Commands": [
+        {
+          "ItemID": 425,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "弄到这些草药也颇为麻烦，不如还是直接用灵石买吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 432,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "想不到{$daoyou}出手还挺豪爽，那这蓬莎巨蟹螯还是原来讲好的价，总计八千二百二十六灵石。怎么样，{$daoyou}买不买？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 443,
+          "CmdType": "Fungus.Menu",
+          "Text": "购买",
+          "TargetBlockID": "this:472(购买)"
+        },
+        {
+          "ItemID": 435,
+          "CmdType": "Fungus.Menu",
+          "Text": "还是算了",
+          "TargetBlockID": "this:473(还是算了)"
+        }
+      ]
+    },
+    {
+      "ItemID": 531,
+      "Name": "任务进度更新",
+      "Description": "任务进度更新",
+      "Position": "(-2548.155,-1170.617)",
+      "Commands": [
+        {
+          "ItemID": 539,
+          "CmdType": "CmdSetNPCJson"
+        },
+        {
+          "ItemID": 559,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 560,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 330,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 916,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 337,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 913,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

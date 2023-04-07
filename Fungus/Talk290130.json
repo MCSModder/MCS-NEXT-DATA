@@ -1,0 +1,364 @@
+{
+  "Name": "Talk290130",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2797.441,-1306.073)",
+      "Commands": [
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "284(广陵城跑商引导任务阶段1)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 281,
+      "Name": "对话 2",
+      "Description": "对话 2",
+      "Position": "(-2796.667,-1041.278)",
+      "Commands": [
+        {
+          "ItemID": 338,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 336,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 337,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 313,
+          "CmdType": "Fungus.If",
+          "Condition": "IsKnowPlayer == False"
+        },
+        {
+          "ItemID": 317,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "诸位前辈，诸位道友！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 319,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 318,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 615,
+          "AvatarBindKey": "",
+          "StoryText": "诸位前辈，诸位道友！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 316,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 320,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "人们纷纷转过头去，只见人群中一个身影闪转腾挪，眨眼功夫便来到了人群聚集的中央。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 321,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 615,
+          "AvatarBindKey": "",
+          "StoryText": "在下百里奇，诸位前辈和道友若是有何交易上的争议可以私下商议，实在谈不拢可以找我们百里家协调。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 339,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 615,
+          "AvatarBindKey": "",
+          "StoryText": "但切莫在港口大打出手，免得扰乱了港口的秩序。还请给我们百里家一个面子，今日就此散了吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 323,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一时间，大家的目光都聚集与那女性修士身上，仿佛都在等待她的下一步举动。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 340,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "她抿着的嘴唇动了两下，似乎是在把已经到了嘴边的话又咽了下去。沉默片刻后，她转过身大步向人群走来。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 322,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "人群自动闪出一条通道，目送她离开港口，向着客栈的方向走去了。没等她走多远，人群便一哄而散了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 325,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "还真是差点摊上些麻烦呢...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 324,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "哼，就以这群人的修为能闹到哪儿去。不过他们为之争吵的材料似乎挺稀有，回头可以找他们问问，看看是否有能为你所用的消息。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "333(任务进度更新)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 326,
+      "Name": "对话框",
+      "Description": "对话框",
+      "Position": "(-3178.667,-1241.278)",
+      "Commands": [
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        }
+      ]
+    },
+    {
+      "ItemID": 327,
+      "Name": "对话 1",
+      "Description": "对话 1",
+      "Position": "(-2796.667,-1114.278)",
+      "Commands": [
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你随着人流朝港口靠了过去，费了些劲才挤到人群中的前几排，一个女性修士高亮的声音愈发清晰。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "你们这卖的蓬莎巨蟹螯，怎么价格都翻番了，既然都是从金丹妖兽身上扒下来的材料，凭什么你们卖得这么贵？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见这个女性修士身着星河剑派道袍，站在个摊位前，手指着摊位上摆放的各种材料与摊位后的几位修士大声理论道。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 290,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "也不瞧瞧你们宁州哪儿来的蓬莎巨蟹，这都是我们蓬莎海域的妖兽，物以稀为贵，小姑娘莫非不明白这道理？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "这是什么道理，你们那些妖兽在海上也没稀有到哪儿去吧，明明大家猎杀妖兽都花了一样的功夫，难不成你们运个货就能让价格翻一倍？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "你们就是垄断！攫取暴利！这个价格让其他散修怎么买得起。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "哟，真能说啊，那你怎么不自己出海猎杀妖兽，看来是既没那胆子也没那本事，只能在此大放厥词，唬得住谁啊？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "那几个蓬莎岛修士发出讥讽的笑声，只见那女性修士的脸瞬间涨的通红。同时，一旁的人群也开始骚动起来，有几个修士站上前理论。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1008,
+          "AvatarBindKey": "",
+          "StoryText": "你们一帮修士仗着人多势众欺负一个女子算什么本事！这位姑娘说的不无道理，哪有你们这么坐地起价的，我们也早就看你们不惯了！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 298,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarPengsha",
+          "StoryText": "哼！怎么着，你们这是要挑事不成！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "说罢，其中一个蓬莎修士摆出架势，释放出灵力威压，展露出自己金丹期修士的身份。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 315,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "正当气氛愈发紧张之时，一道洪亮的声音从身后传出。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 299,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "281(对话 2)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 282,
+      "Name": "分支框",
+      "Description": "分支框",
+      "Position": "(-3177.667,-1174.278)",
+      "Commands": []
+    },
+    {
+      "ItemID": 328,
+      "Name": "处理框",
+      "Description": "处理框",
+      "Position": "(-3177.678,-1101.688)",
+      "Commands": []
+    },
+    {
+      "ItemID": 284,
+      "Name": "广陵城跑商引导任务阶段1",
+      "Description": "广陵城跑商引导任务阶段1",
+      "Position": "(-2826.79,-1227.896)",
+      "Commands": [
+        {
+          "ItemID": 334,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 335,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 332,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "327(对话 1)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 333,
+      "Name": "任务进度更新",
+      "Description": "任务进度更新",
+      "Position": "(-2796.678,-936.6881)",
+      "Commands": [
+        {
+          "ItemID": 331,
+          "CmdType": "Fungus.AddTask"
+        },
+        {
+          "ItemID": 330,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 900,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

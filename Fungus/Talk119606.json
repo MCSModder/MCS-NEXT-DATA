@@ -1,0 +1,282 @@
+{
+  "Name": "Talk119606",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2430.095,-1100.797)",
+      "Commands": [
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "CmdSetNPCJson"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 266,
+          "CmdType": "Fungus.If",
+          "Condition": "FavorLevel < 6"
+        },
+        {
+          "ItemID": 275,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "温杰不断地比划着各种剑招，十分投入的样子，你看他终于要歇下来了，赶紧上前攀谈。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "{$TmpTalkString}，这个我还没什么头绪，你还是问问旁人吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 274,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "可我看你在这里已经领悟了好久了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 276,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "惭愧，我竹山宗本就不善剑法，只是我个人爱剑罢了。领悟起来肯定不如那边的各大剑派的弟子们。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 278,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "不过后来行走天下，我特地请教了离火剑法，希望从五行生克中提升剑法的威力，但效果并不理想。再加上灵根和火道的原因，我也未能完全掌握。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 277,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "可现在当我运转此功法之后，再运转竹山剑法和离火剑法，却有大不相同之感，莫非是有什么关联？道友若有头绪，记得与我分享一二。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "有意思，竹山剑法、离火剑法...你可得好好记下这点，我想说不定是解谜的关键。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "温杰不断地比划着各种剑招，十分投入的样子，不过一看到你来了，立马停下来向你打招呼。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "{$TmpTalkString}你来啦，经文一定也看过了吧，真是玄妙非常。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 282,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "你问我有什么收获？这个么，谈不上收获，只能说叫猜想。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "我竹山剑法大成之后，便感觉此剑法与竹山诸法门有格格不入之感，不像是竹山宗土生土长的功法，其中颇有几分金鸿剑派古技的韵味。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 283,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "我深感此法与竹山法门惯用法门不符，后来行走天下，特地请教了离火剑法，希望从五行生克中提升剑法的威力，结果自然是并不理想。再加上灵根和火道的原因，也未能完全掌握。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 284,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "这竹山剑法和离火剑法，均是罕有人用，相对门内其他地阶神通，甚是鸡肋，早已无人问津。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "可当我运转竹山剑法和离火剑法之时，此功法竟有了许多妙用，我猜莫非是有什么关联？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 286,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "有意思，竹山剑法、离火剑法...你可得好好记下这点，我想说不定是解谜的关键。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 268,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "温杰不断地比划着各种剑招，全身心投入，显然正在专心领悟。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 273,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "还是别打扰他了，不过他刚才说的，运功后竹山剑法和离火剑法搭配使用会有特殊反应，倒是有趣。可以找竹山和离火的剑修请教一下。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 2"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "{$TmpTalkString}能够传承五行剑诀之道统，真是令在下佩服！有机会一定要好好论一论道！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 265,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "不过，这运气之法看似平常，与五行剑法相匹配居然如此精妙...果然是前代能人才有的手笔...没想到我修炼一生的竹山剑法，竟有这样的渊源...真是令人感叹哪。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

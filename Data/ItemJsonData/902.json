@@ -1,0 +1,37 @@
+{
+	"id":902,
+	"ItemIcon":2009,
+	"maxNum":1,
+	"name":"重元甲",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":99,
+	"ItemFlag":[
+		12005,
+		2,
+		205
+	],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":1,
+	"quality":5,
+	"typePinJie":3,
+	"StuTime":0,
+	"seid":[
+		1
+	],
+	"vagueType":0,
+	"price":8553600,
+	"desc":"回合结束时，获得【减伤】*2，【护罩】*130",
+	"desc2":"金虹剑仙随身佩戴的法宝。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"ShuaXin":0,
+	"wuDao":[]
+}

@@ -1,0 +1,21 @@
+{
+	"buffid":9382,
+	"BuffIcon":9324,
+	"skillEffect":"fx_Summoner_o",
+	"name":"诛仙剑阵（隐）",
+	"Affix":[],
+	"bufftype":3,
+	"seid":[
+		76,
+		17
+	],
+	"descr":"施展戮仙剑时，对手额外获得【易伤】*50；",
+	"trigger":8,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":1,
+	"ShowOnlyOne":1
+}

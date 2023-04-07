@@ -1,0 +1,20 @@
+{
+	"buffid":170,
+	"BuffIcon":103,
+	"skillEffect":"fx_Summoner_o",
+	"name":"金虹剑诀隐",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		195
+	],
+	"descr":"每消散一点金系灵气，获得【蓄势】*10",
+	"trigger":26,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":1,
+	"ShowOnlyOne":1
+}

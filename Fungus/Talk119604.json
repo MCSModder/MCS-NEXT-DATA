@@ -1,0 +1,323 @@
+{
+  "Name": "Talk119604",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 249,
+      "Name": "重复",
+      "Description": "重复",
+      "Position": "(-2549.661,-947.0331)",
+      "Commands": []
+    },
+    {
+      "ItemID": 251,
+      "Name": "已领悟",
+      "Description": "已领悟",
+      "Position": "(-2549.661,-848.0331)",
+      "Commands": []
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2430.348,-1125.962)",
+      "Commands": [
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "CmdSetNPCJson"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 253,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 242,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 243,
+          "CmdType": "Fungus.If",
+          "Condition": "FavorLevel < 6"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "萧千绝正在和同行弟子讨论，甚是嘈杂。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这位道友...可是有所领悟？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "{$TmpTalkString}也是来参悟五行剑诀的吧，倒没什么好隐瞒的，你也可以听一听我们的猜想。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 121,
+          "AvatarBindKey": "",
+          "StoryText": "我金虹剑派道统不知多少万年，宁州本土的剑法大都与我们剑派有关，这个功法也不例外。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 265,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 122,
+          "AvatarBindKey": "",
+          "StoryText": "我们发现这功法与我们金虹剑派其余神通皆无反应，唯独金虹剑法有所不同，想必定是有所道理，这应该是一个突破口。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "虽然我金虹剑派是被特邀前来参悟此功法，但我们也深知仅凭我们的能力也许难以达到，得摒除门户之见，集思广益才行。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "我们目前的发现就是这些，希望能有所帮助，若没什么事的话我就先继续领悟了，就先不奉陪了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 270,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "金虹剑法会和五行剑诀起反应，也不算稀奇之事，毕竟是金虹前人所创功法，接着问问别人吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 268,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "萧千绝正在和同行弟子讨论，甚是嘈杂。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "原来是萧千绝道友，对于此事，不知你有何见解？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "哈哈哈，{$TmpTalkString}也是来参悟五行剑诀的吧，咱俩之间没什么不可以说的，我就告诉你吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 273,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "我们金虹剑派道统不知多少万年，宁州本土的剑法大多都与我们剑派有关，这个功法也不例外。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 274,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "我看这功法与我们金虹剑派其他所有神通都无反应，唯独金虹剑法有所不同，定是有所道理，我想以此应该能够解出这个功法的奥秘。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 286,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "虽然我金虹剑派是被特邀前来参悟此功法，但我们也深知仅凭我们的能力也许难以达到，得摒除门户之见，集思广益才行。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 275,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 121,
+          "AvatarBindKey": "",
+          "StoryText": "萧长老说的没错，我们目前就想到了这么多。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 276,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 122,
+          "AvatarBindKey": "",
+          "StoryText": "希望能够有所帮助，重续古代剑修道统，是我们宁州剑修的夙愿。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 277,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "若没什么事的话我就先继续领悟了，就先不继续讨论了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 278,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "嗯，金虹剑法会和五行剑诀起反应，也不算稀奇之事，毕竟是金虹前人所创功法，接着问问别人吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 269,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 246,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 282,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 245,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "嘈杂的金虹剑派弟子此时居然安静了许多，萧千绝正对着功法的抄本念念有词。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "先不要打扰他了呢，刚才提到的与金虹剑法有关，那么还可能与什么有关呢？得好好思考一下。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 247,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 2"
+        },
+        {
+          "ItemID": 284,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "能够集齐五行剑法、重续五行剑诀道统，{$TmpTalkString}可真是厉害非常，在下佩服！佩服！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "不过啊，真没想到其他三派的剑法，配合起来竟然还有这样的神通...那按经文中所说的，这三派的五行剑法本身就是我金虹所创了...这块历史的空白算是补上了，得禀报掌门才是。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 248,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

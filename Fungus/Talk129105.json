@@ -1,0 +1,1808 @@
+{
+  "Name": "Talk129105",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2811.441,-1475.073)",
+      "Commands": [
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "284(广陵城跑商引导任务 客栈对话)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 728,
+      "Name": "涨价售卖-处理",
+      "Description": "涨价售卖-处理",
+      "Position": "(-1933.678,-1140.688)",
+      "Commands": [
+        {
+          "ItemID": 702,
+          "CmdType": "Fungus.AddMoney"
+        },
+        {
+          "ItemID": 898,
+          "CmdType": "Fungus.ItemRemove"
+        },
+        {
+          "ItemID": 711,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 712,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 823,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 723,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "333(任务进度更新-材料交付)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 281,
+      "Name": "打探材料信息 2",
+      "Description": "打探材料信息 2",
+      "Position": "(-2816.667,-1043.278)",
+      "Commands": [
+        {
+          "ItemID": 324,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "我为了炼制一把武器正在收集材料，而这材料倒也不是非要蓬莎巨蟹螯，是要天阳、水属性的四品材料，另外也最好是牙、骨类的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 775,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "这类材料在宁州都很稀有，听说无尽之海上的蓬莎巨蟹，其蟹螯正是我所需的材料，而且还算好获得些。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "562(询问选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 658,
+      "Name": "继续倾听",
+      "Description": "继续倾听",
+      "Position": "(-2652.667,-1104.278)",
+      "Commands": [
+        {
+          "ItemID": 766,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 767,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 762,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "真是不好意思，让{$daoyou}听了我这么多抱怨。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 772,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "听{$daoyouPlayer}解释这些我也收获颇多。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 791,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "不过刚才在港口看{$daoyouPlayer}的反应，似乎无法出海亲自去收集材料，莫非是有什么难言之隐？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 768,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "既然{daoyou}这么问了，我也实话实说吧，我...我其实...有点怕水。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 769,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "怕水...可你却还是星河剑派的，星河剑派不是以水系功法见长吗。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 771,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "其实确切一点，应该说是怕海，看到这一望无际的海面，深不见底的海水，想想都可怕吧。而且，这片凶恶的海...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 763,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "她顿了一下，将头一侧，双眼看向了地面，你感到气氛凝重决定不再追问。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 770,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "啊！且不说这些了，{$daoyouPlayer}为何这么想要蓬莎巨蟹螯呢？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 764,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "281(打探材料信息 2)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 590,
+      "Name": "一定得是四品材料？",
+      "Description": "一定得是四品材料？",
+      "Position": "(-3250.667,-1024.278)",
+      "Commands": [
+        {
+          "ItemID": 572,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "是呀，我要炼制的是上品法宝，得全部采用四品材料。虽说用品级更低的材料替代也能成器，但最终成器的灵力就会不足，便只能炼出中品法宝了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 793,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "这四品材料大多是从金丹妖兽身上产出，都主要靠金丹以上修士猎杀得来，这可不是件简单的差事啊。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 792,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "好不容易收集齐其它材料，总不能半途而废吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 799,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 579,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "593(询问选项 (返回))",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 886,
+      "Name": "初始化",
+      "Description": "初始化",
+      "Position": "(-3316.79,-1470.896)",
+      "Commands": [
+        {
+          "ItemID": 855,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 856,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 857,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 858,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 859,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 860,
+          "CmdType": "Fungus.If",
+          "Condition": "daoyou == 前辈"
+        },
+        {
+          "ItemID": 861,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 862,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "daoyou == 道友"
+        },
+        {
+          "ItemID": 863,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 864,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "daoyou == 小友"
+        },
+        {
+          "ItemID": 870,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 865,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 866,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie <= Level"
+        },
+        {
+          "ItemID": 871,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 867,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 872,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 868,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 869,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 333,
+      "Name": "任务进度更新-材料交付",
+      "Description": "任务进度更新-材料交付",
+      "Position": "(-1752.678,-1242.688)",
+      "Commands": [
+        {
+          "ItemID": 602,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 905,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 900,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    },
+    {
+      "ItemID": 817,
+      "Name": "处理对话后炼器悟道增加",
+      "Description": "处理对话后炼器悟道增加",
+      "Position": "(-3032.678,-971.6881)",
+      "Commands": [
+        {
+          "ItemID": 808,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 810,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 809,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 811,
+          "CmdType": "Fungus.If",
+          "Condition": "AskQuestionCount == 3"
+        },
+        {
+          "ItemID": 815,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 816,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 814,
+          "CmdType": "Fungus.AddWuDaoEx"
+        },
+        {
+          "ItemID": 812,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 818,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "594(拜托弄到材料)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 657,
+      "Name": "任务进度更新 打探 (Copy) (Copy)",
+      "Description": "任务进度更新 打探 (Copy) (Copy)",
+      "Position": "(-2278.678,-885.6881)",
+      "Commands": [
+        {
+          "ItemID": 607,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 608,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 609,
+          "CmdType": "CmdSetNPCJson"
+        },
+        {
+          "ItemID": 610,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 611,
+          "CmdType": "CmdAddFavor"
+        }
+      ]
+    },
+    {
+      "ItemID": 326,
+      "Name": "还没有",
+      "Description": "还没有",
+      "Position": "(-2440.667,-1261.278)",
+      "Commands": [
+        {
+          "ItemID": 617,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$daoyouPlayer}莫要着急，我还需要些时日。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 618,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "好好好，那我就在客栈等候{$daoyou}的好消息了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        }
+      ]
+    },
+    {
+      "ItemID": 753,
+      "Name": "同意平价售卖",
+      "Description": "同意平价售卖",
+      "Position": "(-2113.667,-1226.278)",
+      "Commands": [
+        {
+          "ItemID": 739,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "既然{$daoyouPlayer}这么说了，那就还是按正常价格吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 740,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "啊...好的。今日多谢{$daoyou}相助，这些灵石{$daoyou}且收好。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 734,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "725(平价售卖-处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 789,
+      "Name": "对话框",
+      "Description": "对话框",
+      "Position": "(-3314.667,-1397.278)",
+      "Commands": [
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        }
+      ]
+    },
+    {
+      "ItemID": 327,
+      "Name": "打探材料信息 1",
+      "Description": "打探材料信息 1",
+      "Position": "(-2816.667,-1151.278)",
+      "Commands": [
+        {
+          "ItemID": 666,
+          "CmdType": "Fungus.If",
+          "Condition": "IsKnowPlayer == False"
+        },
+        {
+          "ItemID": 745,
+          "CmdType": "Fungus.If",
+          "Condition": "MenPai != ShiLi"
+        },
+        {
+          "ItemID": 742,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "这位{$daoyou}何事？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 893,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 894,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "原来是{FirstName}{$daoyou}，真巧啊，在这广陵城碰上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 670,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 668,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 743,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "原来是{FirstName}{$daoyou}，真巧啊，在这广陵城碰上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 746,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$daoyouPlayer}好，刚才见到你从港口匆匆离开，不知是去哪儿了，原来是往客栈去了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "原来{$daoyou}刚才也在港口，莫非看到我与那几个海外修士争吵了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 751,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "确实如此，{$daoyouPlayer}可是因为材料价格争吵？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 749,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "是啊，你说气不气人，他们海外修士，就是倚靠着商会，向宁州高价倾销材料，弄得大家都买不起了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 750,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "她开始滔滔不绝地讲着自己对宁州商品定价、灵石流通等的见解，时不时冒出些没听说过的名词，让你听的脑袋嗡嗡的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 754,
+          "CmdType": "Fungus.Menu",
+          "Text": "继续倾听",
+          "TargetBlockID": "this:658(继续倾听)"
+        },
+        {
+          "ItemID": 755,
+          "CmdType": "Fungus.Menu",
+          "Text": "打断她",
+          "TargetBlockID": "this:790(打断她)"
+        }
+      ]
+    },
+    {
+      "ItemID": 591,
+      "Name": "天阳、水属性有何特殊之处？",
+      "Description": "天阳、水属性有何特殊之处？",
+      "Position": "(-3294.667,-981.2782)",
+      "Commands": [
+        {
+          "ItemID": 795,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "水属性材料基本对应着与水有关的效果，比如用上了天阳、水属性材料打造的环会拥有【{color=#d0380a}驭水{/color}】的效果，对于我们使用水系神通的星河剑派弟子正合适。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 794,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "而地阴、水属性材料对应着【{color=#d0380a}疗{/color}】的效果，虽不影响成器，但阴阳相斥，混着来则两边的灵力都会被浪费不少。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 800,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 578,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "593(询问选项 (返回))",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 726,
+      "Name": "赠送-处理",
+      "Description": "赠送-处理",
+      "Position": "(-1929.678,-1378.688)",
+      "Commands": [
+        {
+          "ItemID": 895,
+          "CmdType": "Fungus.ItemRemove"
+        },
+        {
+          "ItemID": 819,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 709,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 710,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 892,
+          "CmdType": "CmdAddNPCQingFen"
+        },
+        {
+          "ItemID": 820,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 720,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "333(任务进度更新-材料交付)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 790,
+      "Name": "打断她",
+      "Description": "打断她",
+      "Position": "(-2974.667,-1104.278)",
+      "Commands": [
+        {
+          "ItemID": 760,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "啊，抱歉自顾自说了这么多，{daoyou}来找我是为了何事？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 761,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "方才{$daoyouPlayer}在港口似乎是为了购买某种材料？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 773,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "正是如此，我是要向他们购买蓬莎巨蟹螯。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 774,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "这个螯，有何特殊之处，{$daoyouPlayer}非要不可呢？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 765,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "281(打探材料信息 2)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 729,
+      "Name": "对折售卖-处理",
+      "Description": "对折售卖-处理",
+      "Position": "(-1929.678,-1298.688)",
+      "Commands": [
+        {
+          "ItemID": 704,
+          "CmdType": "Fungus.AddMoney"
+        },
+        {
+          "ItemID": 896,
+          "CmdType": "Fungus.ItemRemove"
+        },
+        {
+          "ItemID": 707,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 708,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 821,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 721,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "333(任务进度更新-材料交付)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 727,
+      "Name": "坐地起价-处理",
+      "Description": "坐地起价-处理",
+      "Position": "(-1932.678,-1099.688)",
+      "Commands": [
+        {
+          "ItemID": 713,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 714,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 824,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 724,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "333(任务进度更新-材料交付)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 659,
+      "Name": "材料已经弄到了",
+      "Description": "材料已经弄到了",
+      "Position": "(-2442.667,-1134.278)",
+      "Commands": [
+        {
+          "ItemID": 615,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "没错，材料我已经弄来了，{$daoyouPlayer}看看是否为你所要的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 620,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "确实是蓬莎巨蟹螯！那{$daoyou}...我要付多少灵石呢？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 621,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "她眨巴着眼睛看着你，眼里充满了期待。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 622,
+          "CmdType": "Fungus.Menu",
+          "Text": "赠送",
+          "TargetBlockID": "this:665(赠送)"
+        },
+        {
+          "ItemID": 624,
+          "CmdType": "Fungus.Menu",
+          "Text": "对折售卖 （2285灵石）",
+          "TargetBlockID": "this:660(对折售卖)"
+        },
+        {
+          "ItemID": 625,
+          "CmdType": "Fungus.Menu",
+          "Text": "平价售卖（4570灵石）",
+          "TargetBlockID": "this:661(平价售卖)"
+        },
+        {
+          "ItemID": 623,
+          "CmdType": "Fungus.Menu",
+          "Text": "涨价售卖（6855灵石）",
+          "TargetBlockID": "this:663(稍稍涨价)"
+        },
+        {
+          "ItemID": 656,
+          "CmdType": "Fungus.Menu",
+          "Text": "坐地起价（8226灵石）",
+          "TargetBlockID": "this:662(坐地起价)"
+        }
+      ]
+    },
+    {
+      "ItemID": 595,
+      "Name": "结束",
+      "Description": "结束",
+      "Position": "(-2619.667,-1321.278)",
+      "Commands": [
+        {
+          "ItemID": 830,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 826,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 829,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "我这些日子就要赶回神兵阁炼制武器去，{$daoyou}赠与我的材料我一定好好使用。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 831,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 5"
+        },
+        {
+          "ItemID": 837,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "哼！这里买不到材料，大不了我再花些时日自己去找，可不会让你们赚到我的灵石！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 838,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 836,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "我这些日子就要赶回神兵阁炼制武器去，{$daoyou}替我找来的材料我一定好好使用。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 828,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 559,
+      "Name": "材料交付",
+      "Description": "材料交付",
+      "Position": "(-2617.667,-1192.278)",
+      "Commands": [
+        {
+          "ItemID": 556,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "{$daoyou}可是弄到了材料？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 787,
+          "CmdType": "Fungus.ItemCheck"
+        },
+        {
+          "ItemID": 786,
+          "CmdType": "Fungus.If",
+          "Condition": "TempBoolVar == True"
+        },
+        {
+          "ItemID": 612,
+          "CmdType": "Fungus.Menu",
+          "Text": "材料已经弄到了",
+          "TargetBlockID": "this:659(材料已经弄到了)"
+        },
+        {
+          "ItemID": 788,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 613,
+          "CmdType": "Fungus.Menu",
+          "Text": "还没有",
+          "TargetBlockID": "this:326(还没有)"
+        }
+      ]
+    },
+    {
+      "ItemID": 282,
+      "Name": "分支框",
+      "Description": "分支框",
+      "Position": "(-3314.667,-1353.278)",
+      "Commands": [
+        {
+          "ItemID": 541,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 537,
+          "CmdType": "Fungus.If",
+          "Condition": "Error: No variable selected"
+        },
+        {
+          "ItemID": 542,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 538,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 539,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "Error: No variable selected"
+        },
+        {
+          "ItemID": 540,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 660,
+      "Name": "对折售卖",
+      "Description": "对折售卖",
+      "Position": "(-2251.667,-1281.278)",
+      "Commands": [
+        {
+          "ItemID": 627,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$daoyouPlayer}与我有缘，今日这蓬莎巨蟹螯我就按平价的一半卖给你吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 628,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "这怎么好意思，{$daoyou}这样岂不是亏本了，我还是付正常价格的灵石吧",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 630,
+          "CmdType": "Fungus.Menu",
+          "Text": "同意平价售卖",
+          "TargetBlockID": "this:753(同意平价售卖)"
+        },
+        {
+          "ItemID": 631,
+          "CmdType": "Fungus.Menu",
+          "Text": "坚持半价售卖",
+          "TargetBlockID": "this:752(坚持半价售卖)"
+        }
+      ]
+    },
+    {
+      "ItemID": 661,
+      "Name": "平价售卖",
+      "Description": "平价售卖",
+      "Position": "(-2251.667,-1181.278)",
+      "Commands": [
+        {
+          "ItemID": 637,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "我就把这蓬莎巨蟹螯平价卖给你吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 638,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "好呀好呀！这次真是多亏了{$daoyou}帮忙，这些灵石你且收好。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 685,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "725(平价售卖-处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 562,
+      "Name": "询问选项",
+      "Description": "询问选项",
+      "Position": "(-3014.667,-1044.278)",
+      "Commands": [
+        {
+          "ItemID": 563,
+          "CmdType": "Fungus.Menu",
+          "Text": "一定得是四品材料？",
+          "TargetBlockID": "this:590(一定得是四品材料？)"
+        },
+        {
+          "ItemID": 565,
+          "CmdType": "Fungus.Menu",
+          "Text": "天阳、水属性有何特殊之处？",
+          "TargetBlockID": "this:591(天阳、水属性有何特殊之处？)"
+        },
+        {
+          "ItemID": 564,
+          "CmdType": "Fungus.Menu",
+          "Text": "挑选蟹螯为材料有和讲究？",
+          "TargetBlockID": "this:592(挑选蟹螯为材料有和讲究？)"
+        }
+      ]
+    },
+    {
+      "ItemID": 752,
+      "Name": "坚持半价售卖",
+      "Description": "坚持半价售卖",
+      "Position": "(-2115.667,-1333.278)",
+      "Commands": [
+        {
+          "ItemID": 731,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$daoyou}不用客气了，我还是半价卖给你吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 741,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "{$daoyou}如此坚持，我也不好再推脱。今日十分感谢{$daoyou}相助，{$daoyou}收好这些灵石。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 735,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "729(对折售卖-处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 328,
+      "Name": "处理框",
+      "Description": "处理框",
+      "Position": "(-3314.678,-1307.688)",
+      "Commands": [
+        {
+          "ItemID": 543,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 545,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 549,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 547,
+          "CmdType": "Fungus.AddTask"
+        },
+        {
+          "ItemID": 548,
+          "CmdType": "Fungus.SetStaticValue"
+        }
+      ]
+    },
+    {
+      "ItemID": 662,
+      "Name": "坐地起价",
+      "Description": "坐地起价",
+      "Position": "(-2251.667,-1100.278)",
+      "Commands": [
+        {
+          "ItemID": 653,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "为了这蓬莎巨蟹螯，我可是煞费精力，而且据说现在这广陵城只有这一份蓬莎巨蟹螯了，这价格我就和港口那些修士看齐了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 654,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "想不到你也坐地起价，我真是看错你了！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 887,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 888,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "谁叫你如此贪心。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 687,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "727(坐地起价-处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 284,
+      "Name": "广陵城跑商引导任务 客栈对话",
+      "Description": "广陵城跑商引导任务 客栈对话",
+      "Position": "(-2851.79,-1407.896)",
+      "Commands": [
+        {
+          "ItemID": 334,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 534,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 535,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 841,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 842,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 873,
+          "CmdType": "Fungus.If",
+          "Condition": "daoyou == 前辈"
+        },
+        {
+          "ItemID": 874,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 875,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "daoyou == 道友"
+        },
+        {
+          "ItemID": 876,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 877,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "daoyou == 小友"
+        },
+        {
+          "ItemID": 878,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 879,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 880,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie < Level"
+        },
+        {
+          "ItemID": 881,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 901,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "JinJie == Level"
+        },
+        {
+          "ItemID": 902,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 903,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 882,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 883,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 884,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 885,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 332,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "336(分支判断)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 725,
+      "Name": "平价售卖-处理",
+      "Description": "平价售卖-处理",
+      "Position": "(-1935.678,-1180.688)",
+      "Commands": [
+        {
+          "ItemID": 696,
+          "CmdType": "Fungus.AddMoney"
+        },
+        {
+          "ItemID": 897,
+          "CmdType": "Fungus.ItemRemove"
+        },
+        {
+          "ItemID": 705,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 706,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 822,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 722,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "333(任务进度更新-材料交付)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 594,
+      "Name": "拜托弄到材料",
+      "Description": "拜托弄到材料",
+      "Position": "(-2813.667,-970.2782)",
+      "Commands": [
+        {
+          "ItemID": 777,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "想不到{$daoyou}对炼器十分有研究，今日收益良多。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 776,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "哪里哪里，我也只是懂些皮毛，而且，凑不到这最后一块材料，我也只能纸上谈兵。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 779,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "哎，我的灵石也不多，大多材料都是尽量自己猎杀妖兽或者在坊市购买，听说广陵城港口能买到海外金丹妖兽的材料，才想来碰碰运气，没想到这价格这么黑！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 780,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "其实刚才{$daoyouPlayer}离开港口后，我和那几个蓬莎岛修士也交谈了一番。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 781,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$daoyouPlayer}也许有些误会，其实他们蓬莎岛修士也不隶属于什么商会，而是个散修组织，谈不上垄断海外材料的贸易。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 784,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "虽然如同{$daoyouPlayer}所说，如此定价也着实有些不合适...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 840,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "不过我也听说，蓬莎修士之间也经常以物易物，没准可以用他们需要的物品换取你想要的材料呢。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 778,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "唉，早知道刚才多问两句的。可这样一来，恐怕不能再从他们那儿弄到材料了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 783,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "我有个不情之请...请问{$daoyou}是否愿意替我去找那几位蓬莎岛修士问问，能不能换到蓬莎巨蟹螯？{$daoyou}要是能把材料弄来，我便花灵石向你购买！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 782,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "好，我且帮你去打探一下吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 785,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "那有劳{$daoyou}了！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 599,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "664(任务进度更新 打探)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 336,
+      "Name": "分支判断",
+      "Description": "分支判断",
+      "Position": "(-2810.667,-1273.278)",
+      "Commands": [
+        {
+          "ItemID": 335,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 551,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 3"
+        },
+        {
+          "ItemID": 558,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "327(打探材料信息 1)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 554,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 7"
+        },
+        {
+          "ItemID": 587,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "595(结束)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 889,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 557,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "559(材料交付)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 553,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 663,
+      "Name": "稍稍涨价",
+      "Description": "稍稍涨价",
+      "Position": "(-2251.667,-1141.278)",
+      "Commands": [
+        {
+          "ItemID": 645,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "为了弄到这蓬莎巨蟹螯，我还是费了些精力和财力，还请{$daoyouPlayer}多付些灵石。只要多付平价的一半就可以了，这已经比原来便宜不少了吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 646,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "既然{$daoyou}这么说，我愿意相信{$daoyou}是为了保本。那好，我就多付些灵石，谢谢{$daoyou}帮忙。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 686,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "728(涨价售卖-处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 593,
+      "Name": "询问选项 (返回)",
+      "Description": "询问选项 (返回)",
+      "Position": "(-3012.667,-841.2782)",
+      "Commands": [
+        {
+          "ItemID": 596,
+          "CmdType": "Fungus.Menu",
+          "Text": "一定得是四品材料？",
+          "TargetBlockID": "this:590(一定得是四品材料？)"
+        },
+        {
+          "ItemID": 597,
+          "CmdType": "Fungus.Menu",
+          "Text": "天阳、水属性有何特殊之处？",
+          "TargetBlockID": "this:591(天阳、水属性有何特殊之处？)"
+        },
+        {
+          "ItemID": 598,
+          "CmdType": "Fungus.Menu",
+          "Text": "挑选蟹螯为材料有和讲究？",
+          "TargetBlockID": "this:592(挑选蟹螯为材料有和讲究？)"
+        },
+        {
+          "ItemID": 586,
+          "CmdType": "Fungus.Menu",
+          "Text": "都了解了",
+          "TargetBlockID": "this:817(处理对话后炼器悟道增加)"
+        }
+      ]
+    },
+    {
+      "ItemID": 592,
+      "Name": "挑选蟹螯为材料有和讲究？",
+      "Description": "挑选蟹螯为材料有和讲究？",
+      "Position": "(-3285.667,-935.2782)",
+      "Commands": [
+        {
+          "ItemID": 797,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "虽说我准备炼制的环都用上了四品材料，但要让灵力完全发挥出来，还要平衡五维。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 796,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "通常来说，用妖兽身上的牙和骨炼器能提升其操控性，而皮和鳞则提升亲和度，脏器这些灵物类，顾名思义则能提升灵性。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 839,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "蟹螯属于牙、骨类材料，我就指着它来提升武器的操控性了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 798,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "唉，收集四品材料本就不易，况且只收集一两种还不行，得凑齐多种类型的材料，{$daoyou}也要提前规划才行。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 801,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 577,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "593(询问选项 (返回))",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 664,
+      "Name": "任务进度更新 打探",
+      "Description": "任务进度更新 打探",
+      "Position": "(-2673.678,-970.6881)",
+      "Commands": [
+        {
+          "ItemID": 904,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 550,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 330,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 536,
+          "CmdType": "CmdSetNPCJson"
+        },
+        {
+          "ItemID": 546,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 544,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 899,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    },
+    {
+      "ItemID": 665,
+      "Name": "赠送",
+      "Description": "赠送",
+      "Position": "(-2252.667,-1381.278)",
+      "Commands": [
+        {
+          "ItemID": 680,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$daoyouPlayer}收集材料不易，这东西我就赠与你吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 681,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "这怎么担受得起！我还是按照平价付灵石吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 671,
+          "CmdType": "Fungus.If",
+          "Condition": "MenPai == 3"
+        },
+        {
+          "ItemID": 677,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "我们金虹与星河向来交好，{$daoyouPlayer}就不必客气了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 674,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "ShiLi == MenPai"
+        },
+        {
+          "ItemID": 678,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "我们既是同门，这材料{$daoyouPlayer}就不必客气了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 676,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 679,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "算是一点心意，{$daoyouPlayer}不必客气了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 673,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 682,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "AvatarXinghe",
+          "StoryText": "{$daoyou}好不容易帮我取得这材料，我必定不能白白拿了去，不如我也以物换物吧。这是我先前打造的法器，道友不嫌弃的话就拿着这个吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 683,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "726(赠送-处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

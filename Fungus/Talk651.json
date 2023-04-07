@@ -1,0 +1,1534 @@
+{
+  "Name": "Talk651",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 185,
+      "Name": "哀伤",
+      "Description": "哀伤",
+      "Position": "(-2360.261,-797.9012)",
+      "Commands": [
+        {
+          "ItemID": 187,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你向半空中的身影望去，正对上{$name}有些哀伤的目光，不由得心中一颤...{$ta}是在为这离别而感到悲伤么？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 353,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "再见了，{$TmpTalkString}...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 357,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "再见了...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 284,
+      "Name": "鼓励",
+      "Description": "鼓励",
+      "Position": "(-2950.064,-969.3815)",
+      "Commands": [
+        {
+          "ItemID": 290,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "千年修为，只为今朝，我相信你可以的！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "谢谢你。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 300,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "163(开始渡劫)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 162,
+      "Name": "交谈判定",
+      "Description": "交谈判定",
+      "Position": "(-2627.66,-1042.038)",
+      "Commands": [
+        {
+          "ItemID": 301,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.GetImportantNpcId"
+        },
+        {
+          "ItemID": 253,
+          "CmdType": "Fungus.If",
+          "Condition": "Avatar == npcid"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "246(倪少)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.GetImportantNpcId"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.If",
+          "Condition": "Avatar == npcid"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "248(林沐心)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "Fungus.GetImportantNpcId"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.If",
+          "Condition": "Avatar == npcid"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "247(百里奇)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 265,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 266,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.GetImportantNpcId"
+        },
+        {
+          "ItemID": 268,
+          "CmdType": "Fungus.If",
+          "Condition": "Avatar == npcid"
+        },
+        {
+          "ItemID": 269,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "250(公孙季)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 270,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.GetImportantNpcId"
+        },
+        {
+          "ItemID": 273,
+          "CmdType": "Fungus.If",
+          "Condition": "Avatar == npcid"
+        },
+        {
+          "ItemID": 274,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "249(林沐雪)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 275,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 276,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 277,
+          "CmdType": "Fungus.GetImportantNpcId"
+        },
+        {
+          "ItemID": 278,
+          "CmdType": "Fungus.If",
+          "Condition": "Avatar == npcid"
+        },
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "245(星凝)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 323,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 324,
+          "CmdType": "Fungus.GetImportantNpcId"
+        },
+        {
+          "ItemID": 325,
+          "CmdType": "Fungus.If",
+          "Condition": "Avatar == npcid"
+        },
+        {
+          "ItemID": 326,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "319(白鹿)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 327,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "243(通用NPC交谈)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 286,
+      "Name": "提醒",
+      "Description": "提醒",
+      "Position": "(-2947.344,-855.2484)",
+      "Commands": [
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "天劫不可小觑，你可别大意了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "我明白。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 298,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "163(开始渡劫)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 155,
+      "Name": "飞升观礼",
+      "Description": "飞升观礼",
+      "Position": "(-2431.825,-1042.236)",
+      "Commands": [
+        {
+          "ItemID": 217,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 218,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 219,
+          "CmdType": "CmdGetNPCName"
+        },
+        {
+          "ItemID": 238,
+          "CmdType": "Fungus.If",
+          "Condition": "Sex == 1"
+        },
+        {
+          "ItemID": 239,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 241,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 242,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 220,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 367,
+          "CmdType": "CmdCheckGuanXi"
+        },
+        {
+          "ItemID": 368,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 370,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 371,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 2"
+        },
+        {
+          "ItemID": 372,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 373,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 3"
+        },
+        {
+          "ItemID": 374,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 369,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 156,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "伴随着阵阵低沉的雷鸣之声，天色骤然暗了下去，仅仅几息之间，几乎小半个宁州的天空都被漆黑的劫云笼罩。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 158,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "除你以外，还有不少修士被这里的天地异象所吸引。但他们不敢靠近，只能远远的围观。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 157,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你看到{$name}找了一片空旷的开阔地，正在养精蓄锐，静心准备渡劫。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 159,
+          "CmdType": "Fungus.Menu",
+          "Text": "与{$name}交谈",
+          "TargetBlockID": "this:162(交谈判定)"
+        },
+        {
+          "ItemID": 160,
+          "CmdType": "Fungus.Menu",
+          "Text": "不打扰{$name}",
+          "TargetBlockID": "this:163(开始渡劫)"
+        }
+      ]
+    },
+    {
+      "ItemID": 163,
+      "Name": "开始渡劫",
+      "Description": "开始渡劫",
+      "Position": "(-2433.539,-959.8398)",
+      "Commands": [
+        {
+          "ItemID": 361,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 362,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 164,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "轰！！！{vpunch=10,0.5}",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 360,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "第一道雷劫应声落下，紧随而来的是第二，第三道...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.If",
+          "Condition": "Level == 13"
+        },
+        {
+          "ItemID": 165,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "{$name}仅有化神初期修为，在连绵不绝的雷劫下很快便有些支撑不住，险象环生...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 167,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "Level == 14"
+        },
+        {
+          "ItemID": 170,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "{$name}仅有化神中期修为，在连绵不绝的雷劫下很快便有些支撑不住，险象环生...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 169,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 171,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "{$name}已有化神后期修为，面对一道道落下的雷劫虽说不上轻松，但尚可勉力支撑。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 172,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 328,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 329,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 337,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 331,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 332,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue > 3"
+        },
+        {
+          "ItemID": 335,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "即便你已经在现场见证了师兄白帝飞升的情景，此时在这煌煌天威之下还是不禁为{$name}捏了一把汗。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 333,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 336,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "这是你第一次在现场见证化神强者飞升的情景，在这煌煌天威之下，你不禁为{$name}捏了一把汗。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 330,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 334,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 173,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "轰！！！{vpunch=10,0.5}",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 221,
+          "CmdType": "Fungus.CheckCanSuccessFeiSheng"
+        },
+        {
+          "ItemID": 222,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 223,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "174(飞升成功)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 224,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 225,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "175(飞升失败)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 249,
+      "Name": "林沐雪",
+      "Description": "林沐雪",
+      "Position": "(-2956.236,-1036.563)",
+      "Commands": [
+        {
+          "ItemID": 316,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}，谢谢你能来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 317,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不用为我担心，我不会有事的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 318,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "303(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 319,
+      "Name": "白鹿",
+      "Description": "白鹿",
+      "Position": "(-2949.007,-1215.358)",
+      "Commands": [
+        {
+          "ItemID": 320,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 321,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "这一天...我等了很久了...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 338,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "你能来...我很高兴...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 322,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "303(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 181,
+      "Name": "坚定",
+      "Description": "坚定",
+      "Position": "(-2498.235,-794.4093)",
+      "Commands": [
+        {
+          "ItemID": 184,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你向半空中的身影望去，正对上{$name}坚定的目光。千年修为，只为今朝，你能感受到{$ta}对上界的向往。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 352,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}，保重！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 355,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "保重！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 248,
+      "Name": "林沐心",
+      "Description": "林沐心",
+      "Position": "(-2951.735,-1097.576)",
+      "Commands": [
+        {
+          "ItemID": 339,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 341,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "嘻嘻...刚刚还在想，你什么时候来呢。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 340,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "嗯...奇怪。原本我还有些紧张的，不过看到你来了以后，好像就安心了不少。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 342,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "303(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 247,
+      "Name": "百里奇",
+      "Description": "百里奇",
+      "Position": "(-2813.592,-1097.006)",
+      "Commands": [
+        {
+          "ItemID": 310,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "很多年没有这种感觉了...只是看着这天劫的威势，我就感到兴奋起来了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 311,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}，看着吧。看我是如何破开这雷劫，飞升上界的！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "303(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 186,
+      "Name": "平静",
+      "Description": "平静",
+      "Position": "(-2234.944,-795.9554)",
+      "Commands": [
+        {
+          "ItemID": 188,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你向半空中的身影望去，正对上{$name}有些平静的目光。仙凡两隔，自此以后，{$ta}与这下界便再也没有瓜葛了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 354,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}，日后有缘，上界再见。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 358,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "再见了...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 245,
+      "Name": "星凝",
+      "Description": "星凝",
+      "Position": "(-2953.797,-1150.154)",
+      "Commands": [
+        {
+          "ItemID": 343,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}...你说上界会是什么样子的呢？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 346,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "在当年金虹剑仙一剑开天，引来雷劫以前，可从未有人引来天劫，飞升到过上界。但如今，只要踏足这化神之境，天劫便会在千年后如期降临...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 365,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "本宫化神千年，游遍人间，在这下界原本应该已经没有什么可留恋的东西了...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 345,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "但若没有这天劫桎梏，本宫倒也未必真就想飞升去那上界。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 347,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "你今日...似乎和往常不太一样。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 364,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "化神寿命亦有尽时...即便没有天劫，面对终将耗尽的寿元，岂不是更加绝望。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 348,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "嘻嘻...我只等着这雷劫有些不耐烦了而已。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 349,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}不必为我担心，我知道该怎么做。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 344,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "303(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 174,
+      "Name": "飞升成功",
+      "Description": "飞升成功",
+      "Position": "(-2431.751,-879.1804)",
+      "Commands": [
+        {
+          "ItemID": 176,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "最后一道雷劫轰然落下，暗红色的雷柱重重的砸在灵气护罩上，爆发出耀眼的闪光。翻涌的灵气四散开来，让你很难看清劫云中心到底发生了什么...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 379,
+          "CmdType": "Fungus.If",
+          "Condition": "guanxi == "
+        },
+        {
+          "ItemID": 380,
+          "CmdType": "CmdRecordShengPing"
+        },
+        {
+          "ItemID": 381,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 382,
+          "CmdType": "CmdRecordShengPing"
+        },
+        {
+          "ItemID": 383,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 178,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 237,
+          "CmdType": "CmdSetBG"
+        },
+        {
+          "ItemID": 179,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 177,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "劫云渐渐散去，万道光柱穿破云层，在光柱的正中心，能够清晰的看到一个身影正缓缓向上飞去...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 350,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 180,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "成功了！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 189,
+          "CmdType": "Fungus.If",
+          "Condition": "XingGe == 4"
+        },
+        {
+          "ItemID": 193,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "185(哀伤)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 190,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 11"
+        },
+        {
+          "ItemID": 194,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "213(兴奋)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 191,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 13"
+        },
+        {
+          "ItemID": 195,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "213(兴奋)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 192,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 15"
+        },
+        {
+          "ItemID": 196,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "213(兴奋)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 197,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 8"
+        },
+        {
+          "ItemID": 200,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "181(坚定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 198,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 18"
+        },
+        {
+          "ItemID": 201,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "181(坚定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 199,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 14"
+        },
+        {
+          "ItemID": 202,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "181(坚定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 204,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 1"
+        },
+        {
+          "ItemID": 207,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "185(哀伤)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 203,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 3"
+        },
+        {
+          "ItemID": 208,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "185(哀伤)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 206,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 5"
+        },
+        {
+          "ItemID": 209,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "185(哀伤)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 205,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "XingGe == 6"
+        },
+        {
+          "ItemID": 210,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "185(哀伤)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 211,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 212,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "186(平静)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 250,
+      "Name": "公孙季",
+      "Description": "公孙季",
+      "Position": "(-2811.075,-1036.205)",
+      "Commands": [
+        {
+          "ItemID": 313,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "天劫共有九道，每道各不相同。但归根结底，不管用什么手段，只要能活着扛过雷劫，便可得道飞升。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 314,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "凭我这十方御劫阵，今日一定可以...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 315,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "303(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 303,
+      "Name": "选项",
+      "Description": "选项",
+      "Position": "(-2810.658,-916.3491)",
+      "Commands": [
+        {
+          "ItemID": 304,
+          "CmdType": "Fungus.Menu",
+          "Text": "鼓励",
+          "TargetBlockID": "this:284(鼓励)"
+        },
+        {
+          "ItemID": 305,
+          "CmdType": "Fungus.Menu",
+          "Text": "安慰",
+          "TargetBlockID": "this:285(安慰)"
+        },
+        {
+          "ItemID": 306,
+          "CmdType": "Fungus.Menu",
+          "Text": "提醒",
+          "TargetBlockID": "this:286(提醒)"
+        }
+      ]
+    },
+    {
+      "ItemID": 243,
+      "Name": "通用NPC交谈",
+      "Description": "通用NPC交谈",
+      "Position": "(-2627.075,-971.5423)",
+      "Commands": [
+        {
+          "ItemID": 281,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 282,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 307,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "303(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 175,
+      "Name": "飞升失败",
+      "Description": "飞升失败",
+      "Position": "(-2242.466,-959.5081)",
+      "Commands": [
+        {
+          "ItemID": 226,
+          "CmdType": "Fungus.If",
+          "Condition": "Level != 15"
+        },
+        {
+          "ItemID": 227,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "第八道雷劫轰然落下，早就摇摇欲坠的灵气护罩一触即溃，{$name}再也支撑不住，被落雷淹没...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 228,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 229,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "最后一道雷劫轰然落下，暗红色的雷柱与重重的砸在灵气护罩上，而护罩之下，只见{$name}的脸色愈发苍白，嘴角也沁出血迹。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 230,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "相持许久，灵气护罩终于被击溃，{$name}再也支撑不住，被落雷淹没...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 231,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 232,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 236,
+          "CmdType": "CmdSetBG"
+        },
+        {
+          "ItemID": 233,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 234,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "劫云渐渐散去，阳光重新穿过云层，洒下道道光柱。但光柱之下，却空无一人...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 235,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "终究...还是失败了么...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 363,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "纵使明白天道无情，但想起与{$name}相识的点点滴滴，一时间仍让你有些难以接受...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 375,
+          "CmdType": "Fungus.If",
+          "Condition": "guanxi == "
+        },
+        {
+          "ItemID": 376,
+          "CmdType": "CmdRecordShengPing"
+        },
+        {
+          "ItemID": 377,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 378,
+          "CmdType": "CmdRecordShengPing"
+        }
+      ]
+    },
+    {
+      "ItemID": 213,
+      "Name": "兴奋",
+      "Description": "兴奋",
+      "Position": "(-2638.698,-795.4639)",
+      "Commands": [
+        {
+          "ItemID": 182,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你向半空中的身影望去，正对上{$name}兴奋的目光，你能感受到{$ta}难以抑制的激动心情。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 351,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}，我成功了！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 359,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "太好了...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 246,
+      "Name": "倪少",
+      "Description": "倪少",
+      "Position": "(-2817.191,-1151.184)",
+      "Commands": [
+        {
+          "ItemID": 302,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}，想起当年在东石谷外与你的相遇，真是恍若隔世...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 308,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "这些年来要不是你数次在危难关头帮我，我也无法走到今天这一步。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 309,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "303(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 285,
+      "Name": "安慰",
+      "Description": "安慰",
+      "Position": "(-2949.126,-913.4349)",
+      "Commands": [
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "别紧张，我会一直在这里陪着你。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "谢谢你。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 299,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "163(开始渡劫)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2431.193,-1122.775)",
+      "Commands": [
+        {
+          "ItemID": 215,
+          "CmdType": "Fungus.CheckHasNpcFeiSheng"
+        },
+        {
+          "ItemID": 216,
+          "CmdType": "Fungus.If",
+          "Condition": "npcid != 0"
+        },
+        {
+          "ItemID": 161,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "155(飞升观礼)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

@@ -1,0 +1,21 @@
+{
+	"buffid":792,
+	"BuffIcon":790,
+	"skillEffect":"fx_Summoner_o",
+	"name":"方圆",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		85,
+		5
+	],
+	"descr":"每场战斗第一次使用阵法时，获得【聚气】*5",
+	"trigger":8,
+	"removeTrigger":2,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

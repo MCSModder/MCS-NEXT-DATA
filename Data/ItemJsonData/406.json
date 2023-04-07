@@ -1,0 +1,37 @@
+{
+	"id":406,
+	"ItemIcon":1305,
+	"maxNum":1,
+	"name":"金虹",
+	"FaBaoType":"xia_0",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":99,
+	"ItemFlag":[
+		12000,
+		1,
+		105
+	],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":0,
+	"quality":5,
+	"typePinJie":3,
+	"StuTime":0,
+	"seid":[
+		2
+	],
+	"vagueType":0,
+	"price":8553600,
+	"desc":"获得【蓄势】*720",
+	"desc2":"金虹剑仙随身佩戴的法宝，是九州最负盛名的通天灵宝之一。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"ShuaXin":0,
+	"wuDao":[]
+}

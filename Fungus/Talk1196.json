@@ -1,0 +1,854 @@
+{
+  "Name": "Talk1196",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2797.441,-1396.073)",
+      "Commands": [
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 441,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "439(五行剑判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 337,
+      "Name": "参赛",
+      "Description": "参赛",
+      "Position": "(-2798.25,-740.8317)",
+      "Commands": [
+        {
+          "ItemID": 341,
+          "CmdType": "Fungus.SpawnObject"
+        }
+      ]
+    },
+    {
+      "ItemID": 147,
+      "Name": "New Block8",
+      "Description": "New Block8",
+      "Position": "(0,0)",
+      "Commands": []
+    },
+    {
+      "ItemID": 369,
+      "Name": "选择",
+      "Description": "选择",
+      "Position": "(-2797.926,-910.2545)",
+      "Commands": [
+        {
+          "ItemID": 379,
+          "CmdType": "Fungus.Menu",
+          "Text": "上台参赛",
+          "TargetBlockID": "this:381(确认参赛)"
+        },
+        {
+          "ItemID": 380,
+          "CmdType": "Fungus.Menu",
+          "Text": "台下观战",
+          "TargetBlockID": "this:336(观战)"
+        }
+      ]
+    },
+    {
+      "ItemID": 282,
+      "Name": "无事发生",
+      "Description": "无事发生",
+      "Position": "(-2623.584,-1083.169)",
+      "Commands": []
+    },
+    {
+      "ItemID": 149,
+      "Name": "New Block9",
+      "Description": "New Block9",
+      "Position": "(0,0)",
+      "Commands": []
+    },
+    {
+      "ItemID": 444,
+      "Name": "五行剑",
+      "Description": "五行剑",
+      "Position": "(-2619.616,-1315.464)",
+      "Commands": [
+        {
+          "ItemID": 451,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 447,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "武陵城升仙台下，不知何时树立起了一座高高的白玉石台，一枚玉简在阵法的加持下悬浮于石台之上，引得不少人来此围观。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 448,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "虽然大部分路人不过是看个热闹，但也有不少好剑之人久久驻足，或是比划着某种剑招，或是口中念念有词，试图领悟玉简中所记录的功法。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 450,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你远远观瞧，台下围者甚众，修士云集，除了形形色色的散修之外，最显眼的便是金虹、星河两大剑派的弟子们，石台旁还有一位竹山宗修士。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 449,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "当然，这种热闹事怎么可能少得了倪家大少。倪旭欣老远便看到了你，招了招手，传音示意你有话要说。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 452,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "你可算来了，我和你讲，这次这功法可着实来头不小！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 454,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "倪旭欣神秘兮兮地说道，眼中闪烁着按捺不住的兴奋。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 453,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "你瞧！那可是从宁州古迹中带出来的功法，是古代大能的心血结晶！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 455,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "记得还小的时候，常常听前辈们讲述古代剑修的传说。古时候的剑修们可是真的神通广大，可惜大部分法门不知怎的相继失传了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 456,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "这本功法要不是困在宁州古迹之中，恐怕也难逃散佚的噩运。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 457,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "只不过...甚是邪门。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 458,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "邪门？难道是邪道功法？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 459,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "那倒不是，只是很奇怪，就连白帝楼最博学的陈长老都看不出门道。听说他之前为了参悟这功法，整整闭关了三年！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 460,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "有这么邪门？那会不会是功法有误？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 461,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "不可能！这本书是在宁州古迹的一位古修身上发现的，逝者是一位当年金虹剑派赫赫有名的长老，陈长老自己也研究过，不会戏言，不信你去看看便是。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 462,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "而且这功法玄妙非常，我也说不上来，喏，你看，石台就在那里，你去试一试就知道了！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 463,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "还有这种事，老夫我也是有兴趣得很，咱们一起去看看吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 381,
+      "Name": "确认参赛",
+      "Description": "确认参赛",
+      "Position": "(-2797.365,-833.9371)",
+      "Commands": [
+        {
+          "ItemID": 382,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "{xiaozi}，你也听刚才那人说了，这英杰会是炼气后期修士的天下，还不是你这修仙新手能相与的，还是先观战，{color=#d0380a}五年后{/color}再来挑战吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 383,
+          "CmdType": "Fungus.Menu",
+          "Text": "参赛",
+          "TargetBlockID": "this:337(参赛)"
+        },
+        {
+          "ItemID": 384,
+          "CmdType": "Fungus.Menu",
+          "Text": "观战",
+          "TargetBlockID": "this:336(观战)"
+        }
+      ]
+    },
+    {
+      "ItemID": 146,
+      "Name": "New Block7",
+      "Description": "New Block7",
+      "Position": "(0,0)",
+      "Commands": []
+    },
+    {
+      "ItemID": 385,
+      "Name": "原首年剧情",
+      "Description": "原首年剧情",
+      "Position": "(-2796.581,-1084.688)",
+      "Commands": [
+        {
+          "ItemID": 386,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 387,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 388,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue != year"
+        },
+        {
+          "ItemID": 389,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 390,
+          "CmdType": "Fungus.SetStaticValueByVar"
+        },
+        {
+          "ItemID": 410,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "438(首年剧情)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 408,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 409,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "282(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 438,
+      "Name": "首年剧情",
+      "Description": "首年剧情",
+      "Position": "(-2797.267,-995.186)",
+      "Commands": [
+        {
+          "ItemID": 330,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "适逢英杰会，武陵城聚集着众多炼气期修士，还有不少凡人也趁着热闹一拥而上，将升仙台围得水泄不通。\r",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 333,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你好不容易挤过人山人海，总算来到赛场下面。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 353,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "这位小友，可是第一次来英杰会？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 354,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "是啊，看这挺热闹的，也想参赛试试。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 356,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "那道友还是先听我说说英杰会的门道了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 355,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "愿闻其详。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 414,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "我武陵城英杰会乃是宁州炼气修士第一盛会，不但可以和其他炼气修\r士切磋交流，若能拔得头筹，更是有{color=#d0380a}筑基丹{/color}作为冠军奖品。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 358,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "筑基丹？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 413,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "小友竟不知道筑基丹？这倒新鲜，你定是刚进入修仙界不久吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 421,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "筑基丹嘛，\r顾名思义，便是炼气期修士在突破筑基时服用的重要丹药。若是筑基时若能服下几颗，能让筑基轻松不少。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 412,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "可惜因为其炼制繁杂，算是有价无市。除了各大宗门之外，也就只有我们武陵城灵药堂的丹师才有能力炼制。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 422,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "从古至今，不知多少练气修士为其争个头破血流。作为英杰会的奖品，前来争夺者更是络绎不绝。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 360,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "不过嘛，道友是第一次来的话，还是建议在台下观战比较好。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 361,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "哦？不知这是为何？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 411,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "小友，你往那边看，他们就是即将上台斗法的修士们。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 415,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "顺着方向看去，只见那边一个特殊的看台之上早已坐满了人，他们或\r紧张准备，或胸有成竹，或谈笑风生。唯一的共同点便是他们的气息\r都比练气初期的修士要醇厚数倍有余。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 416,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "你看，他们都是{color=#d0380a}炼气中后期{/color}的修士，不少是身经百战之人。面对他们，\r小友自觉有几分胜算？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 363,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 419,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "要知道{color=#d0380a}修为境界{/color}可是一切的基础，除非你有足够精妙的\r神通功法搭配，或是有着各种强大的法宝丹药，或是对某些大道有着独到的感悟，才有可能在越级之战中取胜。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 418,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "以道友如今的修为，就安心在下面观战便好。但要是手痒难耐，想试上一试，上台参战也并无不可，不过就是要支付上台的费用罢了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 430,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "多谢道友指点。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 420,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "369(选择)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 298,
+      "Name": "对话提示",
+      "Description": "对话提示",
+      "Position": "(-2949.552,-1161.169)",
+      "Commands": [
+        {
+          "ItemID": 300,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "现在还不到英杰会的比试年份，升仙台附近冷冷清清，没有什么人。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 265,
+      "Name": "年龄判断",
+      "Description": "年龄判断",
+      "Position": "(-2797.06,-1241.532)",
+      "Commands": [
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.If",
+          "Condition": "year >= 22"
+        },
+        {
+          "ItemID": 283,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "282(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 284,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "286(年份检测)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 301,
+      "Name": "英杰汇",
+      "Description": "英杰汇",
+      "Position": "(-2622.083,-1160.979)",
+      "Commands": [
+        {
+          "ItemID": 321,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 322,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 323,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue != year"
+        },
+        {
+          "ItemID": 344,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 345,
+          "CmdType": "Fungus.SetStaticValueByVar"
+        },
+        {
+          "ItemID": 302,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "升仙台的附近人山人海，英杰会的大比似乎马上就要开始了...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 324,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 325,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "282(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 439,
+      "Name": "五行剑判定",
+      "Description": "五行剑判定",
+      "Position": "(-2797.616,-1316.464)",
+      "Commands": [
+        {
+          "ItemID": 465,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 442,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 446,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 464,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 445,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "444(五行剑)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 443,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 440,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(年龄判断)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 468,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 466,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 467,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(年龄判断)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 286,
+      "Name": "年份检测",
+      "Description": "年份检测",
+      "Position": "(-2798.514,-1160.581)",
+      "Commands": [
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.If",
+          "Condition": "year == 1"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "385(原首年剧情)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "year == 6"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "301(英杰汇)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 290,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "year == 11"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "301(英杰汇)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "year == 16"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "301(英杰汇)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "year == 21"
+        },
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "301(英杰汇)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 299,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "298(对话提示)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 336,
+      "Name": "观战",
+      "Description": "观战",
+      "Position": "(-2960.496,-875.3482)",
+      "Commands": [
+        {
+          "ItemID": 346,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 347,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 348,
+          "CmdType": "Fungus.SetStaticValueByVar"
+        },
+        {
+          "ItemID": 338,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "我才开始修炼，上台恐怕也不会取得什么名次，不如在台下观战积累经验。等修为提升后，再来参加下一届的大比也不迟。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 339,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "升仙台上刀光剑影，五行法术纷呈异彩，初入仙门的你只觉精妙万分，一时沉浸其中。修为+{color=#d0380a}500{/color}，心境+{color=#d0380a}2{/color}",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 351,
+          "CmdType": "Fungus.AddXinJin"
+        },
+        {
+          "ItemID": 340,
+          "CmdType": "Fungus.AddEXP"
+        },
+        {
+          "ItemID": 349,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 350,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 352,
+          "CmdType": "Fungus.SetStaticValue"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

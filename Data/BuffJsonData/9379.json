@@ -1,0 +1,21 @@
+{
+	"buffid":9379,
+	"BuffIcon":0,
+	"skillEffect":"fx_Summoner_o",
+	"name":"不死不灭",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		31,
+		5
+	],
+	"descr":"首次受到致死伤害时，将生命值置为1，然后立即回复（attack）点生命，并获得等量【护罩】。",
+	"trigger":28,
+	"removeTrigger":2,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

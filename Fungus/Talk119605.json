@@ -1,0 +1,345 @@
+{
+  "Name": "Talk119605",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2428.995,-1123.874)",
+      "Commands": [
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "CmdSetNPCJson"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 250,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.If",
+          "Condition": "FavorLevel < 4"
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "慕容颖正在闭目沉思，同行的其他几位弟子正在其周围小声交谈。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这位道友...打扰了，不知您对此事有何见解？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 273,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "同行的诸弟子有些戒备地看着你，慕容颖向她们示意无需担心，轻启朱唇，向你耐心解释道。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 274,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "倒没什么需要藏着掖着的，因为我们还没有什么有意义的发现，各种剑法都尝试过，不过收效却甚微。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 275,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "不过我派各类剑法中，唯独这星河剑法对其有反应，这剑法虽是我星河的入门剑法，但其历史是极其悠久，有什么渊源也说不定。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "我虽代表星河剑派受邀带队前来，可惜我本人并不擅长剑法，实在是惭愧非常。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 321,
+          "AvatarBindKey": "",
+          "StoryText": "慕容长老您谦虚了，您虽然不善于剑道，但在五行和气道方面的造诣可是厉害非常。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 290,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 322,
+          "AvatarBindKey": "",
+          "StoryText": "是啊，长老您不用担心，剑法方面有我们呢，而且功法的抄本已经都奉您的命令递交宗内其他前辈了，应该很快就有回应了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "对了，说起五行之道，我倒是确实有个疑惑之处，就是这个运气之法很少见地需要连续运转五种灵气，而且条件非常苛刻。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "按理说，大部分功法都会有灵根上面的偏好，但这个功法却需要几乎相同数量的五行灵气才行，一旦有误就会彻底中断，真是奇怪非常。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 276,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "与星河剑法有关...运用五行灵气...嗯，有点意思。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 270,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 286,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 278,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "慕容颖正在闭目沉思，同行的其他几位弟子正在其周围小声交谈。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "慕容道友，你也到了，不知对此事你怎么看？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "慕容颖向你微微一笑，刚要开口解释，其余几位弟子笑盈盈地向你主动解释道。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 321,
+          "AvatarBindKey": "",
+          "StoryText": "不劳慕容长老啦，这点小事，我们说就是了，也没什么要藏着掖着的。我们哪，还没有什么有意义的发现。各种方法都试过，但收效却甚微。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 322,
+          "AvatarBindKey": "",
+          "StoryText": "不过啊，我派各剑法中，唯独这星河剑法对其有反应，这剑法虽是我星河的入门剑法，但其历史是极其悠久，有什么渊源也说不定。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 282,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "慕容颖眼含笑意，向你点了点头，示意你她们说的没错。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 283,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "{$TmpTalkString}要是有什么头绪，记得及时告诉我们哦！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "我虽代表星河剑派受邀带队前来，可惜我本人并不擅长剑法，只能从五行的角度加以参悟，不过暂时没什么头绪，还得再继续钻研一二。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "对了，说起五行之道，我倒是确实有个疑惑之处。就是这个运气之法很少见地需要连续运转五种灵气，而且条件非常苛刻。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "按理说，大部分功法都会有灵根上面的偏好，但这个功法却需要几乎相同数量的五行灵气才行，一旦有误就会彻底中断，真是奇怪非常。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 277,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "与星河剑法有关...运用五行灵气...嗯，有点意思。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 247,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 248,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 246,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 284,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "慕容颖正在闭目沉思，一脸认真投入的样子。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "先不打扰她了，星河剑法会和五行剑诀起反应，有点意思，咱们再去问问别人吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 245,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 2"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "慕容颖言语中满是钦佩之意，微笑着用欣赏的眼光看着你。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "五行剑诀，当真是名副其实，{$TmpTalkString}能够领悟，可真是不简单啊！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 249,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

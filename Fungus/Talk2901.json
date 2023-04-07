@@ -1,0 +1,389 @@
+{
+  "Name": "Talk2901",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2807.831,-1546.195)",
+      "Commands": [
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "284(广陵城港口 初始化)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 605,
+      "Name": "广陵城跑商引导任务 过期判断",
+      "Description": "广陵城跑商引导任务 过期判断",
+      "Position": "(-2847.422,-1274.24)",
+      "Commands": [
+        {
+          "ItemID": 591,
+          "CmdType": "Fungus.If",
+          "Condition": "monthDiff > 10"
+        },
+        {
+          "ItemID": 595,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "606(广陵城跑商引导任务 过期处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 597,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 598,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "604(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 599,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 604,
+      "Name": "无事发生",
+      "Description": "无事发生",
+      "Position": "(-2613.775,-1339.249)",
+      "Commands": []
+    },
+    {
+      "ItemID": 326,
+      "Name": "广陵城跑商引导任务 过期对话",
+      "Description": "广陵城跑商引导任务 过期对话",
+      "Position": "(-2849.13,-1163.204)",
+      "Commands": [
+        {
+          "ItemID": 607,
+          "CmdType": "Fungus.If",
+          "Condition": "monthDiff < 12"
+        },
+        {
+          "ItemID": 564,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你在港口寻找了一圈都没找到先前那个蓬莎修士，想来上次目睹交易纠纷已经是{$monthDiff}个月前的事了，可能他们已经出海了吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 608,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 610,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你在港口寻找了一圈都没找到先前那个蓬莎修士，想来上次目睹交易纠纷已经是{$yearDiff}年多前的事了，可能他们早就出海了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 614,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 328,
+      "Name": "广陵城跑商引导任务 时间计算",
+      "Description": "广陵城跑商引导任务 时间计算",
+      "Position": "(-3099.139,-1338.029)",
+      "Commands": [
+        {
+          "ItemID": 573,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 572,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 571,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 574,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 581,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 575,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 576,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 600,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 577,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 578,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 579,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 580,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "605(广陵城跑商引导任务 过期判断)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 568,
+      "Name": "对话框",
+      "Description": "对话框",
+      "Position": "(-3377.667,-1380.278)",
+      "Commands": [
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        }
+      ]
+    },
+    {
+      "ItemID": 282,
+      "Name": "分支框",
+      "Description": "分支框",
+      "Position": "(-3377.667,-1335.216)",
+      "Commands": [
+        {
+          "ItemID": 340,
+          "CmdType": "Fungus.If",
+          "Condition": "Error: No variable selected"
+        },
+        {
+          "ItemID": 341,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 342,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 606,
+      "Name": "广陵城跑商引导任务 过期处理",
+      "Description": "广陵城跑商引导任务 过期处理",
+      "Position": "(-2848.642,-1215.644)",
+      "Commands": [
+        {
+          "ItemID": 620,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 621,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue != 8"
+        },
+        {
+          "ItemID": 616,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 622,
+          "CmdType": "CmdRefreshNPCUI"
+        },
+        {
+          "ItemID": 623,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 625,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 624,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "326(广陵城跑商引导任务 过期对话)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 569,
+      "Name": "处理框",
+      "Description": "处理框",
+      "Position": "(-3377.678,-1291.688)",
+      "Commands": []
+    },
+    {
+      "ItemID": 284,
+      "Name": "广陵城港口 初始化",
+      "Description": "广陵城港口 初始化",
+      "Position": "(-2820.326,-1484.456)",
+      "Commands": [
+        {
+          "ItemID": 332,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "570(广陵城跑商引导任务 阶段判断)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 558,
+      "Name": "初始化",
+      "Description": "初始化",
+      "Position": "(-3377.79,-1447.896)",
+      "Commands": [
+        {
+          "ItemID": 535,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 536,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 537,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 538,
+          "CmdType": "CmdInitNPC"
+        }
+      ]
+    },
+    {
+      "ItemID": 570,
+      "Name": "广陵城跑商引导任务 阶段判断",
+      "Description": "广陵城跑商引导任务 阶段判断",
+      "Position": "(-2847.911,-1394.972)",
+      "Commands": [
+        {
+          "ItemID": 582,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 560,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue != 0"
+        },
+        {
+          "ItemID": 585,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 7"
+        },
+        {
+          "ItemID": 586,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "604(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 617,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 9"
+        },
+        {
+          "ItemID": 618,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "604(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 587,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 584,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "328(广陵城跑商引导任务 时间计算)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 562,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 561,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 583,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "604(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 588,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

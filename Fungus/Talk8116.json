@@ -1,0 +1,1021 @@
+{
+  "Name": "Talk8116",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(遇见前)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 240,
+      "Name": "普通烤肉",
+      "Description": "普通烤肉",
+      "Position": "(-2259.412,-854.1411)",
+      "Commands": [
+        {
+          "ItemID": 247,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "很好吃诶，但似乎比姐姐做的差那么一点，嗯，有些地方嚼起来太硬了，这里调料撒多了有点咸。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 248,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "林沐心显然是忘了自己的杰作，大快朵颐的同时，竟开始挑三拣四。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 249,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "但还未等你为自己辩解什么，方才做好的几串烤肉都已经消弭无踪，她显然对你的手艺还是挺满意的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 250,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你将剩余的生肉如法炮制了一番，两人在享受烤肉的同时闲聊着近来的见闻，直到东方泛白才各自离去。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 269,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 290,
+          "CmdType": "Fungus.AddItem"
+        }
+      ]
+    },
+    {
+      "ItemID": 239,
+      "Name": "精致烤肉",
+      "Description": "精致烤肉",
+      "Position": "(-2426.6,-755.7036)",
+      "Commands": [
+        {
+          "ItemID": 253,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "鲜嫩多汁，肥而不腻什么的也不用多说，仅是看林沐心大快朵颐的样子便已经能感受到这烤肉的魅力。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "以至于，你忍不住小声问了一句。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$name}你平时吃东西都这样么...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "吼次，很吼次，和给给烤的一样吼次。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "林沐心似乎沉迷享受烤肉，不但没有听清你问的是什么，还因为完全不顾形象地边吃边回答，让你也没太听懂她的回答。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你摇了摇头，没继续问什么，继续将注意力放到手头的生肉上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.If",
+          "Condition": "神之道等级 >= 2"
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "直到手头的食材全都被消耗完毕，林沐心又缠着让你传授了一番控火之法后，方才迎着朝霞分别离去。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "直到手头的食材全都被消耗完毕，又聊了一会近来的见闻后，方才迎着朝霞分别离去。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 283,
+          "CmdType": "Fungus.If",
+          "Condition": "神之道等级 >= 2"
+        },
+        {
+          "ItemID": 270,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 284,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 268,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 286,
+          "CmdType": "Fungus.AddItem"
+        }
+      ]
+    },
+    {
+      "ItemID": 172,
+      "Name": "离开",
+      "Description": "离开",
+      "Position": "(-2253.162,-1119.766)",
+      "Commands": [
+        {
+          "ItemID": 173,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "还是算了，我可没这闲工夫。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 273,
+          "CmdType": "Fungus.SetStaticValue"
+        }
+      ]
+    },
+    {
+      "ItemID": 183,
+      "Name": "接受邀请",
+      "Description": "接受邀请",
+      "Position": "(-2428.162,-944.7661)",
+      "Commands": [
+        {
+          "ItemID": 187,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "林沐心高兴的邀请你在营火旁坐下后，便自顾自地忙碌了起来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 188,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "褪毛，去骨，切成大块，用削好的细枝串好，再支起一个简易的架子在营火上炙烤。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 189,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "她的动作虽是有些笨拙，切出来的肉块大小不一，形状也各有特色，可谓每一块肉都像是有自己的故事，但总的来说还是有模有样。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 190,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "一时间，你竟有些期待烤肉完成的那一刻。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 191,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 192,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 193,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "一段时间后。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 194,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这...这是什么？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 195,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你看着眼前这一串串的黑色碳状物，完全无法将之和食物联系在一起。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 196,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "显然，眼前的物事和林沐心预期中的烤肉也存在”些许“差别，以致于她并没有第一时间回答你，而是试图说服自己。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 197,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "这是...这当然是烤肉！你快试试，它只是看起来比较黑其实很美味的！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 198,
+          "CmdType": "Fungus.Menu",
+          "Text": "不尝试",
+          "TargetBlockID": "this:200(不尝试)"
+        },
+        {
+          "ItemID": 199,
+          "CmdType": "Fungus.Menu",
+          "Text": "相信林沐心",
+          "TargetBlockID": "this:201(尝试)"
+        }
+      ]
+    },
+    {
+      "ItemID": 200,
+      "Name": "不尝试",
+      "Description": "不尝试",
+      "Position": "(-2260.975,-946.3286)",
+      "Commands": [
+        {
+          "ItemID": 266,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你默默地运起遁术，趁林沐心还未反应过来，早已溜之大吉。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.SetStaticValue"
+        }
+      ]
+    },
+    {
+      "ItemID": 171,
+      "Name": "继续",
+      "Description": "继续",
+      "Position": "(-2429.725,-1040.079)",
+      "Commands": [
+        {
+          "ItemID": 174,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "打定主意后，你调转方向，准备去凑个热闹。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 175,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "不多时，你看见一头野兽躺倒在地，俨然已无声息，身上却不见有明显的伤口，想必出手的是一位主修神之道的修士。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 176,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你还在思考着什么，一个大头从野兽背后探了出来，眨巴着眼睛无辜地看向你。仿佛在说这里发生的一切都与她无关，她什么都不知道。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 177,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$name}，好久不见，没想到竟有如此雅兴竟深夜在这荒野之中露营。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 178,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你走向林沐心，却见她正在试图用凡人的法子生火，不由得问候中多了些调侃。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 179,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "我还以为是谁呢，原来是你。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 180,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "上次的事，多谢帮忙了，不然我和姐姐最近的日子可没这么自由。喏，刚好姐姐教了我一些有意思的厨艺小技巧，就让你沾沾光吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 181,
+          "CmdType": "Fungus.Menu",
+          "Text": "不过是些凡人的玩意，没兴趣",
+          "TargetBlockID": "this:184(拒绝)"
+        },
+        {
+          "ItemID": 182,
+          "CmdType": "Fungus.Menu",
+          "Text": "那就恭敬不如从命了",
+          "TargetBlockID": "this:183(接受邀请)"
+        }
+      ]
+    },
+    {
+      "ItemID": 184,
+      "Name": "拒绝",
+      "Description": "拒绝",
+      "Position": "(-2256.287,-1036.954)",
+      "Commands": [
+        {
+          "ItemID": 185,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "感谢什么的也不用了。\n",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 186,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你说完便转身准备离去，林沐心虽觉扫兴但也未作挽留，只是将自己的注意力放在了身前的营火和食材上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.SetStaticValue"
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "遇见前",
+      "Description": "遇见前",
+      "Position": "(-2429.764,-1122.775)",
+      "Commands": [
+        {
+          "ItemID": 157,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 265,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 158,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 156,
+          "CmdType": "CmdGetPlayerTalkToNPCReplace"
+        },
+        {
+          "ItemID": 155,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "日暮西沉，天色渐晚。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "CmdGetPlayerBigLevel"
+        },
+        {
+          "ItemID": 276,
+          "CmdType": "Fungus.If",
+          "Condition": "TmpValue == 1"
+        },
+        {
+          "ItemID": 275,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "虽说你已是正式踏入修仙之道的炼气修士，但在这妖兽四伏的荒野之中赶夜路也不见得是一桩易事。只能暗自期待少遇着些是非。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TmpValue == 2"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "虽说你已是正式踏入修仙之道的筑基修士，但在这妖兽四伏的荒野之中赶夜路也不见得是一桩易事。只能暗自期待少遇着些是非。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 277,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 282,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "虽说暮色之下总是危机四伏，但你作为金丹修士，单凭实力已是在宁州有一席之地，别说普通些的妖兽，纵是有修士拦路抢劫或是寻仇，也得掂量掂量自己有几分能耐。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 278,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 274,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "“嘿！”",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 165,
+          "CmdType": "Fungus.GetAvatarData"
+        },
+        {
+          "ItemID": 161,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue > 6"
+        },
+        {
+          "ItemID": 159,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一道脆生生的娇喝从不远处传来，应该是有个女性修士正在附近与人争斗。但动静却不是很大，兴许是与你实力相当。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 162,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 164,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一道脆生生的娇喝从不远处传来，应该是有个女修正在附近与人争斗。但动静却不是很大，兴许只是个筑基修士。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 163,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 168,
+          "CmdType": "Fungus.IsCyFriend"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 160,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这声音，似乎有些熟悉？难不成是天星城的林沐心姑娘？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 167,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 169,
+          "CmdType": "Fungus.Menu",
+          "Text": "不感兴趣",
+          "TargetBlockID": "this:172(离开)"
+        },
+        {
+          "ItemID": 170,
+          "CmdType": "Fungus.Menu",
+          "Text": "过去看看",
+          "TargetBlockID": "this:171(继续)"
+        }
+      ]
+    },
+    {
+      "ItemID": 201,
+      "Name": "尝试",
+      "Description": "尝试",
+      "Position": "(-2426.6,-855.7037)",
+      "Commands": [
+        {
+          "ItemID": 202,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "嗯...既然{$name}如此自信，那我就试试吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 203,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "在林沐心殷切的注视下，你试探着咬下一块烤肉，并小心翼翼地咀嚼了几下。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 204,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "怎么样？是不是比看起来好一点？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 205,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "为了不打击林沐心的信心，你点了点头，而后试图在这坨“焦炭”上找到一个足以说服自己和林沐心的亮点。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 206,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "....",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 207,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "至少这个烤肉用的调料还是不错的，虽然你撒多了一点...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 208,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "只有调料不错么？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 209,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 210,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "面对她不甘心的追问，你陷入了沉默。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 211,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "对于一坨焦炭，你实在无法将之和美味联系在一起，硬要说的话，这不是人类能领会的烹饪艺术，倒是嗜焰蟒一类的火系妖兽说不定能享受一番。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 212,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "于是，犹豫再三之后...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 213,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "要不你自己尝尝？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 214,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "可能是对自己手艺充满了信心，也可能是你的表现给了她信心，亦或是她从未见过被考成焦炭的食物而有些好奇。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 215,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "总之，林沐心毫不迟疑地接过竹签，咬下一大块烤肉。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 216,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你不知林沐心打算如何评价自己的“杰作”，但至少，你可以从她的表情看出，她姑且还是人类，不是什么火系妖兽。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 217,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "当然，你对于火系妖兽是否会喜欢这种“美食”，其实也保持着怀疑态度。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 218,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "怎么会...姐姐上次明明也是这么烤的...调料也是姐姐准备好的...为什么差距会这么大...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 220,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$name}...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 219,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "正当你以为林沐心是在为自己失败的厨艺而失落，打算出言安慰她时，没说出口的话却被打断了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 221,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "好想吃美味的烤肉啊！{vpunch=10,0.5}",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 222,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 223,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "调料还有么，要不让我来试试吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 224,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "话音未落，两个精致的小包已经递到了你手上，随之而来的便是林沐心满是希冀的目光，似乎要占满你的眼帘。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 225,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "火还未灭，烤架也有现成的， 也就是需要重新切肉然后穿成串而已。至于林沐心切好的那些，你可没打算直接用。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 226,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "虽然你对自己的手艺有信心，但似乎没必要为了利用上那些奇形怪状的肉块而徒增几分麻烦。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 229,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 228,
+          "CmdType": "Fungus.GetWuDaoLv"
+        },
+        {
+          "ItemID": 231,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 230,
+          "CmdType": "Fungus.GetWuDaoLv"
+        },
+        {
+          "ItemID": 227,
+          "CmdType": "Fungus.If",
+          "Condition": "神之道等级 >= 2"
+        },
+        {
+          "ItemID": 232,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "虽然仅凭经验要做一份烤肉也不是难事，但你一时兴起用神识包裹住生肉，伴随着“滋滋”的炙烤声细致地观察着各个部位的变化。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 233,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "林沐心本也是精于神之道，你又未曾遮掩自己的举动，自然是不难发现。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 234,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "你居然在用神识辅助烤肉！？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 235,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不过小道耳，要是感兴趣我待会教你。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 236,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "一时间着荒郊野岭似乎是安静了下来，只听得生肉上的油脂在火焰的炙烤下，发出“滋滋”的声音。此外便只有木签被你旋转时与烤架发出的轻微摩擦声。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 238,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "239(精致烤肉)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 237,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "火道等级 >= 2"
+        },
+        {
+          "ItemID": 242,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "简单来说，烧烤不过是用火焰来处理生肉而已，林沐心对火焰的掌控力不足又没有相关的经验，这才会出现肉化为焦炭的情况。但你对火道早有颇多领悟，简单的控火烤肉自是不在话下。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 243,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "一时间着荒郊野岭似乎是安静了下来，只听得生肉上的油脂在火焰的炙烤下，发出“滋滋”的声音。此外便只有木签被你旋转时与烤架发出的轻微摩擦声。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 241,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "239(精致烤肉)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 245,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "一时间着荒郊野岭似乎是安静了下来，只听得生肉上的油脂在火焰的炙烤下，发出“滋滋”的声音。此外便只有木签被你旋转时与烤架发出的轻微摩擦声。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 246,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "240(普通烤肉)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

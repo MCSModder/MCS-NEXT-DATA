@@ -1,0 +1,188 @@
+{
+  "Name": "Talk7133",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2430.094,-1121.676)",
+      "Commands": [
+        {
+          "ItemID": 241,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 243,
+          "CmdType": "CmdGetNPCIDByTitle"
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 245,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 246,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 247,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 242,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie < 13"
+        },
+        {
+          "ItemID": 248,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "{FirstName}{$TmpTalkString}。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 249,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "见过掌门。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 250,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "{FirstName}{$TmpTalkString}，这次我派能够复原失传多年的《真元玄典》，并收入秘阁，多亏了你在宁州古迹中找到的残本。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "我竹山宗于数万年前创立时，能够在宁州扎稳脚根，靠的便是这《真元玄典》。我派后续的诸多功法，法门，也皆以此心法为基础所创。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "这次让{$TmpTalkString}回来，正是为了亲手把这复原的《真元玄典》交予你手中。希望你能好生研习，将此功法传承下去。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 253,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "多谢掌门。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "见过师祖。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "师弟，据说你和诸位长老已将《真元玄典》复原完毕？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "正是。这次我派能够复原失传多年的《真元玄典》，并收入秘阁，多亏了师祖当年在宁州古迹中找到的残本。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "我竹山宗于数万年前创立时，能够在宁州扎稳脚根，靠的便是这《真元玄典》。我派后续的诸多功法，法门，也皆以此心法为基础所创。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "这次请师祖回来，正是为了亲手把这复原的《真元玄典》交予您手中。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "好，你们辛苦了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "Fungus.AddItem"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

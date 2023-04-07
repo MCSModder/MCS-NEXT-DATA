@@ -1,0 +1,21 @@
+{
+	"buffid":9384,
+	"BuffIcon":9324,
+	"skillEffect":"fx_Summoner_o",
+	"name":"诛仙剑阵（隐）",
+	"Affix":[],
+	"bufftype":3,
+	"seid":[
+		76,
+		5
+	],
+	"descr":"释放绝仙剑时，额外获得【护罩】*2000",
+	"trigger":8,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":1,
+	"ShowOnlyOne":1
+}

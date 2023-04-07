@@ -1,0 +1,21 @@
+{
+	"buffid":9380,
+	"BuffIcon":9324,
+	"skillEffect":"fx_Summoner_o",
+	"name":"诛仙剑阵",
+	"Affix":[],
+	"bufftype":4,
+	"seid":[
+		5,
+		17
+	],
+	"descr":"【阵法】回合结束，自身获得【血煞之力】*10，敌方获得【血煞之气】*10。施展诛仙剑时，额外吸收三点魔气；施展戮仙剑时，对手额外获得【易伤】*50；释放陷仙剑时，对手额外获得【缠绕】*200；释放绝仙剑时，额外获得【护罩】*2000",
+	"trigger":1,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

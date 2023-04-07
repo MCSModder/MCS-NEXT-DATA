@@ -1,0 +1,20 @@
+{
+	"buffid":14203,
+	"BuffIcon":14206,
+	"skillEffect":"fx_Summoner_o",
+	"name":"疗体胄",
+	"Affix":[],
+	"bufftype":7,
+	"seid":[
+		5
+	],
+	"descr":"回合结束时，获得【疗】*2【护罩】*8，获得【霜冻】*1",
+	"trigger":1,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

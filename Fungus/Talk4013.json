@@ -1,0 +1,75 @@
+{
+  "Name": "Talk4013",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "156(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 159,
+      "Name": "无事发生",
+      "Description": "无事发生",
+      "Position": "(-2285.204,-1154.449)",
+      "Commands": [
+        {
+          "ItemID": 160,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "操练",
+      "Description": "操练",
+      "Position": "(-2426.487,-1091.01)",
+      "Commands": [
+        {
+          "ItemID": 161,
+          "CmdType": "Fungus.SetSTalk"
+        },
+        {
+          "ItemID": 155,
+          "CmdType": "Fungus.StartFight"
+        }
+      ]
+    },
+    {
+      "ItemID": 156,
+      "Name": "选项",
+      "Description": "选项",
+      "Position": "(-2427.557,-1156.802)",
+      "Commands": [
+        {
+          "ItemID": 157,
+          "CmdType": "Fungus.Menu",
+          "Text": "开始操练",
+          "TargetBlockID": "this:154(操练)"
+        },
+        {
+          "ItemID": 158,
+          "CmdType": "Fungus.Menu",
+          "Text": "还是算了",
+          "TargetBlockID": "this:159(无事发生)"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

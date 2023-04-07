@@ -1,0 +1,494 @@
+{
+  "Name": "Talk29",
+  "Blocks": [
+    {
+      "ItemID": 96,
+      "Name": "START",
+      "Description": "START",
+      "Position": "(-2934.202,-1612.225)",
+      "Commands": [
+        {
+          "ItemID": 354,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 355,
+          "CmdType": "Fungus.If",
+          "Condition": "year >= 290"
+        },
+        {
+          "ItemID": 356,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 357,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1000"
+        },
+        {
+          "ItemID": 358,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 359,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 360,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 177,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "401(广陵城跑商引导任务 时间判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2934.154,-1665.461)",
+      "Commands": [
+        {
+          "ItemID": 343,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "96(START)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 147,
+      "Name": "New Block8",
+      "Description": "New Block8",
+      "Position": "(0,0)",
+      "Commands": []
+    },
+    {
+      "ItemID": 347,
+      "Name": "初次进入广陵城",
+      "Description": "初次进入广陵城",
+      "Position": "(-2936.325,-1330.768)",
+      "Commands": [
+        {
+          "ItemID": 352,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 353,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 362,
+          "CmdType": "Fungus.YSSaveGame"
+        },
+        {
+          "ItemID": 364,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "363(触发跑商任务)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 433,
+      "Name": "广陵城跑商引导任务 过期处理",
+      "Description": "广陵城跑商引导任务 过期处理",
+      "Position": "(-2714.376,-1501.589)",
+      "Commands": [
+        {
+          "ItemID": 434,
+          "CmdType": "Fungus.If",
+          "Condition": "monthDiff > 10"
+        },
+        {
+          "ItemID": 452,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 451,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue != 9"
+        },
+        {
+          "ItemID": 437,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 453,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 441,
+          "CmdType": "Fungus.If",
+          "Condition": "monthDiff > 12"
+        },
+        {
+          "ItemID": 442,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 443,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 444,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 438,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "344(初次进入广陵城-判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 401,
+      "Name": "广陵城跑商引导任务 时间判定",
+      "Description": "广陵城跑商引导任务 时间判定",
+      "Position": "(-2974.376,-1560.589)",
+      "Commands": [
+        {
+          "ItemID": 406,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 414,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue >= 7"
+        },
+        {
+          "ItemID": 416,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "344(初次进入广陵城-判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 415,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 403,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue != 0"
+        },
+        {
+          "ItemID": 432,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "422(任务时间计算 精确到月)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 417,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 419,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "344(初次进入广陵城-判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 408,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 149,
+      "Name": "New Block9",
+      "Description": "New Block9",
+      "Position": "(0,0)",
+      "Commands": []
+    },
+    {
+      "ItemID": 146,
+      "Name": "New Block7",
+      "Description": "New Block7",
+      "Position": "(0,0)",
+      "Commands": []
+    },
+    {
+      "ItemID": 350,
+      "Name": "无事发生",
+      "Description": "无事发生",
+      "Position": "(-2708.325,-1412.768)",
+      "Commands": [
+        {
+          "ItemID": 361,
+          "CmdType": "Fungus.YSSaveGame"
+        }
+      ]
+    },
+    {
+      "ItemID": 381,
+      "Name": "广陵城跑商引导任务 对话",
+      "Description": "广陵城跑商引导任务 对话",
+      "Position": "(-2546.446,-1332.07)",
+      "Commands": [
+        {
+          "ItemID": 383,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你在广陵城的街上走着，不知为何，街上的人纷纷向不远处的港口张望，一些人渐渐地向港口聚了过去。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 384,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "为何大家都跑去港口了，莫不是出了什么事？要不我也去看看。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 385,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "哼，就爱凑热闹。也罢，就当是顺道去港口打探些消息，但记得可别摊上什么麻烦。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 390,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "382(广陵城跑商引导任务 处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 363,
+      "Name": "触发跑商任务",
+      "Description": "触发跑商任务",
+      "Position": "(-2708.446,-1331.07)",
+      "Commands": [
+        {
+          "ItemID": 373,
+          "CmdType": "Fungus.If",
+          "Condition": "year <= 60"
+        },
+        {
+          "ItemID": 375,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie <= 7"
+        },
+        {
+          "ItemID": 389,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "381(广陵城跑商引导任务 对话)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 376,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 377,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "350(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 374,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 379,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 380,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "350(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 378,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 344,
+      "Name": "初次进入广陵城-判定",
+      "Description": "初次进入广陵城-判定",
+      "Position": "(-2949.325,-1413.768)",
+      "Commands": [
+        {
+          "ItemID": 345,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 346,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 348,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "347(初次进入广陵城)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 349,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 351,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "350(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 382,
+      "Name": "广陵城跑商引导任务 处理",
+      "Description": "广陵城跑商引导任务 处理",
+      "Position": "(-2545.446,-1273.07)",
+      "Commands": [
+        {
+          "ItemID": 394,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 398,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 397,
+          "CmdType": "Fungus.SetStaticValueByVar"
+        },
+        {
+          "ItemID": 399,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 400,
+          "CmdType": "Fungus.SetStaticValueByVar"
+        },
+        {
+          "ItemID": 391,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 392,
+          "CmdType": "Fungus.SetSTalk"
+        },
+        {
+          "ItemID": 393,
+          "CmdType": "Fungus.LoadScene"
+        }
+      ]
+    },
+    {
+      "ItemID": 422,
+      "Name": "任务时间计算 精确到月",
+      "Description": "任务时间计算 精确到月",
+      "Position": "(-2698.376,-1561.589)",
+      "Commands": [
+        {
+          "ItemID": 426,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 425,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 424,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 427,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 428,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 423,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 429,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 430,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 431,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 440,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "433(广陵城跑商引导任务 过期处理)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

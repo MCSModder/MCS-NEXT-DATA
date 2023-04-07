@@ -1,0 +1,1030 @@
+{
+  "Name": "Talk119602",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2429.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 249,
+      "Name": "阅览经文",
+      "Description": "阅览经文",
+      "Position": "(-2246.017,-1065.173)",
+      "Commands": [
+        {
+          "ItemID": 386,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一个古朴的玉简在阵法的加持下悬浮于石台之上，借助阵法，每个人都可以自行阅读。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 394,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "玉简上用古修文字写着五行剑诀四个大字，经文内容虽全部是古文字，但好在以你和魏老的阅历，阅读起来并没有什么障碍。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "...夫剑者，心中有剑，万法皆可为剑，或生生不息，或厚积薄发，或行走偏锋，或贵于神速。不拘泥于形，不凝滞于物。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "...故取五行之气相生之理，化为剑用，得此要者，必能厚积薄发，克敌制胜，若精通五行之道，更能生生不息，绵绵不绝。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "本功脱胎于...【残缺】，相传魔道入侵之时，为抵御外敌，古金虹掌门结合...【残缺】剑法创立...【残缺】授于其余各三宗，若结为阵法，则可将五行之力化为剑用，然三宗善剑法者鲜，无人能驭，故废之。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "吾素善阵、气之道，偶得此阵之图，观其精微，查其至理，模仿阵中气机运转，耗费毕生心血，创立此功，取名五行剑诀，然吾于...【残缺】一战中，困于此地，修为尽失。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "老夫坦荡一生，无悔无愧，只可惜未能亲身运转此功法，实乃大憾，若有有缘者获取此法，集齐...【残缺】五种神通，则自可运转此功，若此功当真有效，则我死而瞑目矣...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "......你仔细阅览了一下，玉简中是一部五行运气之法，署名是金虹剑派大长老，名字已无法辨认。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 290,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "这功法...着实精妙...连老夫我一时间都看不透，不过可以确定，肯定是举世罕见的剑修功法。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "确实奇特，也不知道该如何领悟为妙。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "你可以试着先依照功法运转一下，在运转的过程中试着领悟，领悟不出来的话，可以去打听打听，看看其他人都有什么见解。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "好，正合我意。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 304,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "这功法...着实精妙...你可以试着先依照功法运转一下，在运转的过程中试着领悟，领悟不出来的话，可以去打听打听，看看其他人都有什么见解。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 302,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 2"
+        },
+        {
+          "ItemID": 305,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "没想到啊没想到，这五派剑法看似平常，结合起来居然有如此威能，这作者的确是天才。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 303,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "241(石台)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 275,
+      "Name": "刚来就成功了",
+      "Description": "刚来就成功了",
+      "Position": "(-2620.14,-883.235)",
+      "Commands": [
+        {
+          "ItemID": 286,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "CmdGetOtherJiaoHu"
+        }
+      ]
+    },
+    {
+      "ItemID": 276,
+      "Name": "第一年里成功",
+      "Description": "第一年里成功",
+      "Position": "(-2946.017,-968.1731)",
+      "Commands": [
+        {
+          "ItemID": 346,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 363,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 366,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 365,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 364,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 277,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你深吸一口气，缓缓将剑脱鞘，缓缓运转玉简内的运气之法，屏息凝神，身体内似有一股温润的冲动在引导着你，你不知不觉地施展起了五行剑法之神通。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 278,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "星河剑法、竹山剑法、离火剑法、化尘剑法、金虹剑法...水、木、火、土、金...周而复始、环而无端。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一股难以置信的力量牵引着你，\r配合着剑花飞舞，五行之力生生不息，剑气剑意绵绵不绝，手中之剑轻若无物，力道却重似千钧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "厚积薄发，路过的修士皆被你磅礴的剑意所深深震慑，甚至不敢直视，只有高境界的剑修才敢上前一探，他们神情各异，但相通之处便是眼中都闪烁着兴奋的光芒。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 376,
+          "CmdType": "Fungus.LearningStaticSkill"
+        },
+        {
+          "ItemID": 282,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 117,
+          "AvatarBindKey": "",
+          "StoryText": "原来是这样，没想到其他三派的名不见经传的剑法，配合起来，竟还有这样的神通！！！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 283,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 317,
+          "AvatarBindKey": "",
+          "StoryText": "...五行剑诀，当真是...名副其实，厉害非常！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 284,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 239,
+          "AvatarBindKey": "",
+          "StoryText": "这运气之法看似平常，与五行剑法相匹配后居然如此精妙...果然是前代能人才有的手笔！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "我去，这啥啊？{xiongdi}你什么时候背着我偷偷学的，这么厉害，快教教我！！！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "原来如此...这就是五行剑诀吗，当真是精妙绝伦。只是不知临战之时，有没有时间和机会让你运转足够多的五行灵气了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 344,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 933,
+          "AvatarBindKey": "",
+          "StoryText": "好！好！好！道友真是了结了在下平生一大夙愿！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 387,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "陈长老察觉到此处的异象，迫不及待地赶来，满眼之中尽是欣喜之色。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 345,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 933,
+          "AvatarBindKey": "",
+          "StoryText": "原来这五行剑诀，需要五派剑法相互搭配才能使用。离火、竹山、化尘三派剑法千百年来，一直被人所忽视，能集齐这五派剑法，道友可真是不简单啊！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 354,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "陈道友谬赞了，在下不过是运气好罢了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 355,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "陈长老诚恳地向你请教了五行剑诀的相关要点。你领悟五行剑诀的事迹很快传遍了整个宁州，为天下剑修所津津乐道。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 378,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "不错，这回你也算是出了个大风头。不过话说回来，这功法还是当真有趣，但想要发挥最大的战斗力，估计还有很长一段路要走，是否要加以使用，还需要深思熟虑才行。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 380,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "没错，我刚才运转的时候就感觉到了，要不是此处灵力充沛，我运转这功法绝对没有那么轻松，战时能发挥多少实力，还是未知数。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 382,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "不管怎么讲，能够重续五行剑诀道统，也算是你一桩机缘，得好好把握才行，咱们走吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 357,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 356,
+          "CmdType": "Fungus.setMenPaiHaoGanDu"
+        },
+        {
+          "ItemID": 372,
+          "CmdType": "CmdRecordShengPing"
+        },
+        {
+          "ItemID": 373,
+          "CmdType": "Fungus.SetTaskDisabled"
+        },
+        {
+          "ItemID": 397,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 396,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 395,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 398,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 401,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 399,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 402,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 400,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 403,
+          "CmdType": "CmdAddFavor"
+        }
+      ]
+    },
+    {
+      "ItemID": 265,
+      "Name": "领悟失败",
+      "Description": "领悟失败",
+      "Position": "(-2803.017,-1019.173)",
+      "Commands": [
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你循着功法运气，慢慢地感觉到一股幽远玄妙的感觉，却难以言表，总觉得缺了些什么，绞尽脑汁地进行领悟，却依旧是一无所获。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 268,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "果然如此......看来啊，是功夫未到，机缘未至，不可强求啊。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 269,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "感觉...好奇怪，到底缺了什么呢？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 306,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "241(石台)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 266,
+      "Name": "领悟成功",
+      "Description": "领悟成功",
+      "Position": "(-2802.017,-921.1731)",
+      "Commands": [
+        {
+          "ItemID": 362,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 367,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 368,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 369,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 370,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 270,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你深吸一口气，缓缓将剑脱鞘，缓缓运转玉简内的运气之法，屏息凝神，身体内似有一股温润的冲动在引导着你，你不知不觉地施展起了五行剑法之神通。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "星河剑法、竹山剑法、离火剑法、化尘剑法、金虹剑法...水、木、火、土、金...周而复始、环而无端。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一股难以置信的力量牵引着你，\r配合着剑花飞舞，五行之力生生不息，剑气剑意绵绵不绝，手中之剑轻若无物，力道却重似千钧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 273,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "厚积薄发，路过的修士皆被你磅礴的剑意所深深震慑，甚至不敢直视，只有高境界的剑修才敢上前一探，他们神情各异，但相通之处便是眼中都闪烁着兴奋的光芒。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 377,
+          "CmdType": "Fungus.LearningStaticSkill"
+        },
+        {
+          "ItemID": 274,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "原来如此...这就是五行剑诀吗，当真是精妙绝伦。只是不知临战之时，有没有时间和机会让你运转足够多的五行灵气了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 351,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 933,
+          "AvatarBindKey": "",
+          "StoryText": "好！好！好！道友真是了结了在下平生一大夙愿！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 388,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "陈长老察觉到此处的异象，迫不及待地赶来，满眼之中尽是欣喜之色。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 353,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 933,
+          "AvatarBindKey": "",
+          "StoryText": "原来这五行剑诀，需要五派剑法相互搭配才能使用。离火、竹山、化尘三派剑法千百年来，一直被人所忽视，能集齐这五派剑法，道友可真是不简单啊！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 358,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "陈道友谬赞了，在下不过是运气好罢了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 359,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "陈长老诚恳地向你请教了五行剑诀的相关要点。你领悟五行剑诀的事迹很快传遍了整个宁州，为天下剑修所津津乐道。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 379,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "不错，这回你也算是出了个大风头。不过话说回来，这功法还是当真有趣，但想要发挥最大的战斗力，估计还有很长一段路要走，是否要加以使用，还需要深思熟虑才行。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 381,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "没错，我刚才运转的时候就感觉到了，要不是此处灵力充沛，我运转这功法绝对没有那么轻松，战时能发挥多少实力，还是未知数。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 383,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "不管怎么讲，能够重续五行剑诀道统，也算是你一桩机缘，得好好把握才行，咱们走吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 360,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 361,
+          "CmdType": "Fungus.setMenPaiHaoGanDu"
+        },
+        {
+          "ItemID": 371,
+          "CmdType": "CmdRecordShengPing"
+        },
+        {
+          "ItemID": 374,
+          "CmdType": "Fungus.SetTaskDisabled"
+        }
+      ]
+    },
+    {
+      "ItemID": 299,
+      "Name": "离开石台",
+      "Description": "离开石台",
+      "Position": "(-2246.017,-966.1731)",
+      "Commands": []
+    },
+    {
+      "ItemID": 250,
+      "Name": "尝试领悟",
+      "Description": "尝试领悟",
+      "Position": "(-2620.017,-968.1731)",
+      "Commands": [
+        {
+          "ItemID": 311,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 310,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 313,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "已经领悟过一遍了，咱们就别逗留了吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 314,
+          "CmdType": "Fungus.CheckSkill"
+        },
+        {
+          "ItemID": 315,
+          "CmdType": "Fungus.CheckSkill"
+        },
+        {
+          "ItemID": 316,
+          "CmdType": "Fungus.CheckSkill"
+        },
+        {
+          "ItemID": 317,
+          "CmdType": "Fungus.CheckSkill"
+        },
+        {
+          "ItemID": 318,
+          "CmdType": "Fungus.CheckSkill"
+        },
+        {
+          "ItemID": 319,
+          "CmdType": "Fungus.If",
+          "Condition": "shui == True"
+        },
+        {
+          "ItemID": 320,
+          "CmdType": "Fungus.If",
+          "Condition": "mu == True"
+        },
+        {
+          "ItemID": 321,
+          "CmdType": "Fungus.If",
+          "Condition": "huo == True"
+        },
+        {
+          "ItemID": 322,
+          "CmdType": "Fungus.If",
+          "Condition": "tu == True"
+        },
+        {
+          "ItemID": 323,
+          "CmdType": "Fungus.If",
+          "Condition": "jin == True"
+        },
+        {
+          "ItemID": 342,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 339,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 309,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "266(领悟成功)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 324,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 343,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "276(第一年里成功)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 341,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 340,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 308,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(领悟失败)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 328,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 327,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 335,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(领悟失败)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 329,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 326,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 336,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(领悟失败)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 330,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 325,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 337,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(领悟失败)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 331,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 334,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 338,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(领悟失败)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 332,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 333,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 248,
+      "Name": "查看告示",
+      "Description": "查看告示",
+      "Position": "(-2621.017,-1069.272)",
+      "Commands": [
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "来到高高的白玉石台之下，最显眼的便是陈长老的告天下剑修书。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 384,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "陈某不才，忝列白帝楼长老之位。数十年前，机缘巧合之下获得此功。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 253,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "此功名曰五行剑诀，乃宁州古迹中金虹剑派大长老所遗，其撰者名氏，今已不存。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "看似稀松寻常，实则幽远玄妙，在下才疏学浅，苦思数年仍未能领悟，今日公之于众，邀天下剑修共同参悟，望有能者为其解密，使古代剑修之道统续存于今。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 375,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "......你阅览了一下这篇告示，后面基本都是陈长老对这篇功法的介绍，可真是玄乎其玄。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 385,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "有点意思...咱们再看看功法经文的内容吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "241(石台)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 241,
+      "Name": "石台",
+      "Description": "石台",
+      "Position": "(-2430.017,-1017.173)",
+      "Commands": [
+        {
+          "ItemID": 243,
+          "CmdType": "Fungus.Menu",
+          "Text": "查看告示",
+          "TargetBlockID": "this:248(查看告示)"
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.Menu",
+          "Text": "阅览经文",
+          "TargetBlockID": "this:249(阅览经文)"
+        },
+        {
+          "ItemID": 245,
+          "CmdType": "Fungus.Menu",
+          "Text": "尝试领悟",
+          "TargetBlockID": "this:250(尝试领悟)"
+        },
+        {
+          "ItemID": 246,
+          "CmdType": "Fungus.Menu",
+          "Text": "离开石台",
+          "TargetBlockID": "this:299(离开石台)"
+        }
+      ]
+    },
+    {
+      "ItemID": 393,
+      "Name": "无事发生",
+      "Description": "无事发生",
+      "Position": "(-2245.801,-1164.626)",
+      "Commands": []
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2430.094,-1121.676)",
+      "Commands": [
+        {
+          "ItemID": 389,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 390,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 247,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "241(石台)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 391,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 392,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "393(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

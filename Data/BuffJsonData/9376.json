@@ -1,0 +1,20 @@
+{
+	"buffid":9376,
+	"BuffIcon":9374,
+	"skillEffect":"fx_Summoner_o",
+	"name":"残天魔典",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		224
+	],
+	"descr":"自身每损失3%的生命值，造成的技能伤害就提升2%。",
+	"trigger":37,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

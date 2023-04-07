@@ -1,0 +1,876 @@
+{
+  "Name": "Talk120201",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2797.313,-1375.392)",
+      "Commands": [
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(小二)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 521,
+      "Name": "有什么法宝可以推荐 (询问后)",
+      "Description": "有什么法宝可以推荐 (询问后)",
+      "Position": "(-3025.068,-897.621)",
+      "Commands": [
+        {
+          "ItemID": 556,
+          "CmdType": "Fungus.Menu",
+          "Text": "武器",
+          "TargetBlockID": "this:534(武器推荐)"
+        },
+        {
+          "ItemID": 557,
+          "CmdType": "Fungus.Menu",
+          "Text": "防具和饰品",
+          "TargetBlockID": "this:565(防具饰品)"
+        },
+        {
+          "ItemID": 558,
+          "CmdType": "Fungus.Menu",
+          "Text": "都了解了",
+          "TargetBlockID": "this:564(都了解了 (询问后))"
+        }
+      ]
+    },
+    {
+      "ItemID": 282,
+      "Name": "随便看看",
+      "Description": "随便看看",
+      "Position": "(-2646.844,-1140.957)",
+      "Commands": [
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 311,
+          "CmdType": "Fungus.OpenJiaoYi"
+        }
+      ]
+    },
+    {
+      "ItemID": 147,
+      "Name": "New Block8",
+      "Description": "New Block8",
+      "Position": "(0,0)",
+      "Commands": []
+    },
+    {
+      "ItemID": 485,
+      "Name": "还有吗？",
+      "Description": "还有吗？",
+      "Position": "(-3244.102,-1109.85)",
+      "Commands": [
+        {
+          "ItemID": 484,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "再深入的道理小的就不明白了，不过要提醒客官一句，炼器之道也颇为危险，领悟的不够精深就难以驾驭炼制高阶法宝，若强行炼制可能造成器胚爆炸伤及自身。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 505,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "客官如果想自行炼器，我这里正好有一本{color=#d0380a}《炼器入门》{/color}，领悟之后便能初窥炼器之门径，掌握基本的炼器手法，然后便能开始着手炼器了。客官想要的话，花上500灵石就行。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 487,
+          "CmdType": "Fungus.Menu",
+          "Text": "要",
+          "TargetBlockID": "this:492(要)"
+        },
+        {
+          "ItemID": 488,
+          "CmdType": "Fungus.Menu",
+          "Text": "不要",
+          "TargetBlockID": "this:493(不要)"
+        }
+      ]
+    },
+    {
+      "ItemID": 149,
+      "Name": "New Block9",
+      "Description": "New Block9",
+      "Position": "(0,0)",
+      "Commands": []
+    },
+    {
+      "ItemID": 146,
+      "Name": "New Block7",
+      "Description": "New Block7",
+      "Position": "(0,0)",
+      "Commands": []
+    },
+    {
+      "ItemID": 476,
+      "Name": "五行？",
+      "Description": "五行？",
+      "Position": "(-3270.195,-1278.511)",
+      "Commands": [
+        {
+          "ItemID": 481,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "世间材料皆分五行，五行相生的材料自然可以融合成器，但材料之中若是五行相克就需要五行相合的炼器手法才能成器。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 482,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "473(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 493,
+      "Name": "不要",
+      "Description": "不要",
+      "Position": "(-3384.899,-1070.039)",
+      "Commands": [
+        {
+          "ItemID": 501,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "TempValue",
+          "StoryText": "算了，我暂时还没有学习炼器的打算。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 287,
+      "Name": "上2楼",
+      "Description": "上2楼",
+      "Position": "(-2513.134,-1310.867)",
+      "Commands": [
+        {
+          "ItemID": 309,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 300,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "客官，您...您这边请。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 310,
+          "CmdType": "Fungus.LoadScene"
+        }
+      ]
+    },
+    {
+      "ItemID": 534,
+      "Name": "武器推荐",
+      "Description": "武器推荐",
+      "Position": "(-3201.017,-1007.748)",
+      "Commands": [
+        {
+          "ItemID": 536,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "本店售卖武器较多，有些武器本身便杀伤力十足，有些则用于给修士带来增益状态。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 538,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "比如我们这儿的火麟环，可用于灼烧对手，在善于火系功法的修士之间就有不错的销路。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 537,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "而这砺剑匣，本身倒是没有什么杀伤力，但是与御剑术搭配就十分合适。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 539,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "当然，除此之外还有不少效果甚好的武器，小的在此只是列举一二。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 540,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "521(有什么法宝可以推荐 (询问后))",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 574,
+      "Name": "效果特性？",
+      "Description": "效果特性？",
+      "Position": "(-3268.486,-1229.73)",
+      "Commands": [
+        {
+          "ItemID": 568,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "材料会提供灵力，凝聚足够的灵力便能产生对应的效果特性，灵力越多，效果越强力。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 570,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "用不同阴阳、五行的材料炼制而成的同种武器，会具有不同的效果特性，而用同一组材料在炼制不同武器的时候也会呈现不同特性。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 569,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "473(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 475,
+      "Name": "五维？",
+      "Description": "五维？",
+      "Position": "(-3269.29,-1327.419)",
+      "Commands": [
+        {
+          "ItemID": 478,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "世间材料皆有五种属性：灵力亲和、灵力操控、灵性、坚固、坚韧；不同类型的材料，其五种属性各有高低。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 571,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "在炼制法宝时，若有一项属性为零则不能成器，同样五维各项越高越好，越能把灵力发挥到极致。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 479,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "473(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 562,
+      "Name": "都了解了 (未经过询问)",
+      "Description": "都了解了 (未经过询问)",
+      "Position": "(-2731.649,-1072.306)",
+      "Commands": [
+        {
+          "ItemID": 542,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "客官您慢慢挑选。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 546,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(小二)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 317,
+      "Name": "炼器请教",
+      "Description": "炼器请教",
+      "Position": "(-2941.631,-1239.7)",
+      "Commands": [
+        {
+          "ItemID": 318,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 319,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 320,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 321,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 519,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 514,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 513,
+          "CmdType": "Fungus.GetWuDaoLv"
+        },
+        {
+          "ItemID": 515,
+          "CmdType": "Fungus.If",
+          "Condition": "wudaolv > 0"
+        },
+        {
+          "ItemID": 518,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 517,
+          "CmdType": "Fungus.AddWuDaoEx"
+        },
+        {
+          "ItemID": 322,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 516,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 510,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "请教不敢当，我对于炼器也只了解一些皮毛罢了。不过见过的法宝多，对于它的好坏倒是有一套判断的方法。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 511,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "想必客官清楚，法宝的品质由低到高分为符器、法器、法宝、纯阳法宝和通天灵宝五个等级。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 573,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "而即便是同一等级的法宝，由于其韧性，操控，灵性等五维属性不同，通常又会分成上中下品不等，售卖时的价位也差距很大。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 512,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "总的来说，炼器是一门将不同五维特性、不同阴阳属性、不同五行属性的材料融合在一起成器的法门，需通过挑选并搭配不同材料以获得想要的效果特性。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 508,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "473(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 294,
+      "Name": "检测1",
+      "Description": "检测1",
+      "Position": "(-2653.421,-1242.018)",
+      "Commands": [
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "283(检测2)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 298,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 299,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "287(上2楼)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 283,
+      "Name": "检测2",
+      "Description": "检测2",
+      "Position": "(-2374.511,-1241.291)",
+      "Commands": [
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "我是要购置一些宝物，不过我只要你们这儿最好的东西，那些次品就不要拿出来给我看了！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie >= 7"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你一边说着，一边将自己的灵力外放，那管事感受到你的气势，知道自己遇到的是一位大主顾，脸上的笑容也越发真切了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "287(上2楼)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 301,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 302,
+          "CmdType": "Fungus.CheckMoney"
+        },
+        {
+          "ItemID": 303,
+          "CmdType": "Fungus.If",
+          "Condition": "MonsterID >= 100000"
+        },
+        {
+          "ItemID": 304,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你一边说着，一边挥手将自己的灵石展示给他看，那管事知道自己遇到的是一位大主顾，脸上的笑容也越发真切了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 305,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "287(上2楼)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 306,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 307,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "客官，您说笑了，我们这里卖的可都是上品，您看看便知。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 308,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "282(随便看看)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 563,
+      "Name": "有什么法宝可以推荐",
+      "Description": "有什么法宝可以推荐",
+      "Position": "(-3002.03,-1072.138)",
+      "Commands": [
+        {
+          "ItemID": 522,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "好嘞！本店售卖武器、防具、饰品，客官想了解哪一类呢？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 531,
+          "CmdType": "Fungus.Menu",
+          "Text": "武器",
+          "TargetBlockID": "this:534(武器推荐)"
+        },
+        {
+          "ItemID": 532,
+          "CmdType": "Fungus.Menu",
+          "Text": "防具和饰品",
+          "TargetBlockID": "this:565(防具饰品)"
+        },
+        {
+          "ItemID": 533,
+          "CmdType": "Fungus.Menu",
+          "Text": "都了解了",
+          "TargetBlockID": "this:562(都了解了 (未经过询问))"
+        }
+      ]
+    },
+    {
+      "ItemID": 265,
+      "Name": "小二",
+      "Description": "小二",
+      "Position": "(-2796.029,-1241.33)",
+      "Commands": [
+        {
+          "ItemID": 509,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "这位客官想要看些什么，要不要小的帮忙介绍一下？本店的东西绝对会让所有客人满意而归！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 313,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 314,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.Menu",
+          "Text": "请教炼器的技巧",
+          "TargetBlockID": "this:317(炼器请教)"
+        },
+        {
+          "ItemID": 316,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 520,
+          "CmdType": "Fungus.Menu",
+          "Text": "有什么法宝可以推荐",
+          "TargetBlockID": "this:563(有什么法宝可以推荐)"
+        },
+        {
+          "ItemID": 315,
+          "CmdType": "Fungus.Menu",
+          "Text": "我就自己随便看看吧",
+          "TargetBlockID": "this:282(随便看看)"
+        },
+        {
+          "ItemID": 284,
+          "CmdType": "Fungus.Menu",
+          "Text": "给我看看你们这里最好的东西",
+          "TargetBlockID": "this:294(检测1)"
+        }
+      ]
+    },
+    {
+      "ItemID": 564,
+      "Name": "都了解了 (询问后)",
+      "Description": "都了解了 (询问后)",
+      "Position": "(-2805.322,-896.3562)",
+      "Commands": [
+        {
+          "ItemID": 560,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "法宝自然是品阶越高越是强力，客官要是手头阔绰，便可以挑些法器甚至是法宝级别的装备。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 575,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "但真要说用起来趁不趁手，也还得看法宝与自身功法、神通的搭配。至于客官要哪件装备，一会儿可以根据自身情况慢慢挑选。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 561,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "265(小二)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 565,
+      "Name": "防具饰品",
+      "Description": "防具饰品",
+      "Position": "(-2984.815,-1007.748)",
+      "Commands": [
+        {
+          "ItemID": 548,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "防具大多会通过释放灵力护罩来保护修士，饰品则能提供特殊的防御效果。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 549,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "修士道袍是最基础也是卖得最好的，再好点儿的，护体法袍也卖得不错。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 550,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 728,
+          "AvatarBindKey": "",
+          "StoryText": "客官可以防具、饰品各选一样，一同使用效果最佳。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 552,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "521(有什么法宝可以推荐 (询问后))",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 473,
+      "Name": "选项",
+      "Description": "选项",
+      "Position": "(-3096.974,-1240.389)",
+      "Commands": [
+        {
+          "ItemID": 469,
+          "CmdType": "Fungus.Menu",
+          "Text": "阴？阳？",
+          "TargetBlockID": "this:474(阴？阳？)"
+        },
+        {
+          "ItemID": 470,
+          "CmdType": "Fungus.Menu",
+          "Text": "五维？",
+          "TargetBlockID": "this:475(五维？)"
+        },
+        {
+          "ItemID": 471,
+          "CmdType": "Fungus.Menu",
+          "Text": "五行？",
+          "TargetBlockID": "this:476(五行？)"
+        },
+        {
+          "ItemID": 566,
+          "CmdType": "Fungus.Menu",
+          "Text": "效果特性？",
+          "TargetBlockID": "this:574(效果特性？)"
+        },
+        {
+          "ItemID": 472,
+          "CmdType": "Fungus.Menu",
+          "Text": "还有吗？",
+          "TargetBlockID": "this:485(还有吗？)"
+        }
+      ]
+    },
+    {
+      "ItemID": 474,
+      "Name": "阴？阳？",
+      "Description": "阴？阳？",
+      "Position": "(-3269.728,-1374.179)",
+      "Commands": [
+        {
+          "ItemID": 503,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "世间材料皆分天阳、地阴。同种五行属性不同种阴阳表现的效果也会不同，若要追求极致，通常在选材上应注重极阴、极阳。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 572,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "但是只要手法熟练、搭配合适，阴阳混搭也可以炼出上好的法宝。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 504,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "473(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 492,
+      "Name": "要",
+      "Description": "要",
+      "Position": "(-3392.864,-1146.165)",
+      "Commands": [
+        {
+          "ItemID": 490,
+          "CmdType": "Fungus.CheckMoney"
+        },
+        {
+          "ItemID": 491,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue >= 500"
+        },
+        {
+          "ItemID": 506,
+          "CmdType": "Fungus.AddMoney"
+        },
+        {
+          "ItemID": 494,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 495,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 496,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "我没有500灵石...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 498,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "Avatar",
+          "StoryText": "那客官您...要不看看其它的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

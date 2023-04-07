@@ -1,0 +1,21 @@
+{
+	"buffid":9381,
+	"BuffIcon":9324,
+	"skillEffect":"fx_Summoner_o",
+	"name":"诛仙剑阵（隐）",
+	"Affix":[],
+	"bufftype":3,
+	"seid":[
+		76,
+		26
+	],
+	"descr":"施展诛仙剑时，额外吸收三点魔气；",
+	"trigger":8,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":1,
+	"ShowOnlyOne":1
+}

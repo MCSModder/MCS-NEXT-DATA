@@ -1,0 +1,866 @@
+{
+  "Name": "Talk8115",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 177,
+      "Name": "妖丹",
+      "Description": "妖丹",
+      "Position": "(-2430.661,-1038.438)",
+      "Commands": [
+        {
+          "ItemID": 181,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "依我看，应当以化神期妖兽的妖丹作为主药，以木灵三针花作为辅药。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 183,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 182,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 184,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "哈哈哈，{$TmpTalkString}与我所想不谋而合。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 185,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "化神期妖兽的妖丹属性各不相同，若是作为辅药使用，药性完全无法确定。但若作为主药使用，那无论是何属性妖丹，皆是聚元药性。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 192,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "191(后续)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 178,
+      "Name": "木灵三针花",
+      "Description": "木灵三针花",
+      "Position": "(-2290.662,-1035.581)",
+      "Commands": [
+        {
+          "ItemID": 186,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "依我看，应当以木灵三针花作为主药，以化神期妖兽的妖丹作为辅药。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 187,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 189,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "我倒是与{$TmpTalkString}有不同的想法。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 188,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "化神期妖兽的妖丹属性各不相同，若是作为辅药使用，药性完全无法确定。但若作为主药使用，那无论是何属性妖丹，皆是聚元药性。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 190,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "原来如此...这样想来，无法确定属性的妖丹的确只能作为主药使用。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 193,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "191(后续)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 191,
+      "Name": "后续",
+      "Description": "后续",
+      "Position": "(-2359.233,-955.5807)",
+      "Commands": [
+        {
+          "ItemID": 194,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不过，按寻常药理推断，化劫丹属临战防御类的丹药，通常该是用御气药性的主药炼制才对。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 195,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}说的不错，此事我也有些疑惑。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 196,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不过古籍上本身就只说这是为了渡劫而准备的材料，却未曾明说是用来炼制化劫丹的...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 197,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "我曾经还听说过有一种用来拖延天劫到来时间的避劫丹，又或是还有别的我们不了解的丹药也未可知。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 198,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "当下的另一难题是化神期妖兽的妖丹，寻常六品草药虽然稀有，但尚可寻得。这化神妖兽的妖丹却是不知从何寻来了...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 199,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "化神期妖兽的妖丹虽然难得，不过既然是用作主药，那么另换一种聚元药性的草药替代也是可行的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 200,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "让我想想...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 201,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "产自极寒之地的坎水玄冰果似乎也是聚元药性，我在天机阁拍卖会上曾有幸拍得一枚。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 202,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "而且坎水玄冰果与木灵三针花皆是性寒的草药，如此一来，只需再配上一味性热的六品草药作为药引，便可成丹了！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 203,
+          "CmdType": "Fungus.ItemCheck"
+        },
+        {
+          "ItemID": 204,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 207,
+          "CmdType": "Fungus.Menu",
+          "Text": "或许还有一种可能",
+          "TargetBlockID": "this:209(或许还有一种可能)"
+        },
+        {
+          "ItemID": 205,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 206,
+          "CmdType": "Fungus.Menu",
+          "Text": "的确值得一试",
+          "TargetBlockID": "this:208(的确值得一试)"
+        }
+      ]
+    },
+    {
+      "ItemID": 209,
+      "Name": "或许还有一种可能",
+      "Description": "或许还有一种可能",
+      "Position": "(-2433.652,-881.295)",
+      "Commands": [
+        {
+          "ItemID": 210,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不过...或许还有一种可能？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 211,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "此前我曾在宁州古迹中得到过一份残缺的丹方，上面虽然未曾记录完整的丹方，却提到了有些丹药需要用到两种不同的主药进行炼制。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.ItemRemove"
+        },
+        {
+          "ItemID": 212,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "你是说，木灵三针花或许不仅要作为辅药，同时也要作为主药使用？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 213,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "毕竟是失传的古方，的确有这种可能。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 214,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "只有六品丹炉能够承受两种不同的主药间的药性冲突...但不管怎么说，值得一试。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 215,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不错，即便不需要第二味主药，至多不过浪费一株木灵三针花，却也不至于影响最后成丹。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 216,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "好，那就依{$TmpTalkString}所言，用这个配方尝试炼制一次吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 217,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$name}说干便干，当下就开始准备起炼丹需要的药材...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 218,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 220,
+          "CmdType": "Fungus.AddTime"
+        },
+        {
+          "ItemID": 219,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 221,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "八日后...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 222,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "你们揭开丹炉，一阵浓郁的药香飘过，一颗通体浑圆的丹药光彩夺目的出现在了药鼎之内！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 224,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "成功了！这...这应该就是避劫丹！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 223,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "嗯...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 226,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "炉底还有一些药渣，看来只是辅药的数量放多了，与主药无关。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 225,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}，正如你所说，炼制这丹药需要同时用到两种不同的主药！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 227,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "没想到真是这样...失传多年的丹方终于能够重现天日，也不枉你这些时日付出的心血啊。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 229,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "这次真是多亏了{$TmpTalkString}的帮助，否则多半又是白忙活一场了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 228,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "待我整理优化完这避劫丹的丹方，就赠予道友！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 268,
+          "CmdType": "CmdAddNPCQingFen"
+        },
+        {
+          "ItemID": 232,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 266,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 265,
+          "CmdType": "Fungus.AddItemToNpc"
+        },
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        }
+      ]
+    },
+    {
+      "ItemID": 169,
+      "Name": "已学过避劫丹",
+      "Description": "已学过避劫丹",
+      "Position": "(-2285.483,-1122.322)",
+      "Commands": [
+        {
+          "ItemID": 248,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "等等...木灵三针花？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 249,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "原来你说的是避劫丹。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 250,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "避劫丹？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不错，这是一种可以推迟天劫降临时间的丹药，正要用到木灵三针花炼制。但由于这丹药的副作用明显，因此已经失传多年了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "这...{$TmpTalkString}是从何得到这避劫丹的炼制方式的？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "咳...只是运气好恰巧炼制出来罢了...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 253,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "总之...炼制这丹药需两味主药，一味聚元，一味生息，而辅药则需用到三份木灵三针花，再配以药引平衡寒热，便可成丹。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "原来如此...不愧是{$TmpTalkString}，竟连这等失传多年的丹药都能炼制出来，实在厉害！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "CmdAddFavor"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "我这便按{$TmpTalkString}所言，尝试炼制一番！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$name}说干便干，当下就开始准备起炼丹需要的药材。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 270,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "你见状不再打扰他，独自离开了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.LoadScene"
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2429.764,-1122.775)",
+      "Commands": [
+        {
+          "ItemID": 155,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 156,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 157,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 158,
+          "CmdType": "CmdGetNPCName"
+        },
+        {
+          "ItemID": 159,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 162,
+          "CmdType": "CmdGetOtherJiaoHu"
+        },
+        {
+          "ItemID": 160,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你步入白帝楼的地火房，只见{$name}正伏案而作，不知在写些什么。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 161,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$TmpTalkString}来的正好，我这几日仔细推演这古方，正有许多的问题想与你探讨。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 163,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "以我们之间的交情，若有我能帮得上忙的地方，一定知无不言。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 165,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "此前传音中与你提及的那本古籍，其实是不久前我在一个交易会中换得的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 164,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "这本古籍原本只是记载了一些虚无缥缈的奇闻轶事，但其中居然提到了某位化神修士为了渡劫而准备的炼丹材料。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "与渡劫相关的材料...莫非是那传闻中炼制方式早已失传的化劫丹？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 168,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "我也是如此猜测的，因此才抱着试一试的想法，从那人手中换得了这本古籍。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 167,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "可惜的是，这本书中只提及了那名化神期修士为此收集了化神期妖兽的妖丹，以及六品草药木灵三针花，却未曾提及其具体的炼制方式。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 180,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 179,
+          "CmdType": "Fungus.CheckHasStudyDanFang"
+        },
+        {
+          "ItemID": 170,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 171,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "169(已学过避劫丹)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 172,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 173,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "原来如此...若是古籍的记载无误，那只需弄清到底以哪味药材为主药，哪位为辅药，再加一位药引调和其寒热，便能复原这丹方了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 174,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "正是。不知{$TmpTalkString}有何见解？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 175,
+          "CmdType": "Fungus.Menu",
+          "Text": "应当以妖丹为主药",
+          "TargetBlockID": "this:177(妖丹)"
+        },
+        {
+          "ItemID": 176,
+          "CmdType": "Fungus.Menu",
+          "Text": "应当以木灵三针花为主药",
+          "TargetBlockID": "this:178(木灵三针花)"
+        }
+      ]
+    },
+    {
+      "ItemID": 208,
+      "Name": "的确值得一试",
+      "Description": "的确值得一试",
+      "Position": "(-2287.805,-884.1522)",
+      "Commands": [
+        {
+          "ItemID": 233,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{$name}说干便干，当下就开始准备起炼丹需要的药材...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 234,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 235,
+          "CmdType": "Fungus.AddTime"
+        },
+        {
+          "ItemID": 236,
+          "CmdType": "Fungus.FadeScreen"
+        },
+        {
+          "ItemID": 237,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "八日后...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 238,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "你们揭开丹炉，隐约有一阵淡淡的药香飘过。可惜丹药并没有被炼制成功，只在炉底形成了一层厚厚的药渣。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 239,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "怎么会这样...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "只有药渣，连废丹也未能炼成...说明我们推测的丹方完全是错误的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 242,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "或许是古籍有所遗漏，少了一味辅药...又或者这上面记载的本就是作者随意杜撰的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 243,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "只是可惜了那些珍贵的六品草药...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 241,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "既是要推敲丹方，这些损耗便是在所难免的。只是未能让这失传的古方重现天日，才是最可惜的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不管怎么说，还是要多谢{$TmpTalkString}这几日的帮助，眼下确实是没有其它的思路了，且看日后是否能有新的发现吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 269,
+          "CmdType": "CmdAddNPCQingFen"
+        },
+        {
+          "ItemID": 245,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "只能如此了...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

@@ -1,0 +1,20 @@
+{
+	"buffid":4260,
+	"BuffIcon":0,
+	"skillEffect":"fx_Summoner_o",
+	"name":"剑典-天道篇",
+	"Affix":[],
+	"bufftype":3,
+	"seid":[
+		5
+	],
+	"descr":"每次【剑气】触发时获得【剑气】*（attack）。",
+	"trigger":49,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

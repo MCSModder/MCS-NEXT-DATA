@@ -1,0 +1,535 @@
+{
+  "Name": "Talk8117",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(遇见前)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 172,
+      "Name": "离开",
+      "Description": "离开",
+      "Position": "(-2260.975,-1124.454)",
+      "Commands": [
+        {
+          "ItemID": 173,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "可惜我还有任务在身，看来是与{$name}烹饪的美味无缘了，告辞。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 277,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "哎？只要一小会就...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 278,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "未等倪旭欣开口，你御起遁术就跑，最后追上来的也不过是半句没说完的话而已。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 311,
+          "CmdType": "Fungus.SetStaticValue"
+        }
+      ]
+    },
+    {
+      "ItemID": 183,
+      "Name": "接受邀请",
+      "Description": "接受邀请",
+      "Position": "(-2428.162,-944.7661)",
+      "Commands": [
+        {
+          "ItemID": 187,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你撕下一块烤肉放入嘴中，慢慢地咀嚼着。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 188,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "先是混杂着一股草药味的麻辣味刺激着你的味蕾，紧接着恰到好处的焦香在唇齿间四溢，还未等你仔细品味，又有肉汁充盈了你的味觉。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 314,
+          "CmdType": "CmdAddPlayerDanDu"
+        },
+        {
+          "ItemID": 318,
+          "CmdType": "Fungus.SetTips"
+        },
+        {
+          "ItemID": 303,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "烤制时间虽是不长，但其中滋味已是非同凡响，让你不禁赞叹连连。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 304,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$name}所说果然不假，这等手艺竟只是同杨管家学过几手，看来{$name}在烹饪方面颇有天赋啊。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 305,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "嘿嘿，不错吧，而且我还稍微调整了一下杨管家教我的调料配比，在里面加入了很多有生息、聚元功效的灵草磨成的粉末。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 306,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "这样一来享受美味的同时，还可以提升修为。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 307,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "我真不愧是未来的炼丹宗师啊，哈哈哈哈。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 308,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 309,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "一时间，你竟不知道自己是该吐槽些什么，还是该干脆动手揍他一顿。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 310,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "但事已至此，烤肉的味道也确实不错，你只能无奈地继续享用这奇怪的“灵草烤肉”了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 313,
+          "CmdType": "CmdAddPlayerDanDu"
+        },
+        {
+          "ItemID": 317,
+          "CmdType": "Fungus.SetTips"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 315,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 319,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 320,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 321,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 322,
+          "CmdType": "Fungus.AddItem"
+        }
+      ]
+    },
+    {
+      "ItemID": 171,
+      "Name": "继续",
+      "Description": "继续",
+      "Position": "(-2429.725,-1040.079)",
+      "Commands": [
+        {
+          "ItemID": 174,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "（ 反正焦炭我也尝过了，这次总不能更惨吧。）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 175,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "既然如此，那就有劳{$name}了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "闻言，倪旭欣一脸喜色地点了点头，有机会和你分享美食似乎让他很是开心。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "可能是泽蟒块头相对比较小的关系，倪旭欣处理的速度倒是不慢，切出的肉块也较林沐心更为规则平整，让你对他的手艺有了更多信心。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "{$name}刚才说杨管家做的烤肉特别美味，难道他精于烹饪一道？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 282,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "是啊，他对美食很感兴趣的。你别看他是倪府管家，其实挺清闲的，大事有父亲，振南叔他们负责，小事又只用吩咐一声，所以没事的时候特别爱捣鼓这些。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 283,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "也不至于这么清闲吧...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 284,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "至少我很难见到父亲和振南叔他们有闲下来的时候，但不论有什么事找杨管家，他总在倪府大厅或是厨房里。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "那不应该多花些时间修炼么？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 286,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "这个我也问过杨管家啦，按他的说法就是修炼这事急不来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "而且要是喜欢烹饪用不了多少时间就能学好的，更不用说还对调整心境有好处。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{FirstName}{xiongdi}，你说我这么热爱炼丹，是不是有朝一日也会成为炼丹大师？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 316,
+          "CmdType": "Fungus.GetHaoGanDu"
+        },
+        {
+          "ItemID": 290,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue > 20"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你嘴角一抽，想起熟识的另一位“炼丹爱好者”。但也不想打击倪旭欣，只能口是心非的回答一句。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你嘴角一抽，想起他给你的那些废丹。但也不想打击倪旭欣，只能口是心非的回答一句。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "也许是吧？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "话语间，倪旭欣的第一串烤肉已经完成了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "蛇肉原本因为脂肪极少，在烤制过程中很容易肉质变老，也不知他用了什么技巧，外表呈现出一层金黄色的烤焦表层的同时又可以看出内部依旧处于鲜嫩多汁的状态。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "再加上被高温激发的食材和香料的香气，可谓色香俱全，只差好好品尝一番滋味如何了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 298,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "倪旭欣满意地打量自己的杰作一番后，径直将烤肉递到了你手上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 300,
+          "CmdType": "Fungus.Menu",
+          "Text": "看起来不错",
+          "TargetBlockID": "this:183(接受邀请)"
+        },
+        {
+          "ItemID": 301,
+          "CmdType": "Fungus.Menu",
+          "Text": "希望味道也不会差",
+          "TargetBlockID": "this:183(接受邀请)"
+        },
+        {
+          "ItemID": 302,
+          "CmdType": "Fungus.Menu",
+          "Text": "我已经迫不及待了",
+          "TargetBlockID": "this:183(接受邀请)"
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "遇见前",
+      "Description": "遇见前",
+      "Position": "(-2429.764,-1125.9)",
+      "Commands": [
+        {
+          "ItemID": 157,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 265,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 158,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 156,
+          "CmdType": "CmdGetPlayerTalkToNPCReplace"
+        },
+        {
+          "ItemID": 266,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "真巧啊，这不是{FirstName}{xiongdi}么？我正好杀了一头上好的泽蟒打算做烧烤。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "没想到{$name}居然也对烧烤这么有兴趣....",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 268,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "其实也不常吃啦，只是突然来了兴致而已。上次正经吃烤肉还是小时候杨管家带我野营来着，一晃也是许多年前的事了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 269,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "修仙者对饮食是没什么要求，但谁又会拒绝偶尔来一顿美味呢哈哈哈哈。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 270,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "自然是不会拒绝，但...我有些担心修仙者的厨艺水平...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你看着倪旭欣手中的泽莽，但脑中挥之不去的却是林沐心专心烤制焦炭的样子。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "一般来说是这样啦，悟道学习功法神通什么的就已经足够消耗时间了，哪有这个兴致再去研究无关紧要的烹饪呢。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 273,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不过我小时候可是跟杨管家学了一手的，他做的烤肉那滋味，啧，这么多年我都没忘，不信你就等着瞧好了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 274,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你听倪旭欣这么一说，心中的怀疑顿时消散不少，仔细想想，他除了爱惹事，关键时候掉链子，炼的丹药总是一言难尽等，其他时候还是挺靠谱的，大概？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 275,
+          "CmdType": "Fungus.Menu",
+          "Text": "找借口离开",
+          "TargetBlockID": "this:172(离开)"
+        },
+        {
+          "ItemID": 276,
+          "CmdType": "Fungus.Menu",
+          "Text": "尝尝倪旭欣手艺",
+          "TargetBlockID": "this:171(继续)"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

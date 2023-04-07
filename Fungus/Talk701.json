@@ -1,0 +1,1012 @@
+{
+  "Name": "Talk701",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2423.785,-1290.289)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(升仙台废话)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 459,
+      "Name": "New Block",
+      "Description": "New Block",
+      "Position": "(-2749.457,-1152.231)",
+      "Commands": []
+    },
+    {
+      "ItemID": 344,
+      "Name": "百里奇",
+      "Description": "百里奇",
+      "Position": "(-2592.784,-1045.653)",
+      "Commands": [
+        {
+          "ItemID": 350,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "在众人兴奋的呐喊声中，最后一场很快就到了...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 401,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "下面开始本届英杰会决赛的比试，请刚刚晋级的百里奇选手上台！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 351,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一位豪爽的大汉纵身越上擂台，只见他身长九尺，壮硕至极，站在台\r\n上的气势，好像山岳一般，令人胆寒。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 370,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "这小鬼，挺有气势，看这体格，应该修炼过什么炼体的秘术...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 355,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 615,
+          "AvatarBindKey": "",
+          "StoryText": "你的实力不错，不过到此为止了，在我手上，你撑不过三个回合。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 354,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "大汉指着对面的修士，毫不客气地说道。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 490,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "对面脸色一冷，敷衍地拱手\r一礼，二话不说，便与壮汉缠斗起来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 353,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "才三回合不到，壮汉便贴身直入，一拳把对手击飞了出去，那名修士\r在地上挣扎了几下，便不省人事，而那壮汉甚至连灵力护罩都没破损。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 352,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "会场气氛瞬间安静了一秒，紧接着便爆发出排山倒海般的喝彩声。\r升仙台管事恭恭敬敬地将筑基丹奉上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 491,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "百里奇接过筑基丹，一手将其托举，向着台下的观众朗声说道。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 383,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 615,
+          "AvatarBindKey": "",
+          "StoryText": "这筑基丹，我其实无意争夺，我只是想与同阶强者切磋罢了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 384,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 615,
+          "AvatarBindKey": "",
+          "StoryText": "若有哪位道友能战胜我，或是让我百里奇战个痛快，我便愿把这筑基\r丹亲手奉上！在下在广陵城百里府随时欢迎切磋，恭候诸位挑战！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 385,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "说着百里奇翻身一跃下台，眨眼之间便到数丈之外，施展几下遁术便\r\n远远不见了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 455,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "有意思..好好准备，有机会去{color=#d0380a}百里府{/color}看看，是你的机缘也说不定。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 458,
+          "CmdType": "Fungus.AddTask"
+        },
+        {
+          "ItemID": 474,
+          "CmdType": "Fungus.SetStaticValue"
+        }
+      ]
+    },
+    {
+      "ItemID": 346,
+      "Name": "大欣欣",
+      "Description": "大欣欣",
+      "Position": "(-2593.982,-940.0593)",
+      "Commands": [
+        {
+          "ItemID": 399,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "在众人兴奋的呐喊声中，最后一场很快就到了...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 403,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "下面开始本届英杰会决赛的比试，请刚刚晋级的倪旭欣选手上台！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 405,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这是...倪道友？！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 406,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见一俊朗剑修快步上台，爽朗一笑，负剑而立。随后大方地向着对\r面修士抱拳一礼。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 488,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 609,
+          "AvatarBindKey": "",
+          "StoryText": "这位道友，您先请吧！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 407,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "对面也是丝毫不和倪旭欣客气，口吐灵气，手掐剑诀，御剑直攻而来。\r两位剑修顿时缠斗在一起，闪转腾挪间，难辨人影，只见剑光。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 408,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "倪道友艺高人胆大，交手之时愈长，剑气反而愈攒愈多，对面从\r开始时凶猛至极的进攻，逐渐转化为狼狈地防守。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 409,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "终于，凌厉的剑气将对面的护盾击个粉碎，对面避无可避，只得认输。\r倪旭欣点到为止，瞬间将全部剑气散去。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 410,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "会场的观众们统统高呼过瘾，两位剑修之间的对决，着实是精彩万分，\r升仙台管事恭敬地将筑基丹奉上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 411,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "倪道友向着众人兴奋地挥着手，在倪家家仆的簇拥下，潇洒下台而去。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 412,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "这小子，被关了这么久，倒确实是有点长进，你也要加油啊，别落在后头太远了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 347,
+      "Name": "林沐心",
+      "Description": "林沐心",
+      "Position": "(-2231.378,-937.8615)",
+      "Commands": [
+        {
+          "ItemID": 400,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "在众人兴奋的呐喊声中，最后一场很快就到了...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 404,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "下面开始本届英杰会决赛的比试，请刚刚晋级的林沐心选手上台！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 413,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一阵香风飘过，只见一名清秀少女轻轻落在台上，一双明眸好奇地打\r\n量着对手。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 418,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "这姑娘...炼气期就有这等神识，真是不简单啊，你可要小心了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 421,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 614,
+          "AvatarBindKey": "",
+          "StoryText": "不必手下留情，放马过来吧！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 416,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "姑娘轻盈灵敏，对手投来的各种法术神通，都被她笑嘻嘻地逐\r一化解。而对手则眉头紧锁，牙关紧咬，似乎正奋力抵抗着什么。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 415,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "但听一声娇喝，姑娘明眸闪动间，对手修士掐诀施法的身影霎时一顿，\r眼神空洞茫然，直直向地面倒去，昏迷不醒。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 422,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 614,
+          "AvatarBindKey": "",
+          "StoryText": "嘻嘻，承让啦。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 414,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "林沐心莞尔一笑，向着狂欢着的观众们眨了眨眼，一旁恭候多时的升\r仙台管事恭恭敬敬地将筑基丹奉上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 420,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 675,
+          "AvatarBindKey": "",
+          "StoryText": "素闻天星城林家二小姐是美貌非常，今日一见果真如此！你看她那双眼睛，\r真是灵动非常！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 423,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 676,
+          "AvatarBindKey": "",
+          "StoryText": "是啊，不过之前听说林家二小姐活泼贪玩，没想到竟有如此战力？看来以后遇到\r神识强大的修士，可真是要慎之又慎！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 424,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "林沐心在观众的称赞声中，深施一礼，在林家家仆的护送下飘然离去。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 456,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "精通神识流的姑娘，可真是有趣得很哪，别看咯，咱们走吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 461,
+      "Name": "买东西",
+      "Description": "买东西",
+      "Position": "(-2251.652,-1146.736)",
+      "Commands": []
+    },
+    {
+      "ItemID": 343,
+      "Name": "观赛 年份判定",
+      "Description": "观赛 年份判定",
+      "Position": "(-2425.446,-988.6311)",
+      "Commands": [
+        {
+          "ItemID": 242,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 243,
+          "CmdType": "Fungus.If",
+          "Condition": "year == 6"
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "344(百里奇)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 245,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "year == 11"
+        },
+        {
+          "ItemID": 246,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "345(公孙季)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 247,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "year == 16"
+        },
+        {
+          "ItemID": 248,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "346(大欣欣)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 249,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "year == 21"
+        },
+        {
+          "ItemID": 250,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "347(林沐心)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "348(第一年)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 348,
+      "Name": "第一年",
+      "Description": "第一年",
+      "Position": "(-2425.884,-879.6201)",
+      "Commands": []
+    },
+    {
+      "ItemID": 154,
+      "Name": "升仙台废话",
+      "Description": "升仙台废话",
+      "Position": "(-2424.599,-1187.611)",
+      "Commands": [
+        {
+          "ItemID": 438,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "胜败乃兵家常事，道友不必沮丧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 487,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "英杰会管事向你迎面走来，轻轻拍了拍刚从擂台下来的你。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 429,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie == 1"
+        },
+        {
+          "ItemID": 433,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "能够登台直面练气中后期修士，道友实属勇气可嘉。虽为练气初期，\r有这样的心性和勇气，想必将来必有成就。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 434,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "不过修为的差距是很难弥补的，希望你能勤奋修炼，提升修为境界，期待修为精进后道友你的表现。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 431,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 430,
+          "CmdType": "Fungus.If",
+          "Condition": "MenPai == 0"
+        },
+        {
+          "ItemID": 436,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "对了，道友是散修吧，不入宗门虽然逍遥，但是在求仙之路上可谓是举步维艰，若要想轻松容易一些，还得去{color=#d0380a}五大宗门{/color}拜拜\r山门，碰碰运气。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 435,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 437,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "道友既是宗门弟子，平日里可多去宗门内{color=#d0380a}藏经阁{/color}看看，莫要浪费了大好资源。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 432,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 427,
+          "CmdType": "Fungus.CheckPlayerItem"
+        },
+        {
+          "ItemID": 443,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 428,
+          "CmdType": "Fungus.CheckPlayerItem"
+        },
+        {
+          "ItemID": 445,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 454,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "英杰会管事定睛观瞧，显得有些惊诧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 439,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "等等，道友你上台作战，居然只运转一部功法，还只练到一层？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 470,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "道友可知，修士们大都同时运转一门主修功法和数门辅修功法？因为只有这样才能发挥最大的战斗能力。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 469,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "去{color=#d0380a}天星城问道楼{/color}逛逛吧，那边的功法神通是物美价廉，好好参悟突破，才能在修仙界有一战之力。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 467,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 489,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "英杰会管事定睛观瞧，显得有些惊诧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 468,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "等等，道友上台作战，居然只运转一部功法？这样可是要吃大亏的，",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 471,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "道友可知，修士们大都同时运转一门主修功法和数门辅修功法？因为只有这样才能发挥最大的战斗能力。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 472,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "去{color=#d0380a}天星城问道楼{/color}逛逛吧，那边的功法神通是物美价廉，好好参悟突破，才能在修仙界有一战之力。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 463,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 462,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 465,
+          "CmdType": "Fungus.CheckPlayerItem"
+        },
+        {
+          "ItemID": 464,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 475,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "英杰会管事定睛观瞧，若有所思。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 440,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "你身上功法气息繁杂且不醇厚，道友是都只修炼了一层吧。功法还是得要刻苦突破才行，这是是经年累月之功，马虎不得。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 473,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "学的再多，却只浅尝辄止可不行，道友要踏实修习，好好精进突破。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 444,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 448,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 425,
+          "CmdType": "Fungus.CheckPlayerItem"
+        },
+        {
+          "ItemID": 446,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == False"
+        },
+        {
+          "ItemID": 426,
+          "CmdType": "Fungus.CheckPlayerItem"
+        },
+        {
+          "ItemID": 447,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == False"
+        },
+        {
+          "ItemID": 476,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "我观道友你战斗时两手空空，行走仙途，怎能没有一器傍身哪？你背上背着一把铁剑，为何不拿来御敌呢？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 441,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "攻守同样重要，道友战斗时若能身着护具，想必能增添不少胜算。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 477,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "道友去{color=#d0380a}逸风城宝器轩{/color}看看吧，那边法器不少，可以去挑几件趁手的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 478,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 442,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "我观道友你战斗时两手空空，行走仙途，怎能没有一器傍身哪？你背上背着一把铁剑，为何不拿来御敌呢？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 481,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "道友去{color=#d0380a}逸风城宝器轩{/color}看看吧，那边法器不少，可以去挑几件趁手的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 480,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 479,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 482,
+          "CmdType": "Fungus.CheckPlayerItem"
+        },
+        {
+          "ItemID": 483,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == False"
+        },
+        {
+          "ItemID": 485,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "攻守同样重要，道友战斗时若能身着护具，想必能增添不少胜算。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 486,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "道友去{color=#d0380a}逸风城宝器轩{/color}看看吧，那边法器不少，可以去挑几件趁手的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 449,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 484,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 451,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "修士战斗皆以修为悟道为根本，功法神通为依仗，法器丹药为助力。\n",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 452,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "如果万事俱备，却还不免失败，这可能是{color=#d0380a}搭配运用{/color}出了问题，可以多多留心，多多思考，必能有所精进。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 453,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "期待道友以后的表现，你在台下好好休息便是，在下先失陪了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 349,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "343(观赛 年份判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 345,
+      "Name": "公孙季",
+      "Description": "公孙季",
+      "Position": "(-2226.983,-1048.85)",
+      "Commands": [
+        {
+          "ItemID": 398,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "在众人兴奋的呐喊声中，最后一场很快就到了...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 402,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1131,
+          "AvatarBindKey": "",
+          "StoryText": "下面开始本届英杰会决赛的比试，公孙公子，请上台。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 393,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "沸腾的人群突然安静了下来，只见一身着白袍的俊朗公子，手摇折\r扇，缓步走上台来，面带笑意地看着对方。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 396,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "阵修，有意思...你得设法结交一二，以后说不定有什么用处。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 395,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 616,
+          "AvatarBindKey": "",
+          "StoryText": "在下公孙季，初次见面，还请道友赐教。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 392,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "白袍公子一收折扇，向对方拱手施礼，举手投足儒雅至极，仙风道骨\r。对面嘿嘿一笑，二话不说便掐诀施法，御器直攻而来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 391,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见公孙公子面不改色，纸扇轻摇之间，各种奇妙的阵法便驱动起来，\r环环相扣，生生不息，精妙无穷。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 390,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "对手偷袭不成，反而身陷阵法，躲避不及，不禁冷汗满额，而公孙公子只是淡然地在阵眼位置微笑着，可谓以静制动，以逸待劳。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 389,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "随着几个落石正中身体，那修士顿时失去平衡，直直向地面坠去，只\r见公孙季轻挥纸扇，用灵力将其托举，轻轻扶到地上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 388,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "那修士狼狈地站稳，羞愧地讪笑着，深施一礼，灰头土脸地离场了。伴随着观众\r的狂欢声与喝彩声，升仙台管事恭敬地将筑基丹奉上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 387,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "公孙季向观众们拱了拱手，向管事施了一礼，将筑基丹收入囊中。随后纸扇轻摇，微微一笑，向兴奋的观众们徐徐说道。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 394,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 616,
+          "AvatarBindKey": "",
+          "StoryText": "在下公孙季，我云汐城与公孙家如今正广纳贤才，若有青年才\r俊，随时可来我云汐城之中寻找机缘。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 457,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "有意思，有机会去{color=#d0380a}云汐城{/color}游历一二，就是不知道这位公孙公子口中的机缘，究竟是什么，所以还是得小心为妙。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 460,
+          "CmdType": "Fungus.AddTask"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

@@ -1,0 +1,589 @@
+{
+  "Name": "Talk8118",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 169,
+      "Name": "切磋前",
+      "Description": "切磋前",
+      "Position": "(-2429.725,-935.3911)",
+      "Commands": [
+        {
+          "ItemID": 214,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 174,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "不多时，一个巨坑赫然出现在你眼前，几棵不知生长了多久的树木残骸凌乱地倒在巨坑外围，其他的也不知是在战斗中被掀飞了出去，还是在余波中被绞成了齑粉。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 175,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "巨坑正中间则是一头约莫筑基后期的推山兽，与一位身形高大的修士。此人正用不亚于推山兽的强壮臂膀与后者贴身战斗。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 176,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "眼见有人靠近，他似乎是对推山兽失去了兴趣，不再与之硬碰硬战斗，而是一个错身躲开攻击，然后连续三道踢击命中推山兽要害之上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 177,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "那巨兽只来得及发出一声悲鸣，而后便倒在坑中，溅起一圈黄土。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 178,
+          "CmdType": "CmdGetPlayerBigLevel"
+        },
+        {
+          "ItemID": 184,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 179,
+          "CmdType": "Fungus.If",
+          "Condition": "TmpValue == 3"
+        },
+        {
+          "ItemID": 182,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "见过前辈。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 180,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 183,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "原来是{FirstName}道友，当年英杰会上道友的英姿让我回味至今啊哈哈。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 181,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 185,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "原来是{FirstName}道友。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 186,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 187,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "你们四大家族的少主难道都对烤肉情有独钟么？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 188,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "烤肉？什么烤肉？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 189,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "难道你不是因为馋烤肉才来猎杀推山兽的？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 190,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不是。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 191,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "那你是一时兴起要回味曾今的美味来猎杀推山兽的？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 192,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不是。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 193,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "那...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 194,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "但未等你提出第三个问题，百里奇已经急不可耐地打断了你。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 195,
+          "CmdType": "Fungus.If",
+          "Condition": "TmpValue == 3"
+        },
+        {
+          "ItemID": 196,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "都什么奇奇怪怪的，既然今天恰好遇到{FirstName}前辈，还请前辈指点一番。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 197,
+          "CmdType": "Fungus.Menu",
+          "Text": "我还有事，下次吧",
+          "TargetBlockID": "this:170(拒绝切磋)"
+        },
+        {
+          "ItemID": 198,
+          "CmdType": "Fungus.Menu",
+          "Text": "也好，进招吧",
+          "TargetBlockID": "this:171(接受切磋)"
+        },
+        {
+          "ItemID": 199,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 200,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "都什么奇奇怪怪的，既然今天恰好遇到{FirstName}道友，不如来切磋一番吧。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 201,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不等你拒绝，百里奇已是欺身抢攻而来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 208,
+          "CmdType": "Fungus.SetSTalk"
+        },
+        {
+          "ItemID": 207,
+          "CmdType": "Fungus.StartFight"
+        }
+      ]
+    },
+    {
+      "ItemID": 204,
+      "Name": "切磋失败",
+      "Description": "切磋失败",
+      "Position": "(-2239.1,-1032.266)",
+      "Commands": [
+        {
+          "ItemID": 217,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.If",
+          "Condition": "TmpValue == 3"
+        },
+        {
+          "ItemID": 304,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "前辈放水可就没意思了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 298,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TmpValue == 2"
+        },
+        {
+          "ItemID": 305,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{FirstName}道友还是少惦记那什么烤肉，多多修炼为好。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 299,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 306,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{FirstName}道友实力对于炼气修士已经很不错了，但还是少惦记那什么烤肉，多多修炼为好。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 300,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 308,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "百里奇虽还未满足于刚才的切磋，但你也不想和他再打过，便各自分头离去了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 309,
+          "CmdType": "Fungus.AddHaoGanDu"
+        }
+      ]
+    },
+    {
+      "ItemID": 160,
+      "Name": "不前往",
+      "Description": "不前往",
+      "Position": "(-2625.037,-1033.828)",
+      "Commands": [
+        {
+          "ItemID": 211,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 212,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 170,
+      "Name": "拒绝切磋",
+      "Description": "拒绝切磋",
+      "Position": "(-2621.913,-935.3911)",
+      "Commands": [
+        {
+          "ItemID": 202,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "百里奇一脸失望，但也不敢多说什么，只得看着你离去。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 210,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 213,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    },
+    {
+      "ItemID": 203,
+      "Name": "切磋胜利",
+      "Description": "切磋胜利",
+      "Position": "(-2050.037,-1122.891)",
+      "Commands": [
+        {
+          "ItemID": 216,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.If",
+          "Condition": "TmpValue == 3"
+        },
+        {
+          "ItemID": 301,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "多谢前辈指点，过瘾，过瘾！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TmpValue == 2"
+        },
+        {
+          "ItemID": 302,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "不错不错，与{FirstName}道友一战真是过瘾！",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 303,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "npcid",
+          "StoryText": "{FirstName}道友真是不简单啊。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 307,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "百里奇已是满足于刚才的切磋，你也不想再提烤肉的事，便各自分头离去了。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 310,
+          "CmdType": "Fungus.AddHaoGanDu"
+        }
+      ]
+    },
+    {
+      "ItemID": 158,
+      "Name": "听到声音",
+      "Description": "听到声音",
+      "Position": "(-2431.287,-1032.266)",
+      "Commands": [
+        {
+          "ItemID": 168,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "深林之中，一声震天的怒吼从远处传来，随后是一声修士的咆哮，声音如同狂风般席卷而来，稳稳的盖住了怒吼声。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 172,
+          "CmdType": "Fungus.Menu",
+          "Text": "多一事不如少一事",
+          "TargetBlockID": "this:160(不前往)"
+        },
+        {
+          "ItemID": 173,
+          "CmdType": "Fungus.Menu",
+          "Text": "过去看看",
+          "TargetBlockID": "this:169(切磋前)"
+        }
+      ]
+    },
+    {
+      "ItemID": 159,
+      "Name": "切磋后",
+      "Description": "切磋后",
+      "Position": "(-2239.1,-1122.891)",
+      "Commands": [
+        {
+          "ItemID": 292,
+          "CmdType": "CmdGetPlayerBigLevel"
+        },
+        {
+          "ItemID": 286,
+          "CmdType": "Fungus.If",
+          "Condition": "StaticTalk == (0.0, 2.0)"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "203(切磋胜利)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 290,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "204(切磋失败)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 171,
+      "Name": "接受切磋",
+      "Description": "接受切磋",
+      "Position": "(-2429.725,-838.5161)",
+      "Commands": [
+        {
+          "ItemID": 205,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "得到你的允肯后，百里奇急不可耐地欺身进攻。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 209,
+          "CmdType": "Fungus.SetSTalk"
+        },
+        {
+          "ItemID": 206,
+          "CmdType": "Fungus.StartFight"
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2429.764,-1124.337)",
+      "Commands": [
+        {
+          "ItemID": 162,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 156,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 157,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 163,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 161,
+          "CmdType": "CmdGetPlayerTalkToNPCReplace"
+        },
+        {
+          "ItemID": 155,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 164,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 165,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "158(听到声音)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 167,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "159(切磋后)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}
