@@ -1,0 +1,37 @@
+{
+	"id":2906,
+	"ItemIcon":2800,
+	"maxNum":1,
+	"name":"凤血珠",
+	"FaBaoType":"",
+	"Affix":[],
+	"TuJianType":0,
+	"ShopType":9,
+	"ItemFlag":[
+		12005,
+		3,
+		304
+	],
+	"WuWeiType":0,
+	"ShuXingType":0,
+	"type":2,
+	"quality":4,
+	"typePinJie":3,
+	"StuTime":0,
+	"seid":[
+		1
+	],
+	"vagueType":0,
+	"price":733200,
+	"desc":"生命值低于30%时，增加20%技能伤害。",
+	"desc2":"暂略。",
+	"CanSale":0,
+	"DanDu":0,
+	"CanUse":0,
+	"NPCCanUse":0,
+	"yaoZhi1":0,
+	"yaoZhi2":0,
+	"yaoZhi3":0,
+	"ShuaXin":0,
+	"wuDao":[]
+}

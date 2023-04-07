@@ -1,0 +1,20 @@
+{
+	"buffid":9397,
+	"BuffIcon":0,
+	"skillEffect":"fx_Summoner_o",
+	"name":"四象之力·朱雀",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		94
+	],
+	"descr":"回合开始时，恢复已损失血量的30%。",
+	"trigger":2,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":0
+}

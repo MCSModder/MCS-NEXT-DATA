@@ -1845,7 +1845,7 @@
 		"JingJie":3,
 		"XingGe":1,
 		"HaoGanDu":8,
-		"OtherTalk":"原来是{FirstName}{xiaoyou}，好久不见，近来可好？"
+		"OtherTalk":"原来是{FirstName}{daoyou}，好久不见，近来可好？"
 	},
 	"265":{
 		"id":265,
@@ -1901,7 +1901,7 @@
 		"JingJie":3,
 		"XingGe":2,
 		"HaoGanDu":8,
-		"OtherTalk":"原来是{FirstName}{xiaoyou}，有什么需要帮忙的？我自当鼎力相助。"
+		"OtherTalk":"原来是{FirstName}{daoyou}，有什么需要帮忙的？我自当鼎力相助。"
 	},
 	"273":{
 		"id":273,
@@ -1957,7 +1957,7 @@
 		"JingJie":3,
 		"XingGe":3,
 		"HaoGanDu":8,
-		"OtherTalk":"仙途漫漫何必匆匆，{FirstName}{xiaoyou}不如坐下共饮一壶。"
+		"OtherTalk":"仙途漫漫何必匆匆，{FirstName}{daoyou}不如坐下共饮一壶。"
 	},
 	"281":{
 		"id":281,
@@ -2013,7 +2013,7 @@
 		"JingJie":3,
 		"XingGe":4,
 		"HaoGanDu":8,
-		"OtherTalk":"哈哈哈，{FirstName}{xiaoyou}，上次一别后，我可是一直在期待与你再会呢。"
+		"OtherTalk":"哈哈哈，{FirstName}{daoyou}，上次一别后，我可是一直在期待与你再会呢。"
 	},
 	"289":{
 		"id":289,
@@ -2069,7 +2069,7 @@
 		"JingJie":3,
 		"XingGe":5,
 		"HaoGanDu":8,
-		"OtherTalk":"啊，{FirstName}{xiaoyou}，我刚还在想会不会遇到你。不，不是你想的那样！！"
+		"OtherTalk":"啊，{FirstName}{daoyou}，我刚还在想会不会遇到你。不，不是你想的那样！！"
 	},
 	"297":{
 		"id":297,
@@ -2125,7 +2125,7 @@
 		"JingJie":3,
 		"XingGe":6,
 		"HaoGanDu":8,
-		"OtherTalk":"原来是{FirstName}{xiaoyou}，我还寻思着这么久未联系，你该不会是忘了我了。"
+		"OtherTalk":"原来是{FirstName}{daoyou}，我还寻思着这么久未联系，你该不会是忘了我了。"
 	},
 	"305":{
 		"id":305,
@@ -2181,7 +2181,7 @@
 		"JingJie":3,
 		"XingGe":7,
 		"HaoGanDu":8,
-		"OtherTalk":"{FirstName}{xiaoyou}...有事？"
+		"OtherTalk":"{FirstName}{daoyou}...有事？"
 	},
 	"313":{
 		"id":313,
@@ -2237,7 +2237,7 @@
 		"JingJie":3,
 		"XingGe":8,
 		"HaoGanDu":8,
-		"OtherTalk":"原来是{FirstName}{xiaoyou}，说吧，找我何事？"
+		"OtherTalk":"原来是{FirstName}{daoyou}，说吧，找我何事？"
 	},
 	"321":{
 		"id":321,
@@ -2293,7 +2293,7 @@
 		"JingJie":3,
 		"XingGe":11,
 		"HaoGanDu":8,
-		"OtherTalk":"此间岁月静好，{FirstName}{xiaoyou}别来无恙？"
+		"OtherTalk":"此间岁月静好，{FirstName}{daoyou}别来无恙？"
 	},
 	"329":{
 		"id":329,
@@ -2349,7 +2349,7 @@
 		"JingJie":3,
 		"XingGe":12,
 		"HaoGanDu":8,
-		"OtherTalk":"原来是{FirstName}{xiaoyou}，有什么需要帮忙的？我自当鼎力相助。"
+		"OtherTalk":"原来是{FirstName}{daoyou}，有什么需要帮忙的？我自当鼎力相助。"
 	},
 	"337":{
 		"id":337,
@@ -2405,7 +2405,7 @@
 		"JingJie":3,
 		"XingGe":13,
 		"HaoGanDu":8,
-		"OtherTalk":"仙途漫漫何必匆匆，{FirstName}{xiaoyou}不如坐下共饮一壶。"
+		"OtherTalk":"仙途漫漫何必匆匆，{FirstName}{daoyou}不如坐下共饮一壶。"
 	},
 	"345":{
 		"id":345,
@@ -2461,7 +2461,7 @@
 		"JingJie":3,
 		"XingGe":14,
 		"HaoGanDu":8,
-		"OtherTalk":"{xiaoyou}何事找我？"
+		"OtherTalk":"{daoyou}何事找我？"
 	},
 	"353":{
 		"id":353,
@@ -2517,7 +2517,7 @@
 		"JingJie":3,
 		"XingGe":15,
 		"HaoGanDu":8,
-		"OtherTalk":"{xiaoyou}上次送的物事不错，我很是喜欢，还有么？"
+		"OtherTalk":"{daoyou}上次送的物事不错，我很是喜欢，还有么？"
 	},
 	"361":{
 		"id":361,
@@ -2573,7 +2573,7 @@
 		"JingJie":3,
 		"XingGe":16,
 		"HaoGanDu":8,
-		"OtherTalk":"{xiaoyou}何事？"
+		"OtherTalk":"{daoyou}何事？"
 	},
 	"369":{
 		"id":369,
@@ -2629,7 +2629,7 @@
 		"JingJie":3,
 		"XingGe":17,
 		"HaoGanDu":8,
-		"OtherTalk":"{FirstName}{xiaoyou}...有事？"
+		"OtherTalk":"{FirstName}{daoyou}...有事？"
 	},
 	"377":{
 		"id":377,
@@ -2685,6 +2685,6 @@
 		"JingJie":3,
 		"XingGe":18,
 		"HaoGanDu":8,
-		"OtherTalk":"原来是{FirstName}{xiaoyou}，说吧，找我何事？"
+		"OtherTalk":"原来是{FirstName}{daoyou}，说吧，找我何事？"
 	}
 }

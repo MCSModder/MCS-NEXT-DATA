@@ -97,7 +97,7 @@
       "ItemID": 456,
       "Name": "剧情",
       "Description": "剧情",
-      "Position": "(-2428.917,-1045.167)",
+      "Position": "(-2428.917,-1046.386)",
       "Commands": [
         {
           "ItemID": 457,
@@ -257,7 +257,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 0,
           "AvatarBindKey": "NPC1",
-          "StoryText": "你若是答应，我我全部身家双手奉上，并用麒麟血为你铭刻灵纹。",
+          "StoryText": "你若是答应，我全部身家双手奉上，并用麒麟血为你铭刻灵纹。",
           "Description": "",
           "AvatarIDSetType": "FungusVariable"
         },

@@ -371,22 +371,6 @@
       "Position": "(-3154.52,-1300.323)",
       "Commands": [
         {
-          "ItemID": 1994,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
-          "ItemID": 1995,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
-          "ItemID": 1996,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
-          "ItemID": 1997,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
           "ItemID": 1147,
           "CmdType": "Fungus.SetVariable"
         },
@@ -545,30 +529,6 @@
           "TargetBlockID": "this:398(打听)"
         },
         {
-          "ItemID": 1998,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
-          "ItemID": 1999,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
-          "ItemID": 2000,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
-          "ItemID": 2001,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
-          "ItemID": 2002,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
-          "ItemID": 2003,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextMenu"
-        },
-        {
           "ItemID": 396,
           "CmdType": "Fungus.Menu",
           "Text": "没有其它事了",
@@ -626,10 +586,6 @@
           "StoryText": "{$TmpTalkString}",
           "Description": "",
           "AvatarIDSetType": "FungusVariable"
-        },
-        {
-          "ItemID": 2004,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
         },
         {
           "ItemID": 376,
@@ -6149,10 +6105,6 @@
           "CmdType": "Fungus.End"
         },
         {
-          "ItemID": 2005,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
-        },
-        {
           "ItemID": 1560,
           "CmdType": "CmdStartShuangXiu"
         },
@@ -6236,10 +6188,6 @@
         {
           "ItemID": 1573,
           "CmdType": "Fungus.SetSTalk"
-        },
-        {
-          "ItemID": 2006,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
         },
         {
           "ItemID": 1574,
@@ -6358,10 +6306,6 @@
         {
           "ItemID": 1746,
           "CmdType": "Fungus.SpawnObject"
-        },
-        {
-          "ItemID": 2007,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
         }
       ]
     },
@@ -6710,10 +6654,6 @@
       "Position": "(-2873.145,-1301.408)",
       "Commands": [
         {
-          "ItemID": 2008,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
-        },
-        {
           "ItemID": 1812,
           "CmdType": "CmdGetOtherJiaoHu"
         },
@@ -6725,10 +6665,6 @@
           "StoryText": "{$TmpTalkString}",
           "Description": "",
           "AvatarIDSetType": "FungusVariable"
-        },
-        {
-          "ItemID": 2009,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
         },
         {
           "ItemID": 1814,

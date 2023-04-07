@@ -119,11 +119,11 @@
         {
           "ItemID": 442,
           "CmdType": "Fungus.Say",
-          "AvatarIDInt": 1,
+          "AvatarIDInt": 0,
           "AvatarBindKey": "NPCxuangu2",
           "StoryText": "说罢玄骨携带着一团精血破开空间，转身离开。",
           "Description": "",
-          "AvatarIDSetType": "FungusVariable"
+          "AvatarIDSetType": "Normal"
         },
         {
           "ItemID": 444,

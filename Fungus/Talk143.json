@@ -54,7 +54,7 @@
       "ItemID": 101,
       "Name": "Splash",
       "Description": "Splash",
-      "Position": "(-2797.441,-1306.073)",
+      "Position": "(-2798.441,-1369.073)",
       "Commands": [
         {
           "ItemID": 279,
@@ -68,7 +68,7 @@
           "ItemID": 86,
           "CmdType": "Fungus.Call",
           "targetFlowchartName": null,
-          "targetBlockID": "280(境界判断)",
+          "targetBlockID": "1116(特殊剧情判断)",
           "startLabel": "",
           "startIndex": 0,
           "callMode": 0
@@ -640,6 +640,40 @@
           "CmdType": "Fungus.Call",
           "targetFlowchartName": null,
           "targetBlockID": "537(猎魔试炼首次判断)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 1116,
+      "Name": "特殊剧情判断",
+      "Description": "特殊剧情判断",
+      "Position": "(-2798.619,-1302.64)",
+      "Commands": [
+        {
+          "ItemID": 1117,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 1118,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 2"
+        },
+        {
+          "ItemID": 1119,
+          "CmdType": "Fungus.SpawnObject"
+        },
+        {
+          "ItemID": 1120,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 1121,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "280(境界判断)",
           "startLabel": "",
           "startIndex": 0,
           "callMode": 0

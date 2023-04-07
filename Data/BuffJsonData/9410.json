@@ -1,0 +1,20 @@
+{
+	"buffid":9410,
+	"BuffIcon":0,
+	"skillEffect":"fx_Summoner_o",
+	"name":"乙木剑意·攻",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		215
+	],
+	"descr":"回合开始时，消耗所有【护罩】，每消耗【护罩】*6获得【剑气】*1",
+	"trigger":48,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

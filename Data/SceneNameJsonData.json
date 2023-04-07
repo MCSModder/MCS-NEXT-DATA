@@ -2919,6 +2919,16 @@
 		"OutsideSceneName":"",
 		"OutsideScenePos":0
 	},
+	"F69":{
+		"id":"F69",
+		"EventName":"星河洞府",
+		"MapType":10,
+		"MoneyType":1,
+		"MapName":"星河洞府",
+		"HighlightID":0,
+		"OutsideSceneName":"",
+		"OutsideScenePos":0
+	},
 	"F70":{
 		"id":"F70",
 		"EventName":"海底遗迹",
@@ -3125,6 +3135,46 @@
 		"MapType":10,
 		"MoneyType":3,
 		"MapName":"前人洞府",
+		"HighlightID":0,
+		"OutsideSceneName":"",
+		"OutsideScenePos":0
+	},
+	"F182":{
+		"id":"F182",
+		"EventName":"幻阳境",
+		"MapType":10,
+		"MoneyType":1,
+		"MapName":"幻阳境",
+		"HighlightID":0,
+		"OutsideSceneName":"",
+		"OutsideScenePos":0
+	},
+	"F183":{
+		"id":"F183",
+		"EventName":"幻阴境",
+		"MapType":10,
+		"MoneyType":1,
+		"MapName":"幻阴境",
+		"HighlightID":0,
+		"OutsideSceneName":"",
+		"OutsideScenePos":0
+	},
+	"F184":{
+		"id":"F184",
+		"EventName":"太极殿",
+		"MapType":10,
+		"MoneyType":1,
+		"MapName":"太极殿",
+		"HighlightID":0,
+		"OutsideSceneName":"",
+		"OutsideScenePos":0
+	},
+	"F185":{
+		"id":"F185",
+		"EventName":"阴阳域",
+		"MapType":10,
+		"MoneyType":1,
+		"MapName":"阴阳域",
 		"HighlightID":0,
 		"OutsideSceneName":"",
 		"OutsideScenePos":0

@@ -604,14 +604,6 @@
       "Position": "(-2800.46,-1257.33)",
       "Commands": [
         {
-          "ItemID": 1827,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
-        },
-        {
-          "ItemID": 1828,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
-        },
-        {
           "ItemID": 1451,
           "CmdType": "Fungus.If",
           "Condition": "FavorLevel >= 7"

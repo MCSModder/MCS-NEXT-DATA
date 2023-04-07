@@ -455,10 +455,6 @@
           "Condition": "TempValue == 0"
         },
         {
-          "ItemID": 759,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
-        },
-        {
           "ItemID": 621,
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 0,
@@ -694,10 +690,6 @@
       "Description": "低声望",
       "Position": "(-2868.618,-1113.455)",
       "Commands": [
-        {
-          "ItemID": 760,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
-        },
         {
           "ItemID": 610,
           "CmdType": "Fungus.GetStaticValue"

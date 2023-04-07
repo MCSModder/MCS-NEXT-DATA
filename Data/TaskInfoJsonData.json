@@ -2142,5 +2142,45 @@
 		"Desc":"与百里奇前往广陵城码头一探究竟。",
 		"mapIndex":6,
 		"IsFinal":0
+	},
+	"272":{
+		"id":272,
+		"TaskID":126,
+		"TaskIndex":1,
+		"Desc":"前往风雷谷神秘洞府",
+		"mapIndex":0,
+		"IsFinal":0
+	},
+	"273":{
+		"id":273,
+		"TaskID":126,
+		"TaskIndex":2,
+		"Desc":"前往宗门大殿",
+		"mapIndex":0,
+		"IsFinal":0
+	},
+	"274":{
+		"id":274,
+		"TaskID":126,
+		"TaskIndex":3,
+		"Desc":"前往宗门广场",
+		"mapIndex":0,
+		"IsFinal":0
+	},
+	"275":{
+		"id":275,
+		"TaskID":126,
+		"TaskIndex":4,
+		"Desc":"再次前往风雷谷神秘洞府",
+		"mapIndex":0,
+		"IsFinal":0
+	},
+	"276":{
+		"id":276,
+		"TaskID":126,
+		"TaskIndex":5,
+		"Desc":"探索神秘洞府",
+		"mapIndex":0,
+		"IsFinal":0
 	}
 }

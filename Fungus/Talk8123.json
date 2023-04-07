@@ -1,0 +1,297 @@
+{
+  "Name": "Talk8123",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "158(广场剧情)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 169,
+      "Name": "注入神识",
+      "Description": "注入神识",
+      "Position": "(-2223.475,-1033.829)",
+      "Commands": [
+        {
+          "ItemID": 223,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你再次尝试用神识读取玉简中的记录，果然没有收获。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 224,
+          "CmdType": "Fungus.Menu",
+          "Text": "注入灵力",
+          "TargetBlockID": "this:171(注入灵力)"
+        }
+      ]
+    },
+    {
+      "ItemID": 158,
+      "Name": "广场剧情",
+      "Description": "广场剧情",
+      "Position": "(-2429.725,-1116.641)",
+      "Commands": [
+        {
+          "ItemID": 168,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "宗门广场上，一群炼气期的弟子正向大师姐请教修炼事宜。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 243,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "见到你径直走了过来，似乎是以为你有什么吩咐，她们向你打完招呼后站在原地等你开口。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "但你的注意力完全放在小剑阵上，只是略微点了点头便不在理会他们。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 245,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "（这小剑阵似乎处于沉寂状态，光是这么看着也不知道能不能有点进展...）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 246,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "（难道我还得去找掌门要个权限激活剑阵么？）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 247,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "（也不是不行...但解释起来挺麻烦的，不如我先给玉简注入灵力试试...万一有了变化也就说是演练神通时激起了共鸣，蒙混一下即可。）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 248,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你从储物袋中拿出玉简，慢慢地向它注入水灵气。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 249,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "随着你提供的灵气越来越多，玉简再次放出淡淡的光芒。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 250,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "与之前不同，这玉简的光芒时而平静柔和，时而如怒涛翻涌，广场上的小剑阵也与之共鸣，在上空不断的舞动着。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你看着剑阵的轨迹入了神，竟短暂地进入顿悟状态。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "静则静矣，如柔水容万物；动似怒涛，一泄尤千里...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 253,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "静水无波凝晓雾，否极泰来星河舞...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "等你回过神来，附近的弟子们虽不知道你在念叨些什么，但都一脸崇拜的看向你。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "而玉简也不知在何时耗尽了你输入的灵气，重新变成之前的样子，只是原本记录的符号竟然显现在了外壳上。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "（果然有了变化，也不知行不行得通。）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "在弟子们的注目礼下，你匆匆离开了广场，也未曾注意大师姐当即借这个机会激励了她们一番。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.SetTask"
+        }
+      ]
+    },
+    {
+      "ItemID": 171,
+      "Name": "注入灵力",
+      "Description": "注入灵力",
+      "Position": "(-2431.288,-933.8286)",
+      "Commands": [
+        {
+          "ItemID": 205,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "这玉简起初并没有什么反应。当你注入足够的水灵气后，终于是释放出淡淡的光芒。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 225,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "在你试探多次后发现，似乎只要注入的水灵气足够，就可以接触它屏蔽神识的能力，进而读取其中隐藏的内容。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 226,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "唔，只有一个符号...但这玉简在引领我前往某个地方...好像是门派后山。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 227,
+          "CmdType": "Fungus.CheckSkill"
+        },
+        {
+          "ItemID": 228,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 229,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这符号我似乎见过...对，否极泰来的玉简中曾出现过。当时我还在想这符号与神通有什么关联。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 230,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 231,
+          "CmdType": "Fungus.ItemCheck"
+        },
+        {
+          "ItemID": 232,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 233,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这符号我似乎见过...对，否极泰来的玉简中曾出现过。当时我还在想这符号与神通有什么关联。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 234,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 235,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

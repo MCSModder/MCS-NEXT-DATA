@@ -288,14 +288,6 @@
       "Position": "(-2664.715,-869.6532)",
       "Commands": [
         {
-          "ItemID": 259,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
-        },
-        {
-          "ItemID": 260,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
-        },
-        {
           "ItemID": 207,
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 0,

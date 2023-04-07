@@ -467,10 +467,6 @@
         {
           "ItemID": 517,
           "CmdType": "Fungus.SetTask"
-        },
-        {
-          "ItemID": 629,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
         }
       ]
     },
@@ -929,10 +925,6 @@
         {
           "ItemID": 520,
           "CmdType": "Fungus.SetTask"
-        },
-        {
-          "ItemID": 630,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
         }
       ]
     }

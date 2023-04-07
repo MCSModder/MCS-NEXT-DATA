@@ -19,5 +19,40 @@
 		"value1":4,
 		"panduan":"=",
 		"value2":1
+	},
+	"9405":{
+		"id":9405,
+		"target":1,
+		"value1":4,
+		"panduan":"=",
+		"value2":1
+	},
+	"9406":{
+		"id":9406,
+		"target":1,
+		"value1":4,
+		"panduan":"=",
+		"value2":1
+	},
+	"9407":{
+		"id":9407,
+		"target":1,
+		"value1":4,
+		"panduan":"=",
+		"value2":1
+	},
+	"9408":{
+		"id":9408,
+		"target":1,
+		"value1":4,
+		"panduan":"=",
+		"value2":1
+	},
+	"9409":{
+		"id":9409,
+		"target":1,
+		"value1":4,
+		"panduan":"=",
+		"value2":1
 	}
 }

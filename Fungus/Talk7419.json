@@ -554,7 +554,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 0,
           "AvatarBindKey": "",
-          "StoryText": "环视一周，场上的宁州化神们正尽力拖住血剑功和天魔道的化神强者。虽没有拦住他的信心，但此时此刻，你又怎能坐视不理。",
+          "StoryText": "环视一周，场上的宁州化神们正尽力拖住血剑宫和天魔道的化神强者。虽没有拦住他的信心，但此时此刻，你又怎能坐视不理。",
           "Description": "",
           "AvatarIDSetType": "Normal"
         },
@@ -567,7 +567,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 0,
           "AvatarBindKey": "",
-          "StoryText": "环视一周，场上的宁州化神们正尽力拖住血剑功和天魔道的化神强者。与血河战斗时翻涌的气血尚未平复，但此时此刻，你又怎能坐视不理。",
+          "StoryText": "环视一周，场上的宁州化神们正尽力拖住血剑宫和天魔道的化神强者。与血河战斗时翻涌的气血尚未平复，但此时此刻，你又怎能坐视不理。",
           "Description": "",
           "AvatarIDSetType": "Normal"
         },

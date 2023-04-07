@@ -1,0 +1,399 @@
+{
+  "Name": "Talk8122",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定任务进度)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 259,
+      "Name": "化神预留",
+      "Description": "化神预留",
+      "Position": "(-2195.933,-1034.983)",
+      "Commands": []
+    },
+    {
+      "ItemID": 169,
+      "Name": "注入神识",
+      "Description": "注入神识",
+      "Position": "(-2192.44,-935.5528)",
+      "Commands": [
+        {
+          "ItemID": 223,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你再次尝试用神识读取玉简中的记录，果然没有收获。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 224,
+          "CmdType": "Fungus.Menu",
+          "Text": "注入灵力",
+          "TargetBlockID": "this:171(普通剧情)"
+        }
+      ]
+    },
+    {
+      "ItemID": 268,
+      "Name": "否极泰来",
+      "Description": "否极泰来",
+      "Position": "(-2352.829,-843.6034)",
+      "Commands": [
+        {
+          "ItemID": 275,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "掌门可知这否极泰来是由哪位前辈所创？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 276,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "嗯...据秘典中记载，这神通是开派祖师星河剑仙所创。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 277,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "关于祖师还有什么记载么？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 278,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "这本是门中秘辛，但{FirstName}{shixiong}作为门中长老，告诉你也无妨。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "祖师留下的除门中数种天阶神通功法外，还有宗门广场上的小剑阵。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "那剑阵的名号已经佚失，但据传门中的星河剑阵以及护宗大阵皆是后来者观摩小剑阵，然后有感而推演得来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "但万年前的大战后，不知是佚失了某种驱动技巧还是后来的门中弟子资质太差，再未有人能从小剑阵中悟出什么。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 282,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "原来如此。关于祖师还有更多信息么？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 283,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "秘典上能找到的就这么多了，更多的不是在变动中遗失就是被销毁...连那套剑阵也...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 284,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "多谢掌门赐教。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 286,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.SetTask"
+        }
+      ]
+    },
+    {
+      "ItemID": 269,
+      "Name": "符号的意义",
+      "Description": "符号的意义",
+      "Position": "(-2499.381,-843.6034)",
+      "Commands": [
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "请问是否见过这个符号？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 273,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "这个...的确见过，我没记错的话，它应该在记载否极泰来的玉简中出现过。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 274,
+          "CmdType": "Fungus.Menu",
+          "Text": "询问否极泰来的来历",
+          "TargetBlockID": "this:268(否极泰来)"
+        }
+      ]
+    },
+    {
+      "ItemID": 158,
+      "Name": "传送npc",
+      "Description": "传送npc",
+      "Position": "(-2426.115,-1033.828)",
+      "Commands": [
+        {
+          "ItemID": 247,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 248,
+          "CmdType": "CallZhangMenToThis"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "171(普通剧情)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie < 12"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "259(化神预留)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 171,
+      "Name": "普通剧情",
+      "Description": "普通剧情",
+      "Position": "(-2424.391,-937.2769)",
+      "Commands": [
+        {
+          "ItemID": 205,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "大殿。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "掌门正好在和门中修士交代着什么。\n似乎是察觉到你有事找她，她向你点了点头，示意你稍等一会。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "不多时，掌门便结束了和那位修士的对话，这才和你打招呼。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "{FirstName}长老，不知有何要事？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 265,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "要事倒谈不上，只是有几个小问题想请掌门解惑。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 266,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "愿闻其详。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 227,
+          "CmdType": "Fungus.CheckSkill"
+        },
+        {
+          "ItemID": 228,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.Menu",
+          "Text": "询问否极泰来的来历",
+          "TargetBlockID": "this:268(否极泰来)"
+        },
+        {
+          "ItemID": 230,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 231,
+          "CmdType": "Fungus.ItemCheck"
+        },
+        {
+          "ItemID": 232,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 270,
+          "CmdType": "Fungus.Menu",
+          "Text": "询问否极泰来的来历",
+          "TargetBlockID": "this:268(否极泰来)"
+        },
+        {
+          "ItemID": 234,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 235,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.Menu",
+          "Text": "询问玉简中符号的意义",
+          "TargetBlockID": "this:269(符号的意义)"
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定任务进度",
+      "Description": "判定任务进度",
+      "Position": "(-2426.801,-1127.462)",
+      "Commands": [
+        {
+          "ItemID": 249,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 250,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.If",
+          "Condition": "Var1 == 4"
+        },
+        {
+          "ItemID": 253,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue < 2"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "158(传送npc)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.End"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

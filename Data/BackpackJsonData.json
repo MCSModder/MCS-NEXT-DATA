@@ -36454,6 +36454,152 @@
 	},
 	"2123":{
 		"id":2123,
+		"AvatrID":5933,
+		"BackpackName":"破界天尊",
+		"Type":0,
+		"quality":0,
+		"ItemID":[
+			8928,
+			8929
+		],
+		"randomNum":[
+			2,
+			2
+		],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2124":{
+		"id":2124,
+		"AvatrID":5934,
+		"BackpackName":"阳·青龙",
+		"Type":0,
+		"quality":0,
+		"ItemID":[
+			8837
+		],
+		"randomNum":[
+			1
+		],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2125":{
+		"id":2125,
+		"AvatrID":5935,
+		"BackpackName":"阳·朱雀",
+		"Type":0,
+		"quality":0,
+		"ItemID":[
+			8837
+		],
+		"randomNum":[
+			1
+		],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2126":{
+		"id":2126,
+		"AvatrID":5936,
+		"BackpackName":"阳·玄武",
+		"Type":0,
+		"quality":0,
+		"ItemID":[
+			8837
+		],
+		"randomNum":[
+			1
+		],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2127":{
+		"id":2127,
+		"AvatrID":5937,
+		"BackpackName":"地阴",
+		"Type":0,
+		"quality":0,
+		"ItemID":[
+			8843
+		],
+		"randomNum":[
+			1
+		],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2128":{
+		"id":2128,
+		"AvatrID":5938,
+		"BackpackName":"千机子",
+		"Type":0,
+		"quality":0,
+		"ItemID":[
+			8843
+		],
+		"randomNum":[
+			1
+		],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2129":{
+		"id":2129,
+		"AvatrID":5939,
+		"BackpackName":"剑灵",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2130":{
+		"id":2130,
+		"AvatrID":5940,
+		"BackpackName":"剑灵",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2131":{
+		"id":2131,
+		"AvatrID":5941,
+		"BackpackName":"剑灵",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2132":{
+		"id":2132,
+		"AvatrID":5942,
+		"BackpackName":"残影",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":1
+	},
+	"2133":{
+		"id":2133,
 		"AvatrID":9998,
 		"BackpackName":"白狐",
 		"Type":0,
@@ -36480,8 +36626,8 @@
 		"SellPercent":100,
 		"CanDrop":1
 	},
-	"2124":{
-		"id":2124,
+	"2134":{
+		"id":2134,
 		"AvatrID":9999,
 		"BackpackName":"雷劫",
 		"Type":0,
@@ -36492,8 +36638,8 @@
 		"SellPercent":100,
 		"CanDrop":1
 	},
-	"2125":{
-		"id":2125,
+	"2135":{
+		"id":2135,
 		"AvatrID":10000,
 		"BackpackName":"心魔",
 		"Type":1,
@@ -36506,8 +36652,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2126":{
-		"id":2126,
+	"2136":{
+		"id":2136,
 		"AvatrID":10010,
 		"BackpackName":"幻象",
 		"Type":0,
@@ -36518,8 +36664,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2127":{
-		"id":2127,
+	"2137":{
+		"id":2137,
 		"AvatrID":10100,
 		"BackpackName":"工具人",
 		"Type":0,
@@ -36530,8 +36676,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2128":{
-		"id":2128,
+	"2138":{
+		"id":2138,
 		"AvatrID":10101,
 		"BackpackName":"木谷上人1",
 		"Type":0,
@@ -36652,8 +36798,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2129":{
-		"id":2129,
+	"2139":{
+		"id":2139,
 		"AvatrID":10102,
 		"BackpackName":"木谷上人2",
 		"Type":0,
@@ -36800,8 +36946,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2130":{
-		"id":2130,
+	"2140":{
+		"id":2140,
 		"AvatrID":10103,
 		"BackpackName":"木谷上人3",
 		"Type":0,
@@ -36876,8 +37022,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2131":{
-		"id":2131,
+	"2141":{
+		"id":2141,
 		"AvatrID":10104,
 		"BackpackName":"木谷上人4",
 		"Type":0,
@@ -36952,8 +37098,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2132":{
-		"id":2132,
+	"2142":{
+		"id":2142,
 		"AvatrID":10105,
 		"BackpackName":"木谷上人5",
 		"Type":0,
@@ -37028,8 +37174,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2133":{
-		"id":2133,
+	"2143":{
+		"id":2143,
 		"AvatrID":10110,
 		"BackpackName":"韩老魔",
 		"Type":0,
@@ -37040,8 +37186,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2134":{
-		"id":2134,
+	"2144":{
+		"id":2144,
 		"AvatrID":10111,
 		"BackpackName":"姚开山",
 		"Type":0,
@@ -37052,8 +37198,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2135":{
-		"id":2135,
+	"2145":{
+		"id":2145,
 		"AvatrID":10112,
 		"BackpackName":"方源",
 		"Type":0,
@@ -37064,8 +37210,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2136":{
-		"id":2136,
+	"2146":{
+		"id":2146,
 		"AvatrID":10113,
 		"BackpackName":"程平安",
 		"Type":0,
@@ -37076,8 +37222,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2137":{
-		"id":2137,
+	"2147":{
+		"id":2147,
 		"AvatrID":10114,
 		"BackpackName":"唐三儿",
 		"Type":0,
@@ -37088,8 +37234,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2138":{
-		"id":2138,
+	"2148":{
+		"id":2148,
 		"AvatrID":10115,
 		"BackpackName":"马红俊",
 		"Type":0,
@@ -37100,8 +37246,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2139":{
-		"id":2139,
+	"2149":{
+		"id":2149,
 		"AvatrID":10116,
 		"BackpackName":"秦习习",
 		"Type":0,
@@ -37112,8 +37258,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2140":{
-		"id":2140,
+	"2150":{
+		"id":2150,
 		"AvatrID":10117,
 		"BackpackName":"林雷",
 		"Type":0,
@@ -37124,8 +37270,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2141":{
-		"id":2141,
+	"2151":{
+		"id":2151,
 		"AvatrID":10118,
 		"BackpackName":"倪旭欣",
 		"Type":0,
@@ -37136,8 +37282,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2142":{
-		"id":2142,
+	"2152":{
+		"id":2152,
 		"AvatrID":10119,
 		"BackpackName":"辰楠",
 		"Type":0,
@@ -37148,8 +37294,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2143":{
-		"id":2143,
+	"2153":{
+		"id":2153,
 		"AvatrID":10120,
 		"BackpackName":"林惊羽",
 		"Type":0,
@@ -37160,8 +37306,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2144":{
-		"id":2144,
+	"2154":{
+		"id":2154,
 		"AvatrID":10121,
 		"BackpackName":"叶凡",
 		"Type":0,
@@ -37172,8 +37318,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2145":{
-		"id":2145,
+	"2155":{
+		"id":2155,
 		"AvatrID":10122,
 		"BackpackName":"肖千绝",
 		"Type":0,
@@ -37184,8 +37330,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2146":{
-		"id":2146,
+	"2156":{
+		"id":2156,
 		"AvatrID":10123,
 		"BackpackName":"李青麟",
 		"Type":0,
@@ -37196,8 +37342,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2147":{
-		"id":2147,
+	"2157":{
+		"id":2157,
 		"AvatrID":10124,
 		"BackpackName":"焦飞",
 		"Type":0,
@@ -37208,8 +37354,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2148":{
-		"id":2148,
+	"2158":{
+		"id":2158,
 		"AvatrID":10125,
 		"BackpackName":"万剑一",
 		"Type":0,
@@ -37220,8 +37366,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2149":{
-		"id":2149,
+	"2159":{
+		"id":2159,
 		"AvatrID":10126,
 		"BackpackName":"万剑一",
 		"Type":0,
@@ -37232,8 +37378,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2150":{
-		"id":2150,
+	"2160":{
+		"id":2160,
 		"AvatrID":10127,
 		"BackpackName":"万剑一",
 		"Type":0,
@@ -37244,8 +37390,8 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2151":{
-		"id":2151,
+	"2161":{
+		"id":2161,
 		"AvatrID":10128,
 		"BackpackName":"万剑一",
 		"Type":0,
@@ -37256,130 +37402,10 @@
 		"SellPercent":100,
 		"CanDrop":0
 	},
-	"2152":{
-		"id":2152,
-		"AvatrID":10129,
-		"BackpackName":"万剑一",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
-	"2153":{
-		"id":2153,
-		"AvatrID":10129,
-		"BackpackName":"万剑一",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
-	"2154":{
-		"id":2154,
-		"AvatrID":10129,
-		"BackpackName":"万剑一",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
-	"2155":{
-		"id":2155,
-		"AvatrID":10130,
-		"BackpackName":"神剑",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
-	"2156":{
-		"id":2156,
-		"AvatrID":10131,
-		"BackpackName":"落英",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
-	"2157":{
-		"id":2157,
-		"AvatrID":10132,
-		"BackpackName":"怒涛",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
-	"2158":{
-		"id":2158,
-		"AvatrID":10133,
-		"BackpackName":"灼烧",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
-	"2159":{
-		"id":2159,
-		"AvatrID":10134,
-		"BackpackName":"连土",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
-	"2160":{
-		"id":2160,
-		"AvatrID":10135,
-		"BackpackName":"千流岛",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
-	"2161":{
-		"id":2161,
-		"AvatrID":10136,
-		"BackpackName":"千流岛",
-		"Type":0,
-		"quality":0,
-		"ItemID":[],
-		"randomNum":[],
-		"CanSell":0,
-		"SellPercent":100,
-		"CanDrop":0
-	},
 	"2162":{
 		"id":2162,
-		"AvatrID":10137,
-		"BackpackName":"炎帝",
+		"AvatrID":10129,
+		"BackpackName":"万剑一",
 		"Type":0,
 		"quality":0,
 		"ItemID":[],
@@ -37390,8 +37416,8 @@
 	},
 	"2163":{
 		"id":2163,
-		"AvatrID":10138,
-		"BackpackName":"云琦",
+		"AvatrID":10129,
+		"BackpackName":"万剑一",
 		"Type":0,
 		"quality":0,
 		"ItemID":[],
@@ -37402,8 +37428,8 @@
 	},
 	"2164":{
 		"id":2164,
-		"AvatrID":10139,
-		"BackpackName":"黑石",
+		"AvatrID":10129,
+		"BackpackName":"万剑一",
 		"Type":0,
 		"quality":0,
 		"ItemID":[],
@@ -37414,8 +37440,8 @@
 	},
 	"2165":{
 		"id":2165,
-		"AvatrID":10140,
-		"BackpackName":"林铭",
+		"AvatrID":10130,
+		"BackpackName":"神剑",
 		"Type":0,
 		"quality":0,
 		"ItemID":[],
@@ -37426,8 +37452,8 @@
 	},
 	"2166":{
 		"id":2166,
-		"AvatrID":10141,
-		"BackpackName":"芷茵散人",
+		"AvatrID":10131,
+		"BackpackName":"落英",
 		"Type":0,
 		"quality":0,
 		"ItemID":[],
@@ -37438,8 +37464,8 @@
 	},
 	"2167":{
 		"id":2167,
-		"AvatrID":10142,
-		"BackpackName":"极意老祖",
+		"AvatrID":10132,
+		"BackpackName":"怒涛",
 		"Type":0,
 		"quality":0,
 		"ItemID":[],
@@ -37450,8 +37476,8 @@
 	},
 	"2168":{
 		"id":2168,
-		"AvatrID":10143,
-		"BackpackName":"炎尊",
+		"AvatrID":10133,
+		"BackpackName":"灼烧",
 		"Type":0,
 		"quality":0,
 		"ItemID":[],
@@ -37462,6 +37488,126 @@
 	},
 	"2169":{
 		"id":2169,
+		"AvatrID":10134,
+		"BackpackName":"连土",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2170":{
+		"id":2170,
+		"AvatrID":10135,
+		"BackpackName":"千流岛",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2171":{
+		"id":2171,
+		"AvatrID":10136,
+		"BackpackName":"千流岛",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2172":{
+		"id":2172,
+		"AvatrID":10137,
+		"BackpackName":"炎帝",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2173":{
+		"id":2173,
+		"AvatrID":10138,
+		"BackpackName":"云琦",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2174":{
+		"id":2174,
+		"AvatrID":10139,
+		"BackpackName":"黑石",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2175":{
+		"id":2175,
+		"AvatrID":10140,
+		"BackpackName":"林铭",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2176":{
+		"id":2176,
+		"AvatrID":10141,
+		"BackpackName":"芷茵散人",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2177":{
+		"id":2177,
+		"AvatrID":10142,
+		"BackpackName":"极意老祖",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2178":{
+		"id":2178,
+		"AvatrID":10143,
+		"BackpackName":"炎尊",
+		"Type":0,
+		"quality":0,
+		"ItemID":[],
+		"randomNum":[],
+		"CanSell":0,
+		"SellPercent":100,
+		"CanDrop":0
+	},
+	"2179":{
+		"id":2179,
 		"AvatrID":10144,
 		"BackpackName":"雷劫",
 		"Type":0,

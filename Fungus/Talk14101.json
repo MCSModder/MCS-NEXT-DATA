@@ -1298,6 +1298,44 @@
         {
           "ItemID": 1130,
           "CmdType": "CmdChangeNPCAction"
+        },
+        {
+          "ItemID": 1131,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 1132,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 1133,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 1134,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 1135,
+          "CmdType": "Fungus.If",
+          "Condition": "Var < 2"
+        },
+        {
+          "ItemID": 1136,
+          "CmdType": "Fungus.If",
+          "Condition": "Var1 == 4"
+        },
+        {
+          "ItemID": 1137,
+          "CmdType": "Fungus.SpawnObject"
+        },
+        {
+          "ItemID": 1139,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 1140,
+          "CmdType": "Fungus.End"
         }
       ]
     },
@@ -1531,6 +1569,13 @@
           "callMode": 0
         }
       ]
+    },
+    {
+      "ItemID": 1138,
+      "Name": "New Block3",
+      "Description": "New Block3",
+      "Position": "(-3632.117,-1369.32)",
+      "Commands": []
     }
   ],
   "Variables": []

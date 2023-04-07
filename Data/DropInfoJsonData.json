@@ -154,5 +154,18 @@
 		"cloth":0,
 		"ring":0,
 		"TextDesc":"眼前的幻象开始扭曲，变化成了全新的模样..."
+	},
+	"13":{
+		"id":13,
+		"dropType":16,
+		"Title":"胜利",
+		"loseHp":99,
+		"round":99999,
+		"moneydrop":0,
+		"backpack":100,
+		"wepen":0,
+		"cloth":0,
+		"ring":0,
+		"TextDesc":"眼前的傀儡裂成碎片，掉落一地。"
 	}
 }

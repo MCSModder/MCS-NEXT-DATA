@@ -1399,7 +1399,7 @@
       "ItemID": 968,
       "Name": "初遇血剑宫-汇报",
       "Description": "初遇血剑宫-汇报",
-      "Position": "(-3010.219,-1513.836)",
+      "Position": "(-3010.219,-1514.9)",
       "Commands": [
         {
           "ItemID": 981,
@@ -1414,7 +1414,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 1,
           "AvatarBindKey": "",
-          "StoryText": "我有要事回报，此时关乎我宁州城内，有魔门余孽。",
+          "StoryText": "我有要事回报，我宁州城内有魔门余孽。",
           "Description": "",
           "AvatarIDSetType": "Normal"
         },
@@ -1441,7 +1441,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 931,
           "AvatarBindKey": "",
-          "StoryText": "他所使用的的是何法门？",
+          "StoryText": "他所使用的是何法门？",
           "Description": "",
           "AvatarIDSetType": "Normal"
         },

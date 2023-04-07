@@ -162,7 +162,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 0,
           "AvatarBindKey": "",
-          "StoryText": "只见他一掐法诀，一条火龙只逼轩岚诺而去。",
+          "StoryText": "只见他一掐法诀，一条火龙直逼轩岚诺而去。",
           "Description": "",
           "AvatarIDSetType": "Normal"
         },
@@ -171,7 +171,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 1,
           "AvatarBindKey": "NPCxuan",
-          "StoryText": "呵呵，莹火之光。",
+          "StoryText": "呵呵，萤火之光。",
           "Description": "",
           "AvatarIDSetType": "FungusVariable"
         },
@@ -288,7 +288,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 0,
           "AvatarBindKey": "",
-          "StoryText": "此时，你注意到他眼瞳恢复正常，连掌心的灵纹也在快速销退。",
+          "StoryText": "此时，你注意到他眼瞳恢复正常，连掌心的灵纹也在快速消退。",
           "Description": "",
           "AvatarIDSetType": "Normal"
         },
@@ -306,7 +306,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 0,
           "AvatarBindKey": "",
-          "StoryText": "轩岚诺邹着眉头凝视掌心，之后看向你。",
+          "StoryText": "轩岚诺皱着眉头凝视掌心，之后看向你。",
           "Description": "",
           "AvatarIDSetType": "Normal"
         },
@@ -503,7 +503,7 @@
       "ItemID": 419,
       "Name": "提问",
       "Description": "提问",
-      "Position": "(-2415.501,-759.8013)",
+      "Position": "(-2415.501,-761.0208)",
       "Commands": [
         {
           "ItemID": 424,

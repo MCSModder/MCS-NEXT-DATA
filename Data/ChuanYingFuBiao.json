@@ -1514,8 +1514,12 @@
 		"TaskIndex":[],
 		"WeiTuo":0,
 		"ItemID":0,
-		"valueID":[],
-		"value":[],
+		"valueID":[
+			479
+		],
+		"value":[
+			3
+		],
 		"SPvalueID":0,
 		"StarTime":"",
 		"EndTime":"",

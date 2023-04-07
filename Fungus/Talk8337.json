@@ -1,0 +1,217 @@
+{
+  "Name": "Talk8337",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2434.278,-1224.476)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判断)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 399,
+      "Name": "观察石台",
+      "Description": "观察石台",
+      "Position": "(-2498.802,-919.6581)",
+      "Commands": [
+        {
+          "ItemID": 403,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "石台上铭刻的阵法从这边空间中源源不断的汲取极阳之力，再通过其上的晶石传导入整个机关城。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 407,
+          "CmdType": "Fungus.Menu",
+          "Text": "解除禁制",
+          "TargetBlockID": "this:397(解除禁制)"
+        },
+        {
+          "ItemID": 408,
+          "CmdType": "Fungus.Menu",
+          "Text": "先行离开",
+          "TargetBlockID": "this:404(先行离开)"
+        }
+      ]
+    },
+    {
+      "ItemID": 390,
+      "Name": "第一次",
+      "Description": "第一次",
+      "Position": "(-2491.742,-1063.188)",
+      "Commands": [
+        {
+          "ItemID": 395,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你看到一玄武雕塑，浮于石台之上，强大的灵力从其上散发而出。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 413,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 400,
+          "CmdType": "Fungus.Menu",
+          "Text": "观察雕塑",
+          "TargetBlockID": "this:398(观察晶石)"
+        }
+      ]
+    },
+    {
+      "ItemID": 304,
+      "Name": "New Block",
+      "Description": "New Block",
+      "Position": "(-2789.389,-951.4227)",
+      "Commands": [
+        {
+          "ItemID": 369,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 370,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    },
+    {
+      "ItemID": 398,
+      "Name": "观察晶石",
+      "Description": "观察晶石",
+      "Position": "(-2496.449,-987.8932)",
+      "Commands": [
+        {
+          "ItemID": 401,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "好大的一块焚天火玉，这一块若是用来炼器至少有十份的数量。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 402,
+          "CmdType": "Fungus.Menu",
+          "Text": "观察石台",
+          "TargetBlockID": "this:399(观察石台)"
+        }
+      ]
+    },
+    {
+      "ItemID": 404,
+      "Name": "先行离开",
+      "Description": "先行离开",
+      "Position": "(-2309.349,-797.1026)",
+      "Commands": []
+    },
+    {
+      "ItemID": 391,
+      "Name": "非第一",
+      "Description": "非第一",
+      "Position": "(-2332.92,-924.3642)",
+      "Commands": [
+        {
+          "ItemID": 396,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你看到一玄武雕塑，浮于石台之上，强大的灵力从其上散发而出。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 409,
+          "CmdType": "Fungus.Menu",
+          "Text": "解除禁制",
+          "TargetBlockID": "this:397(解除禁制)"
+        },
+        {
+          "ItemID": 410,
+          "CmdType": "Fungus.Menu",
+          "Text": "先行离开",
+          "TargetBlockID": "this:404(先行离开)"
+        }
+      ]
+    },
+    {
+      "ItemID": 397,
+      "Name": "解除禁制",
+      "Description": "解除禁制",
+      "Position": "(-2502.33,-806.7173)",
+      "Commands": [
+        {
+          "ItemID": 406,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 405,
+          "CmdType": "Fungus.StartFight"
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判断",
+      "Description": "判断",
+      "Position": "(-2439.469,-1137.263)",
+      "Commands": [
+        {
+          "ItemID": 388,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 389,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 394,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "390(第一次)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 392,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 393,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "391(非第一)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

@@ -1,0 +1,20 @@
+{
+	"buffid":9418,
+	"BuffIcon":0,
+	"skillEffect":"fx_Summoner_o",
+	"name":"刚柔",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		92
+	],
+	"descr":"回合开始时，将【止水】置为12",
+	"trigger":2,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

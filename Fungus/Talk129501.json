@@ -105,7 +105,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 638,
           "AvatarBindKey": "",
-          "StoryText": "围墙乃是为父亲为躲避龙族攻击所建，如今龙珠已物归原主，这围墙大概也派不上什么用场了。",
+          "StoryText": "围墙乃是父亲为躲避龙族攻击所建，如今龙珠已物归原主，这围墙大概也派不上什么用场了。",
           "Description": "",
           "AvatarIDSetType": "Normal"
         },

@@ -1578,5 +1578,41 @@
 		],
 		"fuhao":"=",
 		"once":1
+	},
+	"74":{
+		"id":74,
+		"EventName":"阴阳域",
+		"EventType":6,
+		"EventList":0,
+		"EventData":8330,
+		"MosterID":0,
+		"Icon":"",
+		"EventCastTime":1,
+		"EventLv":[
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15
+		],
+		"percent":50,
+		"StartTime":"0501-01-01",
+		"EndTime":"3000-12-30",
+		"EventValue":[
+			415,
+			1
+		],
+		"fuhao":"=",
+		"once":1
 	}
 }

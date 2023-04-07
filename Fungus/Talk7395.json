@@ -560,10 +560,6 @@
         {
           "ItemID": 529,
           "CmdType": "Fungus.End"
-        },
-        {
-          "ItemID": 899,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
         }
       ]
     },
@@ -1205,10 +1201,6 @@
       "Description": "门童对话",
       "Position": "(-2451.321,-1234.387)",
       "Commands": [
-        {
-          "ItemID": 900,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
-        },
         {
           "ItemID": 316,
           "CmdType": "Fungus.SetStaticValue"

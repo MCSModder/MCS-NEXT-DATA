@@ -1,0 +1,20 @@
+{
+	"buffid":9401,
+	"BuffIcon":0,
+	"skillEffect":"fx_Summoner_o",
+	"name":"太极",
+	"Affix":[],
+	"bufftype":3,
+	"seid":[
+		57
+	],
+	"descr":"技能伤害提高（attack*5）%。",
+	"trigger":9,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":0
+}

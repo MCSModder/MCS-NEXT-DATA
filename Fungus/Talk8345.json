@@ -1,0 +1,459 @@
+{
+  "Name": "Talk8345",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2434.278,-1224.476)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(赋值)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 399,
+      "Name": "“阴”字",
+      "Description": "“阴”字",
+      "Position": "(-2214.011,-874.9519)",
+      "Commands": [
+        {
+          "ItemID": 428,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "小友读出了那从未见过的字吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 432,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "我也曾四处探寻出处，在一个凡人国度的的传说中，这种每个人都可以一眼读出的文字叫做灵文。据称是仙人使用的文字。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 431,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "仙？凡界的规则是不会让超过化神境界的修士停留此界的，八成是凡人把某个隐世的门派唤作仙人吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 430,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "我也这么认为，凡人的传说没什么可信的。不过这也是唯一线索了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 429,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "411(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 304,
+      "Name": "New Block",
+      "Description": "New Block",
+      "Position": "(-2789.389,-951.4227)",
+      "Commands": [
+        {
+          "ItemID": 369,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 370,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    },
+    {
+      "ItemID": 396,
+      "Name": "时间不多？",
+      "Description": "时间不多？",
+      "Position": "(-2184.685,-1089.069)",
+      "Commands": [
+        {
+          "ItemID": 406,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "在我们精善傀儡的修士中，一直有人认为我们不必遵循那套渡劫飞升的理论，直接将元神寄宿在傀儡中便可以长生。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 407,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "！？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 408,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "呵呵，说来容易，这么做避免了肉身的限制，但是却难以阻止灵魂的消散，境界越低灵魂消散的越快。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 409,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "而我不过是千机子的一缕神念，在此等待后人来到太极殿。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 410,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "411(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 243,
+      "Name": "剧情",
+      "Description": "剧情",
+      "Position": "(-2442.708,-1053.683)",
+      "Commands": [
+        {
+          "ItemID": 371,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "看来这里就是那位千机子的核心洞府了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 384,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "没错，道友能来到此地也是你我缘分一场。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 386,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "眼前的傀儡突然发声。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 385,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "！！{vpunch=10,0.5}",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 388,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 389,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 392,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "前辈是千机子？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 390,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 387,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "前辈也是一缕残魂？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 391,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 393,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "准确的说我是千机子以一缕神念为核心所做的傀儡。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 394,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "（有自主思维的傀儡么？）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 395,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "道友似乎有很多疑问，不过是我坚持不了多久了，道友有话快问吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 417,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "411(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 398,
+      "Name": "前辈的本体？",
+      "Description": "前辈的本体？",
+      "Position": "(-2208.257,-945.5402)",
+      "Commands": [
+        {
+          "ItemID": 424,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "天劫将至，自然是渡劫去了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 426,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "也不知道是渡劫飞升还是灰飞烟灭。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 427,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "他就留下了我，若是有所不测至少留下点痕迹。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 425,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "411(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 397,
+      "Name": "两处天地异象很罕见",
+      "Description": "两处天地异象很罕见",
+      "Position": "(-2199.978,-1022.011)",
+      "Commands": [
+        {
+          "ItemID": 418,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "小友是想说这地方不似自然形成的吧？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 420,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "嗯，不论是自动修复空间的灵纹还是两个相连的天地异象都不像是前辈的手笔。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 421,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "没错，此地确实不是天然形成，很多迹象表明这里是人为开辟出来的异空间。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 422,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "（这也是凡人能做到的？）",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 423,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "我后续也在不断追查，但是被没有什么头绪，那些灵纹也没有在别处见过。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 419,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "411(选项)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 400,
+      "Name": "继续剧情",
+      "Description": "继续剧情",
+      "Position": "(-2426.375,-802.1399)",
+      "Commands": [
+        {
+          "ItemID": 434,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 5938,
+          "AvatarBindKey": "",
+          "StoryText": "这地方也没剩什么好东西，小友能用得上就都拿走吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 435,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "说罢眼前的傀儡就倒在了地上。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 411,
+      "Name": "选项",
+      "Description": "选项",
+      "Position": "(-2435.731,-976.0277)",
+      "Commands": [
+        {
+          "ItemID": 412,
+          "CmdType": "Fungus.Menu",
+          "Text": "时间不多？",
+          "TargetBlockID": "this:396(时间不多？)"
+        },
+        {
+          "ItemID": 413,
+          "CmdType": "Fungus.Menu",
+          "Text": "两处天地异象很罕见",
+          "TargetBlockID": "this:397(两处天地异象很罕见)"
+        },
+        {
+          "ItemID": 414,
+          "CmdType": "Fungus.Menu",
+          "Text": "前辈的本体？",
+          "TargetBlockID": "this:398(前辈的本体？)"
+        },
+        {
+          "ItemID": 415,
+          "CmdType": "Fungus.Menu",
+          "Text": "“阴”字",
+          "TargetBlockID": "this:399(“阴”字)"
+        },
+        {
+          "ItemID": 416,
+          "CmdType": "Fungus.Menu",
+          "Text": "多谢解惑",
+          "TargetBlockID": "this:400(继续剧情)"
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "赋值",
+      "Description": "赋值",
+      "Position": "(-2439.469,-1134.91)",
+      "Commands": [
+        {
+          "ItemID": 383,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "243(剧情)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

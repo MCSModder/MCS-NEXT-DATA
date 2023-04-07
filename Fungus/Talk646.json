@@ -33,10 +33,6 @@
       "Position": "(-2579.919,-1123.538)",
       "Commands": [
         {
-          "ItemID": 327,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
-        },
-        {
           "ItemID": 247,
           "CmdType": "Fungus.End"
         }
@@ -321,10 +317,6 @@
           "StoryText": "你盘腿坐下，闭目垂帘，调息静心，那熟悉的动作，熟悉的身影，\r\n与初入仙途时别无二致，但你知道，沧海桑田，早已是天壤之别。",
           "Description": "",
           "AvatarIDSetType": "FungusVariable"
-        },
-        {
-          "ItemID": 328,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextInnerEvent"
         },
         {
           "ItemID": 306,

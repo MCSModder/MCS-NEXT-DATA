@@ -1,0 +1,20 @@
+{
+	"buffid":9417,
+	"BuffIcon":0,
+	"skillEffect":"fx_Summoner_o",
+	"name":"柔水",
+	"Affix":[],
+	"bufftype":6,
+	"seid":[
+		67
+	],
+	"descr":"回合结束，每有【剑气】*1就获得【振剑】*5",
+	"trigger":1,
+	"removeTrigger":7,
+	"script":"Buff",
+	"looptime":1,
+	"totaltime":1,
+	"BuffType":0,
+	"isHide":0,
+	"ShowOnlyOne":1
+}

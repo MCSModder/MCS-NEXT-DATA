@@ -132,6 +132,13 @@
 		"TimeD":0,
 		"CanDie":1
 	},
+	"F69":{
+		"Name":"F69",
+		"TimeY":9999,
+		"TimeM":0,
+		"TimeD":0,
+		"CanDie":1
+	},
 	"F70":{
 		"Name":"F70",
 		"TimeY":9999,

@@ -1931,6 +1931,22 @@
 		"EventValue":[],
 		"fuhao":""
 	},
+	"126":{
+		"id":126,
+		"Name":"星河洞府",
+		"Type":1,
+		"variable":999,
+		"Title":"星河剑派",
+		"Desc":"你在星河剑派秘阁发现了一个玉简，它似乎关系着门派的一些秘辛。",
+		"StarTime":"0001-01-01",
+		"EndTime":"5000-12-30",
+		"circulation":0,
+		"mapIndex":0,
+		"continueTime":0,
+		"isFinsh":0,
+		"EventValue":[],
+		"fuhao":""
+	},
 	"1002":{
 		"id":1002,
 		"Name":"灭门之谜",

@@ -37,6 +37,10 @@
           "CmdType": "Fungus.SetStaticValue"
         },
         {
+          "ItemID": 263,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
           "ItemID": 243,
           "CmdType": "CmdGetNPCIDByTitle"
         },

@@ -1,0 +1,298 @@
+{
+  "Name": "Talk8119",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 169,
+      "Name": "事件",
+      "Description": "事件",
+      "Position": "(-2429.725,-935.3911)",
+      "Commands": [
+        {
+          "ItemID": 228,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 174,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "藏经楼二层，也称为秘阁，一般是用来存放门中高阶神通功法。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 223,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "与楼下不同，除更多的禁制阵法密布之外，秘阁中反而难见人影，也没那么多记载神通功法的书籍，有的只是几块玉简，各自分开存放着，显得十分庄重但也不免有些冷清。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 224,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你还是第一次来秘阁，自然是打算将所有秘术都先了解一番，而后再挑出适合自己的。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 225,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "魏无极显然也是对这秘阁很感兴趣，但或许因为他只是灵体，竟然无法阅读记载秘术的玉简。而你也沉浸在秘术中无暇顾及他，只能让魏无极忍受着无法满足的好奇心在秘阁中瞎逛。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 226,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "好在秘阁平时难有修士叨扰，也未招来什么麻烦。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 227,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "{xiaozi}，这夹缝中似乎有东西。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 229,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "不知过了多久，魏无极的声音将你从知识的海洋中拉了回来。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 230,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "你用神识探向魏无极所关注的位置，但是一无所获。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 231,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "哪有什么东西，老头你要是无聊就回剑里呆着去，别打断我。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 232,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "魏无极没有理会你的不满，反倒是尝试驱动你背上的铁剑，似乎打算自己去把夹缝里的东西抠出来。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 233,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "魏无极的灵体在藏经阁中显现还好说，如不是有人亲眼目睹也不会造成麻烦，但若是放任他在这驱动铁剑，鬼知道产生的波动会引来谁。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 234,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "即便是解释为想验证一下刚从玉简中看到的秘术思路，今天也难以脱身。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 235,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "好了好了，老头你别动，我过来就是了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 236,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "你一手按住背上的铁剑，忙不迭地就走到魏无极身边。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 237,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "这是...一块玉简？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 238,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "似乎和其他的不同，能屏蔽我的神识感知...老头，你知道这是什么吗？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 239,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "没见过，所以老夫才对它感兴趣。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "魏无极",
+          "StoryText": "唔，拿走这东西应该不会被发现，我先收着吧。等回洞府再好好研究。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 241,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "170(结束变量赋值)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 221,
+      "Name": "无事发生",
+      "Description": "无事发生",
+      "Position": "(-2240.662,-1030.703)",
+      "Commands": []
+    },
+    {
+      "ItemID": 170,
+      "Name": "结束变量赋值",
+      "Description": "结束变量赋值",
+      "Position": "(-2428.163,-840.0786)",
+      "Commands": [
+        {
+          "ItemID": 222,
+          "CmdType": "Fungus.SetStaticValue"
+        }
+      ]
+    },
+    {
+      "ItemID": 158,
+      "Name": "剧情触发判定",
+      "Description": "剧情触发判定",
+      "Position": "(-2429.725,-1032.266)",
+      "Commands": [
+        {
+          "ItemID": 216,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 217,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 218,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "169(事件)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 219,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 220,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "221(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2429.764,-1124.337)",
+      "Commands": [
+        {
+          "ItemID": 164,
+          "CmdType": "Fungus.If",
+          "Condition": "MenPai == 4"
+        },
+        {
+          "ItemID": 165,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "158(剧情触发判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 215,
+          "CmdType": "Fungus.SpawnObject"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

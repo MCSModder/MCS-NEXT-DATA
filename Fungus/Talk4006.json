@@ -8,24 +8,12 @@
       "Position": "(-2797.441,-1306.073)",
       "Commands": [
         {
-          "ItemID": 536,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
-        },
-        {
           "ItemID": 279,
           "CmdType": "Fungus.TryinitFungaus"
         },
         {
           "ItemID": 166,
           "CmdType": "Fungus.CallMethod"
-        },
-        {
-          "ItemID": 537,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
-        },
-        {
-          "ItemID": 538,
-          "CmdType": "SkySwordKill.Next.FCanvas.PatchCommand.NextEvent"
         },
         {
           "ItemID": 86,
