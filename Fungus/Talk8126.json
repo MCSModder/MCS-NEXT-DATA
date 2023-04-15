@@ -30,8 +30,26 @@
       "ItemID": 171,
       "Name": "多次战斗后胜利",
       "Description": "多次战斗后胜利",
-      "Position": "(-2798.088,-1075.446)",
+      "Position": "(-2799.727,-1077.086)",
       "Commands": [
+        {
+          "ItemID": 1226,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie > 12"
+        },
+        {
+          "ItemID": 1228,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "1225(化神版胜利)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 1227,
+          "CmdType": "Fungus.End"
+        },
         {
           "ItemID": 1194,
           "CmdType": "Fungus.Say",
@@ -383,6 +401,24 @@
       "Position": "(-3013.713,-1177.009)",
       "Commands": [
         {
+          "ItemID": 1229,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie > 12"
+        },
+        {
+          "ItemID": 1230,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "1225(化神版胜利)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 1231,
+          "CmdType": "Fungus.End"
+        },
+        {
           "ItemID": 1151,
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 0,
@@ -516,60 +552,6 @@
           "AvatarIDSetType": "Normal"
         },
         {
-          "ItemID": 1166,
-          "CmdType": "Fungus.If",
-          "Condition": "Error: No variable selected"
-        },
-        {
-          "ItemID": 1167,
-          "CmdType": "Fungus.Say",
-          "AvatarIDInt": 1,
-          "AvatarBindKey": "",
-          "StoryText": "放心，以我如今的实力，宁州还没什么地方能让我出事。",
-          "Description": "",
-          "AvatarIDSetType": "Normal"
-        },
-        {
-          "ItemID": 1168,
-          "CmdType": "Fungus.Say",
-          "AvatarIDInt": 2,
-          "AvatarBindKey": "",
-          "StoryText": "老夫当然知道，这不是沙子迷了眼睛。",
-          "Description": "",
-          "AvatarIDSetType": "Normal"
-        },
-        {
-          "ItemID": 1169,
-          "CmdType": "Fungus.Say",
-          "AvatarIDInt": 1,
-          "AvatarBindKey": "",
-          "StoryText": "嘁，灵魂体怎么会被沙子迷了眼睛。",
-          "Description": "",
-          "AvatarIDSetType": "Normal"
-        },
-        {
-          "ItemID": 1170,
-          "CmdType": "Fungus.Say",
-          "AvatarIDInt": 0,
-          "AvatarBindKey": "",
-          "StoryText": "”咚咚“",
-          "Description": "",
-          "AvatarIDSetType": "Normal"
-        },
-        {
-          "ItemID": 1171,
-          "CmdType": "Fungus.Say",
-          "AvatarIDInt": 1,
-          "AvatarBindKey": "",
-          "StoryText": "刚才似乎用力过猛了，还是先出去吧。",
-          "Description": "",
-          "AvatarIDSetType": "Normal"
-        },
-        {
-          "ItemID": 1172,
-          "CmdType": "Fungus.Else"
-        },
-        {
           "ItemID": 1173,
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 1,
@@ -640,10 +622,6 @@
           "StoryText": "嘴上虽是这么说，但这里毕竟是门派后山，要是灰头土脸地被门中弟子撞上总得丢几分颜面甚至被当成修炼之余的谈资笑料。",
           "Description": "",
           "AvatarIDSetType": "Normal"
-        },
-        {
-          "ItemID": 1181,
-          "CmdType": "Fungus.End"
         },
         {
           "ItemID": 1182,
@@ -729,6 +707,210 @@
           "StoryText": "石室又一次平静了下来。",
           "Description": "",
           "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 1225,
+      "Name": "化神版胜利",
+      "Description": "化神版胜利",
+      "Position": "(-3016.853,-1080.521)",
+      "Commands": [
+        {
+          "ItemID": 1232,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "随着战斗的持续，那道身影旁的剑气愈来愈多，她的架势也越来越凌厉，仿佛要将整个空间都斩开。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 1233,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "似乎是看不到师祖的最后一剑了，就到此为止吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1234,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "你随意地击散迎面而来的剑气，穿过一片氤氲的灵气浓雾击散了那道身影。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 1235,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "”簌簌簌“",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1236,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "随着那道身影的消散，原本凝结的剑气也化作灵液从空中滴下，汇聚在洞府的地面上。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1242,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "若是师祖本尊在此，倒是能有趣些可惜了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1241,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "隐约间，那张冷漠的脸庞似乎在最后有了一丝变化，可惜你方才在叹息，未曾留意。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1243,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "{xiaozi}，你怎么了?",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1244,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "几乎是同一时间，魏无极的声音传入你的耳朵。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1245,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "没事，只是陷入了幻阵而已。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1246,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "没事就好，没事就好。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1247,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "你刚一踏入这石室，老夫便被限制在诛仙剑中，几番试图与你交流都未获得回应。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1248,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "还以为...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1250,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "放心，以我如今的实力，宁州还没什么地方能让我出事。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1251,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "老夫当然知道，这不是沙子迷了眼睛。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1252,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "嘁，灵魂体怎么会被沙子迷了眼睛。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1253,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "”咚咚“",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1254,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "师祖的阵法在刚才的战斗中似乎过载崩溃了...这山体似乎又是由师祖的阵法支撑...这不是坑弟子么...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1255,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这算不算是一种逐客呢？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1256,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "扫视一圈石室后，你将石室中唯一看起来有价值的物品拎在手上，而后运起遁术离开了洞府。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1257,
+          "CmdType": "Fungus.AddItem"
+        },
+        {
+          "ItemID": 1258,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 1259,
+          "CmdType": "Fungus.SetSTalk"
+        },
+        {
+          "ItemID": 1260,
+          "CmdType": "Fungus.LoadScene"
         }
       ]
     }

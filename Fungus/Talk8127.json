@@ -12,13 +12,110 @@
           "CmdType": "Fungus.TryinitFungaus"
         },
         {
+          "ItemID": 378,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie > 12"
+        },
+        {
           "ItemID": 86,
           "CmdType": "Fungus.Call",
           "targetFlowchartName": null,
-          "targetBlockID": "286(胜负判定)",
+          "targetBlockID": "377(化神剧情)",
           "startLabel": "",
           "startIndex": 0,
           "callMode": 0
+        },
+        {
+          "ItemID": 380,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 379,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "286(普通剧情)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 377,
+      "Name": "化神剧情",
+      "Description": "化神剧情",
+      "Position": "(-2239.69,-1242.998)",
+      "Commands": [
+        {
+          "ItemID": 381,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "离开了坍塌的洞府后，你方才空下来打量手上的物品。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 382,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "这是一颗猩红色的宝珠，鲜艳的颜色让其看起来似乎内部有血煞之气流转，但你将之握在手上并没有任何不适感，反而感觉有些温热。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 383,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这凤血珠似乎是那洞府阵法的阵眼，也不知是否有何特殊之处。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 387,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "方才离开时，老夫似乎瞥见主室后方还有一间暗室。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 384,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "嗯，我用神识探测了一番，那暗室中存放着某位元婴修士的尸骨。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 388,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "就洞府设置来看，师祖似乎不想让人打扰他的安眠，所以我也就没去一探究竟了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 389,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "原来如此。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 385,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 386,
+          "CmdType": "Fungus.SetTaskCompelet"
         }
       ]
     },
@@ -164,8 +261,8 @@
     },
     {
       "ItemID": 286,
-      "Name": "胜负判定",
-      "Description": "胜负判定",
+      "Name": "普通剧情",
+      "Description": "普通剧情",
       "Position": "(-2429.725,-1243.203)",
       "Commands": [
         {

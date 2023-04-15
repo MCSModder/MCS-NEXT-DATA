@@ -192,8 +192,26 @@
       "ItemID": 158,
       "Name": "木剑战后",
       "Description": "木剑战后",
-      "Position": "(-3004.353,-1178.376)",
+      "Position": "(-3004.352,-1178.376)",
       "Commands": [
+        {
+          "ItemID": 1203,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie > 12"
+        },
+        {
+          "ItemID": 1205,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "1202(木剑化神版)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 1204,
+          "CmdType": "Fungus.End"
+        },
         {
           "ItemID": 1131,
           "CmdType": "Fungus.Say",
@@ -590,8 +608,26 @@
       "ItemID": 171,
       "Name": "魔剑战后",
       "Description": "魔剑战后",
-      "Position": "(-2802.426,-1082.293)",
+      "Position": "(-2796.947,-1080.923)",
       "Commands": [
+        {
+          "ItemID": 1218,
+          "CmdType": "Fungus.If",
+          "Condition": "JinJie > 12"
+        },
+        {
+          "ItemID": 1219,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "1217(魔剑化神)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 1220,
+          "CmdType": "Fungus.End"
+        },
         {
           "ItemID": 1156,
           "CmdType": "Fungus.Say",
@@ -645,6 +681,166 @@
           "StoryText": "你微微颔首，没有发表不同意见。",
           "Description": "",
           "AvatarIDSetType": "FungusVariable"
+        }
+      ]
+    },
+    {
+      "ItemID": 1202,
+      "Name": "木剑化神版",
+      "Description": "木剑化神版",
+      "Position": "(-3191.573,-1177.929)",
+      "Commands": [
+        {
+          "ItemID": 1206,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "这剑气出现虽是出现得很突然，但未能给你造成多大的麻烦。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 1207,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "唉，未到那个境界果然还是难以想象有什么区别。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1208,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这不还有我呢，总会想办法让你复活然后走出那一步的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1209,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "嗯...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1210,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你将目光投向石刻，脑中仿佛出现一个操练木属性剑类神通的修士身影。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1211,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一剑祭出如春华吐蕊，说是攻招却如和煦春风无半点杀气，说是守招又见其攻击绵密往复令人应接不暇。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1212,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这剑气的神通倒是有几分意思，攻守一体，自为循环，生生不息，将木之道和剑道结合得很好。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1213,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "可惜在我这等剑修看来算是走了歪路，若是在我全盛时期，只一剑便可破除其防守，生生不息又有合用。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1214,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "嘁，说到以前你就来劲了，也没见你以前多教我点有用的神通功法。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1215,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "咳咳，老夫这不是想不起来了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1216,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见魏无极一遍小声念叨着什么反正你现在也用不上了，一边向前方飘去。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 1217,
+      "Name": "魔剑化神",
+      "Description": "魔剑化神",
+      "Position": "(-2797.052,-990.2577)",
+      "Commands": [
+        {
+          "ItemID": 1221,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "这魔气剑灵也就上来几招较为凌厉，不出几回合便让你感觉有些乏味，于是随意将之击散。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 1222,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "祖师既然还在洞府中留下了魔气，有意思。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1223,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "可能是这剑法的使用者当年给她留下了深刻的印象吧，上来那几剑确实称得上刚猛。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1224,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "可惜杀心过重，一招无功则后继不足，且不合天道之理，没什么参考的价值。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 1225,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "也许是吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
         }
       ]
     }

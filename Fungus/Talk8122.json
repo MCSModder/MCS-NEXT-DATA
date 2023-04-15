@@ -23,32 +23,120 @@
       ]
     },
     {
-      "ItemID": 259,
-      "Name": "化神预留",
-      "Description": "化神预留",
-      "Position": "(-2195.933,-1034.983)",
-      "Commands": []
-    },
-    {
-      "ItemID": 169,
-      "Name": "注入神识",
-      "Description": "注入神识",
-      "Position": "(-2192.44,-935.5528)",
+      "ItemID": 298,
+      "Name": "否极泰来（化神版）",
+      "Description": "否极泰来（化神版）",
+      "Position": "(-2045.932,-1098.776)",
       "Commands": [
         {
-          "ItemID": 223,
+          "ItemID": 303,
           "CmdType": "Fungus.Say",
-          "AvatarIDInt": 0,
+          "AvatarIDInt": 1,
           "AvatarBindKey": "",
-          "StoryText": "你再次尝试用神识读取玉简中的记录，果然没有收获。",
+          "StoryText": "吩咐倒谈不上，只是想问问掌门可有在宗门典籍中见过这个符号。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 304,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "嗯...确实见过。这个符号应在记录否极泰来的玉简中出现过。",
           "Description": "",
           "AvatarIDSetType": "FungusVariable"
         },
         {
-          "ItemID": 224,
+          "ItemID": 307,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "299(符号（化神版）)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 259,
+      "Name": "化神预留",
+      "Description": "化神预留",
+      "Position": "(-2195.933,-1034.983)",
+      "Commands": [
+        {
+          "ItemID": 300,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "大殿。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 301,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "掌门正在和一名门中修士交代着什么，见你到来连忙挥手让弟子先行离去。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 302,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "不知道太上长老有何吩咐？",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "Fungus.CheckSkill"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 290,
           "CmdType": "Fungus.Menu",
-          "Text": "注入灵力",
-          "TargetBlockID": "this:171(普通剧情)"
+          "Text": "询问否极泰来的来历",
+          "TargetBlockID": "this:298(否极泰来（化神版）)"
+        },
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.ItemCheck"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.If",
+          "Condition": "Var == True"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.Menu",
+          "Text": "询问否极泰来的来历",
+          "TargetBlockID": "this:298(否极泰来（化神版）)"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.Menu",
+          "Text": "询问玉简中符号的意义",
+          "TargetBlockID": "this:299(符号（化神版）)"
         }
       ]
     },
@@ -209,28 +297,28 @@
           "CmdType": "CallZhangMenToThis"
         },
         {
-          "ItemID": 257,
-          "CmdType": "Fungus.Call",
-          "targetFlowchartName": null,
-          "targetBlockID": "171(普通剧情)",
-          "startLabel": "",
-          "startIndex": 0,
-          "callMode": 0
-        },
-        {
           "ItemID": 260,
           "CmdType": "Fungus.If",
-          "Condition": "JinJie < 12"
-        },
-        {
-          "ItemID": 261,
-          "CmdType": "Fungus.Else"
+          "Condition": "JinJie > 12"
         },
         {
           "ItemID": 262,
           "CmdType": "Fungus.Call",
           "targetFlowchartName": null,
           "targetBlockID": "259(化神预留)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "171(普通剧情)",
           "startLabel": "",
           "startIndex": 0,
           "callMode": 0
@@ -344,6 +432,120 @@
           "CmdType": "Fungus.Menu",
           "Text": "询问玉简中符号的意义",
           "TargetBlockID": "this:269(符号的意义)"
+        }
+      ]
+    },
+    {
+      "ItemID": 299,
+      "Name": "符号（化神版）",
+      "Description": "符号（化神版）",
+      "Position": "(-2045.933,-974.6378)",
+      "Commands": [
+        {
+          "ItemID": 306,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "而且那门神通正是由祖师所创。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 308,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "秘典中关于祖师还有哪些记载？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 309,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "禀太上长老，据传除数种天阶功法神通外，宗门广场上的小剑阵也是由祖师留下。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 310,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "那剑阵的名号已经佚失，但据传门中的星河剑阵以及护宗大阵皆是后来者观摩小剑阵，然后有感而推演得来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 311,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "但万年前的大战后，不知是佚失了某种驱动技巧还是后来的门中弟子资质太差，再未有人能从小剑阵中悟出什么。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "关于祖师还有更多信息么？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 315,
+          "CmdType": "Fungus.If",
+          "Condition": "year < 500"
+        },
+        {
+          "ItemID": 316,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "秘典上能找到的就这么多了，更多的不是在变动中遗失就是被销毁...连那套剑阵也...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 317,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 319,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "秘典上能找到的就这么多了，更多的不是在变动中遗失就是被销毁...",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 318,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 314,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "掌门id",
+          "StoryText": "嗯，我知道了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 320,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 321,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 322,
+          "CmdType": "Fungus.SetTask"
         }
       ]
     },

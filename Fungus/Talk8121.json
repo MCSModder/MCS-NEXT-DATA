@@ -23,6 +23,56 @@
       ]
     },
     {
+      "ItemID": 283,
+      "Name": "强行进入",
+      "Description": "强行进入",
+      "Position": "(-2046.57,-1277.63)",
+      "Commands": [
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "破！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "考虑到不想造成太大动静，你没有强势地轰击阵法，而是在其上撕开一道口子，随意地走入其中。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 298,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.LoadFuBen"
+        }
+      ]
+    },
+    {
       "ItemID": 169,
       "Name": "后续进入",
       "Description": "后续进入",
@@ -35,6 +85,35 @@
         {
           "ItemID": 279,
           "CmdType": "Fungus.LoadFuBen"
+        }
+      ]
+    },
+    {
+      "ItemID": 284,
+      "Name": "寻找“钥匙”",
+      "Description": "寻找“钥匙”",
+      "Position": "(-2049.315,-1182.593)",
+      "Commands": [
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "刚好有些无聊，不如回去问问掌门是否知道玉简的来历吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 290,
+          "CmdType": "Fungus.SetTask"
         }
       ]
     },
@@ -59,31 +138,31 @@
       "ItemID": 264,
       "Name": "境界判断",
       "Description": "境界判断",
-      "Position": "(-2431.095,-1223.736)",
+      "Position": "(-2431.095,-1224.8)",
       "Commands": [
-        {
-          "ItemID": 266,
-          "CmdType": "Fungus.Call",
-          "targetFlowchartName": null,
-          "targetBlockID": "154(判定)",
-          "startLabel": "",
-          "startIndex": 0,
-          "callMode": 0
-        },
         {
           "ItemID": 265,
           "CmdType": "Fungus.If",
-          "Condition": "JinJie < 12"
-        },
-        {
-          "ItemID": 267,
-          "CmdType": "Fungus.Else"
+          "Condition": "JinJie > 12"
         },
         {
           "ItemID": 268,
           "CmdType": "Fungus.Call",
           "targetFlowchartName": null,
           "targetBlockID": "269(预留化神剧情)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 266,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
           "startLabel": "",
           "startIndex": 0,
           "callMode": 0
@@ -136,11 +215,28 @@
       "ItemID": 269,
       "Name": "预留化神剧情",
       "Description": "预留化神剧情",
-      "Position": "(-2220.648,-1220.874)",
+      "Position": "(-2222.775,-1225.129)",
       "Commands": [
         {
-          "ItemID": 271,
-          "CmdType": "Fungus.SetStaticValue"
+          "ItemID": 282,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "就是这里么，嗯...似乎还缺了开启洞府的“钥匙”，不过无妨，就这阵法还拦不住我。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 286,
+          "CmdType": "Fungus.Menu",
+          "Text": "强行进入",
+          "TargetBlockID": "this:283(强行进入)"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Menu",
+          "Text": "寻找“钥匙”",
+          "TargetBlockID": "this:284(寻找“钥匙”)"
         }
       ]
     },
