@@ -1,0 +1,245 @@
+{
+  "Name": "Talk23004",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 241,
+      "Name": "New Block",
+      "Description": "New Block",
+      "Position": "(-2429.18,-1010.389)",
+      "Commands": [
+        {
+          "ItemID": 249,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "啊，{FirstName}道友来的太及时了，我们正在头疼人手不足，这样一来，胜算必定能又多几分了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "澹道友，不知现在战况如何？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "情况紧急，那我们便长话短说。不久之前，我受命带领百余名外门弟子前来镇压兽潮，",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "可随着行动的深入，越来越多的弟子伤亡、失踪，甚至有的整只队伍连求救信息都没发出便全军覆没。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "我与秋兰道友一同探查发现，有许多筑基期妖兽潜藏在兽潮之中，数量不明。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 255,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "仅凭我二人之力，显然无法应对，我便向诸位道友发出了求援的传音符。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "而目前，情况出现了进一步的变化，他们显然是有组织、有目的的，极有可能有金丹期的妖兽在背后指挥，但我们现在仍不知道他们的目的是什么。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 253,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "就在现在，他们正在四处出击，包围、攻击我们各外围驻地，我已下令正阳山各部撤回所属阵地固守待援，妖兽深入至此只是时间问题。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 258,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "目前仍有一大批重要的物资暂存于此，而我们与执事堂总部之间的道路很有可能已经被切断，运输时风险太大，目前我们只有依靠阵法固守此地，等待宗门长老前来支援。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "话音未落，一道流转着红色光泽的传音符飞入帐中。在座的各位道友相互对视一眼，纷纷起身，放出各自的法器，显然准备已久。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "敌已至。诸位道友，随我来！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙手掐法诀，冲出帐外，你与诸位道友紧随其后。飞至高空，只见凶猛的推山兽自四面八方攻来，百只有余，正在试图冲破驻地的防御阵法。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "我已命外门弟子就位待命，与此地阵法相互配合，阵法由我主持。各位道友皆乃我教栋梁，见机行事即可，务必保证驻地物资安全！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "说着澹台仙急速飞至阵眼关键处，全心全意运转起阵法来，显得有些吃力。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "众弟子听令，结阵！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 265,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见弟子三三两两聚集在各阵旗旁，将自身灵力灌注到防御阵法中，笼罩驻地的护罩一时间稳固下来，无论妖兽如何冲击都岿然不动，但显然不能支撑太久。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 250,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "诸位道友，情况危急，我们兵分三路，一路去帮助澹师姐维持阵法，一路随我保护物资，剩下的人见机行事，随时支援，如何？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 242,
+      "Name": "New Block1",
+      "Description": "New Block1",
+      "Position": "(-2424.786,-914.7844)",
+      "Commands": []
+    },
+    {
+      "ItemID": 243,
+      "Name": "无事发生",
+      "Description": "无事发生",
+      "Position": "(-2251.159,-1118.081)",
+      "Commands": []
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2427.896,-1118.38)",
+      "Commands": [
+        {
+          "ItemID": 245,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 244,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 2"
+        },
+        {
+          "ItemID": 246,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "241(New Block)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 247,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 248,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "243(无事发生)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

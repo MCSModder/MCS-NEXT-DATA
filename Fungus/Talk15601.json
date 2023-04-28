@@ -115,7 +115,7 @@
       "ItemID": 202,
       "Name": "化尘教神兵阁-初次进入-判断",
       "Description": "化尘教神兵阁-初次进入-判断",
-      "Position": "(-2349.49,-1303.894)",
+      "Position": "(-2349.49,-1304.894)",
       "Commands": [
         {
           "ItemID": 381,
@@ -260,7 +260,7 @@
       "ItemID": 620,
       "Name": "系统talk",
       "Description": "系统talk",
-      "Position": "(-2116.749,-1301.41)",
+      "Position": "(-2079.749,-1304.41)",
       "Commands": [
         {
           "ItemID": 622,

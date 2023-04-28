@@ -162,7 +162,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 1,
           "AvatarBindKey": "npcid",
-          "StoryText": "那你是一时兴起要回味曾今的美味来猎杀推山兽的？",
+          "StoryText": "那你是一时兴起要回味曾经的美味来猎杀推山兽的？",
           "Description": "",
           "AvatarIDSetType": "Normal"
         },

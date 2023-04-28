@@ -1,0 +1,319 @@
+{
+  "Name": "Talk13402",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2812.441,-1448.073)",
+      "Commands": [
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "284(藏经阁查找古籍)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 281,
+      "Name": "选择",
+      "Description": "选择",
+      "Position": "(-2810.667,-1127.278)",
+      "Commands": [
+        {
+          "ItemID": 338,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 336,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 337,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 320,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "\n",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "281(藏经阁对话 2)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 281,
+      "Name": "藏经阁对话 2",
+      "Description": "藏经阁对话 2",
+      "Position": "(-2809.667,-1047.278)",
+      "Commands": [
+        {
+          "ItemID": 947,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 948,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 949,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 950,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "\n",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 951,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "936(任务进度更新)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 326,
+      "Name": "对话框",
+      "Description": "对话框",
+      "Position": "(-3198.667,-1229.278)",
+      "Commands": [
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        }
+      ]
+    },
+    {
+      "ItemID": 934,
+      "Name": "藏经阁对话 1",
+      "Description": "藏经阁对话 1",
+      "Position": "(-2810.667,-1280.278)",
+      "Commands": [
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 299,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "281(选择)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 282,
+      "Name": "分支框",
+      "Description": "分支框",
+      "Position": "(-3198.667,-1187.278)",
+      "Commands": [
+        {
+          "ItemID": 901,
+          "CmdType": "Fungus.If",
+          "Condition": "Error: No variable selected"
+        },
+        {
+          "ItemID": 902,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "Error: No variable selected"
+        },
+        {
+          "ItemID": 903,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 904,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 905,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 328,
+      "Name": "处理框",
+      "Description": "处理框",
+      "Position": "(-3199.678,-1145.688)",
+      "Commands": []
+    },
+    {
+      "ItemID": 284,
+      "Name": "藏经阁查找古籍",
+      "Description": "藏经阁查找古籍",
+      "Position": "(-2815.79,-1393.896)",
+      "Commands": [
+        {
+          "ItemID": 940,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 938,
+          "CmdType": "Fungus.CheckNpcDeath"
+        },
+        {
+          "ItemID": 941,
+          "CmdType": "Fungus.If",
+          "Condition": "TempBool == False"
+        },
+        {
+          "ItemID": 944,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 943,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 937,
+          "CmdType": "CmdGetNPCIDByTitle"
+        },
+        {
+          "ItemID": 945,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 942,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 334,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 332,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "934(藏经阁对话 1)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 916,
+      "Name": "分支",
+      "Description": "分支",
+      "Position": "(-2553.667,-1324.278)",
+      "Commands": [
+        {
+          "ItemID": 913,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 908,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 914,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 909,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 2"
+        },
+        {
+          "ItemID": 915,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 911,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 912,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 936,
+      "Name": "任务进度更新",
+      "Description": "任务进度更新",
+      "Position": "(-2810.678,-972.6881)",
+      "Commands": [
+        {
+          "ItemID": 930,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 330,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 900,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

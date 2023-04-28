@@ -1,0 +1,2113 @@
+{
+  "Name": "Talk23001",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2466.219,-1216.755)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 241,
+      "Name": "路见不平",
+      "Description": "路见不平",
+      "Position": "(-2466.831,-1047.542)",
+      "Commands": [
+        {
+          "ItemID": 291,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "远远观瞧，平常广场接取任务的地方，围了不少的人。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 548,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "奇了怪了，今天怎么这么热闹。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 547,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "定睛一看，只见人群中有一年少女子，正被数名同门恶语相向。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 292,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "此女不过十几岁的样子，像是刚入宗不久的修士，看起来很是年轻。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 293,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "她忍耐着，在周围同门的指摘与排挤声中，轻咬朱唇，一语不发。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 544,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "我...我......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 294,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "而她面前那位外门执事更是显得十分尴尬，面对着激动的人群，一时有些手足无措。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 295,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "那女娃看着资质倒是不错，真不知是做了什么，竟被同门如此对待。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 296,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "魏无级捋了捋胡子，意味深长地轻叹了一声。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 297,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "{xiaozi}，你打算怎么做？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Menu",
+          "Text": "静观其变",
+          "TargetBlockID": "this:243(静观其变)"
+        },
+        {
+          "ItemID": 288,
+          "CmdType": "Fungus.Menu",
+          "Text": "了解情况",
+          "TargetBlockID": "this:245(了解情况)"
+        },
+        {
+          "ItemID": 289,
+          "CmdType": "Fungus.Menu",
+          "Text": "挺身而出",
+          "TargetBlockID": "this:471(挺身而出)"
+        }
+      ]
+    },
+    {
+      "ItemID": 248,
+      "Name": "保持克制",
+      "Description": "保持克制",
+      "Position": "(-2245.46,-834.9024)",
+      "Commands": [
+        {
+          "ItemID": 365,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "眼看他们越说越过分，你体内气血逐渐翻涌，你知道这里是什么地方，你保持着冷静和克制。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 469,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 364,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "别，别冲动...为了我，不值得......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 366,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "纤纤玉手拉住了你，你回头一看，正好对上云秋兰澄澈的双眸。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 367,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "她的眼神里没有了先前的慌乱，取而代之的是释然与平静，如碧波般澄净明亮，有人愿意挺身而出显然鼓舞了她。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 368,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "谢谢你。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 463,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "263(英雄登场)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 245,
+      "Name": "了解情况",
+      "Description": "了解情况",
+      "Position": "(-2466.186,-961.7314)",
+      "Commands": [
+        {
+          "ItemID": 552,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "还不知道发生了什么，咱们先了解一下情况吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 298,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这位道友，不知这是发生什么事了？那位姑娘是...？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 299,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "你不知道啊，我和你讲，她就是云秋兰！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 304,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "这位修士有些激动，眨巴着眼镜看着你，似乎在等待你的反应，你有些莫名其妙。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 303,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "这...云秋兰怎么了？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 302,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "云秋兰啊！云家你都不知道？我明白了，你定是这几年刚入门的弟子吧，",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 301,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "之前化尘教封山之事，你总知道吧。当年为了好让掌门安心闭关，特地封山肃反戡乱，揪出古神教的奸细。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 300,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "而这云家夫妻啊，就是古神教安插在化尘教最大的奸细，干过的坏事啊，那是罄竹难书，后来据说畏罪潜逃，生死不明。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 305,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "真是想不到啊，云家夫妻可是以前化尘教的中流砥柱，大家都很信任他们......竟然害死那么多同门。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 306,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "唉，之后的事情，就谁也不知道了，但真没想到居然还有个孩子留在宗内。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 308,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "要我说啊，与其把这云秋兰逐出宗门，不如让云秋兰给她父母赎罪...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 307,
+          "CmdType": "Fungus.Comment"
+        },
+        {
+          "ItemID": 534,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 520,
+          "AvatarBindKey": "",
+          "StoryText": "大家冷静一下，冷静一下......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 309,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "谈论之间，围观的人越来越多，外门执事试图维持秩序，可是现场却越来越乱。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 310,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "有的交头接耳着，有的则在冷静地旁观。而很明显的是，有几个家伙嗓门最大。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 311,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "同门们！她就是云秋兰！是那两个大叛徒的后人！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "是啊！她改名换姓易容混进我们执行任务的队伍里，谁知道她打算干什么！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 313,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "把她逐出化尘教！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 314,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "有点意思，看来这事是有人安排的。喏，看那边，那几个嗓门大的，把煽动情绪四个字都快写脸上了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 315,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "而另一边，只见云秋兰的脸色越来越糟糕，浑身颤抖着，犹如风中梨花轻颤，似乎随时会滴下雨来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 316,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "我...我......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 317,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "叛徒之后...可惜了，这姑娘看起来倒不像恶人。小子，咱们现在怎么办？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 256,
+          "CmdType": "Fungus.Menu",
+          "Text": "出言劝阻",
+          "TargetBlockID": "this:244(出言劝阻)"
+        },
+        {
+          "ItemID": 257,
+          "CmdType": "Fungus.Menu",
+          "Text": "挺身相助",
+          "TargetBlockID": "this:473(挺身相助)"
+        },
+        {
+          "ItemID": 520,
+          "CmdType": "Fungus.Menu",
+          "Text": "冷眼旁观",
+          "TargetBlockID": "this:252(与我无关)"
+        }
+      ]
+    },
+    {
+      "ItemID": 472,
+      "Name": "澹台仙来 (Copy)",
+      "Description": "澹台仙来 (Copy)",
+      "Position": "(-2805.612,-642.3954)",
+      "Commands": [
+        {
+          "ItemID": 485,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "就在这时，耳边一声娇喝传来，不怒自威，令在场众人浑身一颤。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 486,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "肃静！宗门清净之地，岂能容尔等肆意喧哗！？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 487,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见一道遁光闪过，沙尘飞舞，澹台仙负手站在广场高台之上，再看那几个带头煽动之人，竟已被捆得严严实实。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 488,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "尔等不思清修，反倒煽动同门、寻衅滋事，去弟子房禁闭思过！罚抄教义万遍！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 489,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "你...你这人怎么是非不分！还...还出手攻击同门...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 490,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "这人似乎还想挣扎什么，抬头看清出手的人之后，立马老实了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 491,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "是，是澹台前辈...我们知错了...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 492,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "哦？你们倒是识相，说吧，为何在此唯恐天下不乱？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 493,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "这......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 494,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "呵，我没记错的话，你们几个早就劣迹斑斑。屡教不改，可是要逐出宗门的。不过我可以做主，在大家面前，给你们一个坦白的机会。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 495,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "几人面面相觑，似乎还想辩解些什么，只见澹台仙手指轻捻，几人身上的束缚便立刻紧上数倍，疼的他们龇牙咧嘴。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 496,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "过期不候。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 497,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "我说我说！是有人雇我们在这里起哄...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 498,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "同门们，大家都听到了吧，莫要被有心之人煽动。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 535,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "云秋兰当年未被逐出宗门，自是缘由的。而改名易容，也是长老们的命令，希望她能够低调地参加任务而已。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 541,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "我不服！云秋兰明明是叛徒之后，却能安然无恙地生活在化尘教，甚至有机会直接进入内门，凭什么！难道就是因为资质好吗？他父母的事情就这么放过她了吗？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 500,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙冷冷地扫了那几个作乱之人一眼，随后向在场的众人施了一礼，娓娓说道。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 501,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "各位同门，云秋兰虽是罪人之后，但其父母受指控之时，她不过还在襁褓之中。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 502,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "当年我等为其求情，使云师妹免于逐出化尘教，便是为了正法纪、明教义。冤有头，债有主。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 503,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "云家二人目前下落不明，此案疑点颇多，究竟是诬陷还是事实我们都无从考证。即使是事实，他们的罪过也该由自己承担，与云师妹这个孩子无关。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 504,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "再加上秋兰资质如此难得，我教长老不愿暴殄天物，好好培养，能为我教做出更大的贡献。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 505,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "入得我教，即脱凡尘，皆为姐妹兄弟，当有好生之德。更何况云师妹成长于化尘教中，与你我同衣同食。虽然时常隐姓埋名，但她是什么样的人，在场的各位师弟师妹，肯定有人了解。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 506,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "我澹台仙愿意以自身名誉为担保，希望大家能给她一个证明自己的机会。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 507,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "这...既然澹台师姐都这么说了，我等自不会纠缠。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 508,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "没想到平素温婉和善的澹台前辈，发起怒来竟是如此模样...大家面面相觑，很快便纷纷表态。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 509,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "那位窘迫的外门执事擦了擦冷汗，赶忙向澹台仙深施一礼。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 510,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 520,
+          "AvatarBindKey": "",
+          "StoryText": "多谢澹台前辈解围，在下这就把此次任务的玉简发放给诸位同门。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 511,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙脸色缓和了不少，点了点头。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 512,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "无论大家相不相信我，我云秋兰都会用行动去证明，我是一个顶天立地、光明正大的人！从今日起，我不会再易容改名，我就是我！我就是云秋兰！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 513,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "我父母的事情，我一定会查清！如果他们是真的有罪，我绝不会逃避，我云秋兰自会亲自解决一切！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 514,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见云秋兰憋红了脸，鼓足勇气，将几句承诺朗声撂下，随即从执事手中夺走参加任务的玉简，头也不回地走了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 263,
+      "Name": "英雄登场",
+      "Description": "英雄登场",
+      "Position": "(-2049.868,-834.4878)",
+      "Commands": [
+        {
+          "ItemID": 346,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "就在这时，耳边一声娇喝传来，不怒自威，令在场众人浑身一颤。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 352,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "肃静！宗门清净之地，岂能容尔等肆意喧哗！？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 354,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见一道遁光闪过，沙尘飞舞，澹台仙负手站在广场高台之上，再看那几个带头煽动之人，竟已被捆得严严实实。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 353,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "尔等不思清修，反倒煽动同门、寻衅滋事，去弟子房禁闭思过！罚抄教义万遍！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 476,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "你...你这人怎么是非不分！还...还出手攻击同门...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 355,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "这人似乎还想挣扎什么，抬头看清出手的人之后，立马老实了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 356,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "是，是澹台前辈...我们知错了...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 357,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "哦？你们倒是识相，说吧，为何在此唯恐天下不乱？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 358,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "这......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 359,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "呵，我没记错的话，你们几个早就劣迹斑斑。屡教不改，可是要逐出宗门的。不过我可以做主，在大家面前，给你们一个坦白的机会。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 369,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "几人面面相觑，似乎还想辩解些什么，只见澹台仙手指轻捻，几人身上的束缚便立刻紧上数倍，疼的他们龇牙咧嘴。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 370,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "过期不候。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 361,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "我说我说！是有人雇我们在这里起哄...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 538,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "同门们，大家都听到了吧，莫要被有心之人煽动。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 539,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "云秋兰当年未被逐出宗门，自是缘由的。而改名易容，也是长老们的命令，希望她能够低调地参加任务而已。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 371,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "我不服！云秋兰明明是叛徒之后，却能安然无恙地生活在化尘教，甚至有机会直接进入内门，凭什么！难道就是因为资质好吗？他父母的事情就这么放过她了吗？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 543,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙冷冷地扫了那几个作乱之人一眼，随后向在场的众人施了一礼，娓娓说道。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 373,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "各位同门，云秋兰虽是罪人之后，但其父母受指控之时，她不过还在襁褓之中。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 374,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "当年我等为其求情，使云师妹免于逐出化尘教，便是为了正法纪、明教义。冤有头，债有主。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 375,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "云家二人目前下落不明，此案疑点颇多，究竟是诬陷还是事实我们都无从考证。即使是事实，他们的罪过也该由自己承担，与云师妹这个孩子无关。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 376,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "再加上秋兰资质如此难得，我教长老不愿暴殄天物，好好培养，能为我教做出更大的贡献。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 377,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "入得我教，即脱凡尘，皆为姐妹兄弟，当有好生之德。更何况云师妹成长于化尘教中，与你我同衣同食。虽然时常隐姓埋名，但她是什么样的人，在场的各位师弟师妹，肯定有人了解。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 378,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "我澹台仙愿意以自身名誉为担保，希望大家能给她一个证明自己的机会。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 379,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "这...既然澹台师姐都这么说了，我等自不会纠缠。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 380,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "没想到平素温婉和善的澹台前辈，发起怒来竟是如此模样...大家面面相觑，很快便纷纷表态。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 381,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "那位窘迫的外门执事擦了擦冷汗，赶忙向澹台仙深施一礼。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 382,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 520,
+          "AvatarBindKey": "",
+          "StoryText": "多谢澹台前辈解围，在下这就把此次任务的玉简发放给诸位同门。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 383,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙脸色缓和了不少，点了点头。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 384,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "无论大家相不相信我，我云秋兰都会用行动去证明，我是一个顶天立地、光明正大的人！从今日起，我不会再易容改名，我就是我！我就是云秋兰！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 385,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "我父母的事情，我一定会查清！如果他们是真的有罪，我绝不会逃避，我云秋兰自会亲自解决一切！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 386,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见云秋兰憋红了脸，鼓足勇气，将几句承诺朗声撂下，随即从执事手中夺走参加任务的玉简，感激地看了你一眼，头也不回地走了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 478,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "小友，做的不错。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 480,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 479,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙赞许地向你点了点头，指了指手中的传音符，向你笑了笑。你低头一看，不知何时自己的传音符上已经留下了澹台仙和云秋兰的印记，再一抬头，澹台仙已经消失不见了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 526,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 522,
+          "CmdType": "Fungus.AddCyFriend"
+        },
+        {
+          "ItemID": 527,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 528,
+          "CmdType": "Fungus.AddCyFriend"
+        }
+      ]
+    },
+    {
+      "ItemID": 470,
+      "Name": "保持理智",
+      "Description": "保持理智",
+      "Position": "(-2583.782,-640.729)",
+      "Commands": [
+        {
+          "ItemID": 410,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "眼看他们越说越过分，你体内气血逐渐翻涌，你知道这里是什么地方，你保持着冷静和克制。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 466,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 411,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "别，别冲动...为了我，不值得......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 412,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "纤纤玉手拉住了你，你回头一看，正好对上云秋兰澄澈的双眸。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 413,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "她的眼神里没有了先前的慌乱，取而代之的是释然与平静，如碧波般澄净明亮，有人愿意挺身而出显然鼓舞了她。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 414,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "谢谢你。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 461,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "521(澹台仙来)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 244,
+      "Name": "出言劝阻",
+      "Description": "出言劝阻",
+      "Position": "(-2720.925,-754.9361)",
+      "Commands": [
+        {
+          "ItemID": 447,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你大概明白了发生了什么。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 448,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "诸位同门！宗门广场，清净之地，不可大声喧哗，大家都冷静一下！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 464,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 449,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "你是哪根葱？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 450,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "是啊，你知道这姑娘是谁吗你就为她出头？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 451,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "她可是云秋兰！云家的后人！你知道吗！当年她父母害死了多少我们的人？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 452,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "这回她改名换姓易容想要混入我们当中，谁知道她是不是古神教的奸细？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 453,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "你不知道原委就少管闲事！我认得你！你是封山后才入宗门的修士吧！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 454,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "她父母可是当年化尘教最大的奸细！叛徒！现在还在逍遥法外！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 455,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "我看你和她就是一伙的！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 456,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一群人七嘴八舌差点给你整晕了，一时百口莫辩。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 458,
+          "CmdType": "Fungus.Menu",
+          "Text": "怒极出手",
+          "TargetBlockID": "this:246(宵小看剑)"
+        },
+        {
+          "ItemID": 459,
+          "CmdType": "Fungus.Menu",
+          "Text": "保持克制",
+          "TargetBlockID": "this:470(保持理智)"
+        }
+      ]
+    },
+    {
+      "ItemID": 243,
+      "Name": "静观其变",
+      "Description": "静观其变",
+      "Position": "(-2687.457,-961.2748)",
+      "Commands": [
+        {
+          "ItemID": 533,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "还不知道发生了什么，咱们先静观其变吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 551,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 520,
+          "AvatarBindKey": "",
+          "StoryText": "大家冷静一下，冷静一下......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 319,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "围观的人越来越多，外门执事试图维持秩序，可是现场却越来越乱。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 549,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "有的交头接耳着，有的则在冷静地旁观。而很明显的是，有几个家伙嗓门最大。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 321,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "同门们！她就是云秋兰！她父母是云家夫妻！是那两个大叛徒的后人！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 322,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "是啊！她改名换姓易容混进我们执行任务的队伍里，谁知道她打算干什么！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 323,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "父债女偿！当年害死我们多少人？辜负了我们全教上下对他们的信任！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 324,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "把她逐出化尘教！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 320,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "有点意思，看来这事是有人安排的。喏，看那边，那几个嗓门大的，把煽动情绪四个字都快写脸上了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 325,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见云秋兰的脸色越来越糟糕，浑身颤抖着，犹如风中梨花轻颤，似乎随时会滴下雨来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 326,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "我...我......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 327,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "叛徒之后......可惜了，小姑娘看起来倒不像恶人。小子，咱们现在怎么办？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 253,
+          "CmdType": "Fungus.Menu",
+          "Text": "出言劝阻",
+          "TargetBlockID": "this:244(出言劝阻)"
+        },
+        {
+          "ItemID": 254,
+          "CmdType": "Fungus.Menu",
+          "Text": "挺身相助",
+          "TargetBlockID": "this:473(挺身相助)"
+        },
+        {
+          "ItemID": 519,
+          "CmdType": "Fungus.Menu",
+          "Text": "冷眼旁观",
+          "TargetBlockID": "this:252(与我无关)"
+        }
+      ]
+    },
+    {
+      "ItemID": 246,
+      "Name": "宵小看剑",
+      "Description": "宵小看剑",
+      "Position": "(-2580.416,-701.3911)",
+      "Commands": [
+        {
+          "ItemID": 403,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "眼看他们越说越过分，你体内气血逐渐翻涌，攥紧拳头，准备向为首之人一点教训。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 467,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 404,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "别，别冲动...为了我，不值得......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 405,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "纤纤玉手拉住了你，你回头一看，正好对上云秋兰澄澈的双眸。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 406,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "她的眼神里没有了先前的慌乱，取而代之的是释然与平静，如碧波般澄净明亮，有人愿意挺身而出显然鼓舞了她。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 407,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "谢谢你。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 460,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "521(澹台仙来)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 252,
+      "Name": "与我无关",
+      "Description": "与我无关",
+      "Position": "(-2576.096,-831.2345)",
+      "Commands": [
+        {
+          "ItemID": 545,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "人各有命，此事与我无关。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 550,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你转身便要离开。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 518,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "472(澹台仙来 (Copy))",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 471,
+      "Name": "挺身而出",
+      "Description": "挺身而出",
+      "Position": "(-2246.14,-953.9914)",
+      "Commands": [
+        {
+          "ItemID": 546,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见少女的脸色越来越糟糕，浑身颤抖着，犹如风中梨花轻颤，似乎随时会滴下雨来。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 318,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你看不下去了，挺身而出，将云秋兰护在身后。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 328,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "诸位同门！宗门广场，怎能随意喧哗！这么多人，居然在这里欺负一个小姑娘，怕是不妥当吧！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 329,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "你是哪根葱？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 330,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "是啊，你知道这姑娘是谁吗你就为她出头？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 331,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "她可是云秋兰！云家的后人！你知道吗！当年她父母害死了多少我们的人？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 332,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "这回她改名换姓易容想要混入我们当中，谁知道她是不是古神教的奸细？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 333,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "不知道原委就少管闲事！我见过你！你是封山后才入宗门的修士吧！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 334,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "她父母可是当年化尘教最大的奸细！叛徒！现在还在逍遥法外！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 335,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "我看你和她就是一伙的！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 336,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一群人七嘴八舌差点给你整晕了，一时百口莫辩。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 337,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "{xiaozi}，情况都不了解清楚就冒失而上，吃亏了吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.Menu",
+          "Text": "怒极出手",
+          "TargetBlockID": "this:474(拔刀相助)"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.Menu",
+          "Text": "保持克制",
+          "TargetBlockID": "this:248(保持克制)"
+        }
+      ]
+    },
+    {
+      "ItemID": 521,
+      "Name": "澹台仙来",
+      "Description": "澹台仙来",
+      "Position": "(-2355.681,-639.596)",
+      "Commands": [
+        {
+          "ItemID": 417,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "就在这时，耳边一声娇喝传来，不怒自威，令在场众人浑身一颤。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 418,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "肃静！宗门清净之地，岂能容尔等肆意喧哗！？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 419,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见一道遁光闪过，沙尘飞舞，澹台仙负手站在广场高台之上，再看那几个带头煽动之人，竟已被捆得严严实实。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 420,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "尔等不思清修，反倒煽动同门、寻衅滋事，去弟子房禁闭思过！罚抄教义万遍！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 477,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "你...你这人怎么是非不分！还...还出手攻击同门...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 421,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "这人似乎还想挣扎什么，抬头看清出手的人之后，立马老实了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 422,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "是，是澹台前辈...我们知错了...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 423,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "哦？你们倒是识相，说吧，为何在此唯恐天下不乱？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 424,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "这......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 425,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "呵，我没记错的话，你们几个早就劣迹斑斑。屡教不改，可是要逐出宗门的。不过我可以做主，在大家面前，给你们一个坦白的机会。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 426,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "几人面面相觑，似乎还想辩解些什么，只见澹台仙手指轻捻，几人身上的束缚便立刻紧上数倍，疼的他们龇牙咧嘴。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 427,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "过期不候。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 428,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "我说我说！是有人雇我们在这里起哄...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 536,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "同门们，大家都听到了吧，莫要被有心之人煽动。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 537,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "云秋兰当年未被逐出宗门，自是缘由的。而改名易容，也是长老们的命令，希望她能够低调地参加任务而已。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 540,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "我不服！云秋兰明明是叛徒之后，却能安然无恙地生活在化尘教，甚至有机会直接进入内门，凭什么！难道就是因为资质好吗？他父母的事情就这么放过她了吗？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 542,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙冷冷地扫了那几个作乱之人一眼，随后向在场的众人施了一礼，娓娓说道。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 432,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "各位同门，云秋兰虽是罪人之后，但其父母受指控之时，她不过还在襁褓之中。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 433,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "当年我等为其求情，使云师妹免于逐出化尘教，便是为了正法纪、明教义。冤有头，债有主。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 434,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "云家二人目前下落不明，此案疑点颇多，究竟是诬陷还是事实我们都无从考证。即使是事实，他们的罪过也该由自己承担，与云师妹这个孩子无关。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 435,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "再加上秋兰资质如此难得，我教长老不愿暴殄天物，好好培养，能为我教做出更大的贡献。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 436,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "入得我教，即脱凡尘，皆为姐妹兄弟，当有好生之德。更何况云师妹成长于化尘教中，与你我同衣同食。虽然时常隐姓埋名，但她是什么样的人，在场的各位师弟师妹，肯定有人了解。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 437,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "我澹台仙愿意以自身名誉为担保，希望大家能给她一个证明自己的机会。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 438,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 531,
+          "AvatarBindKey": "",
+          "StoryText": "这...既然澹台师姐都这么说了，我等自不会纠缠。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 439,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "没想到平素温婉和善的澹台前辈，发起怒来竟是如此模样...大家面面相觑，很快便纷纷表态。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 440,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "那位窘迫的外门执事擦了擦冷汗，赶忙向澹台仙深施一礼。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 441,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 520,
+          "AvatarBindKey": "",
+          "StoryText": "多谢澹台前辈解围，在下这就把此次任务的玉简发放给诸位同门。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 442,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙脸色缓和了不少，点了点头。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 443,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "无论大家相不相信我，我云秋兰都会用行动去证明，我是一个顶天立地、光明正大的人！从今日起，我不会再易容改名，我就是我！我就是云秋兰！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 444,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "我父母的事情，我一定会查清！如果他们是真的有罪，我绝不会逃避，我云秋兰自会亲自解决一切！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 445,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "只见云秋兰憋红了脸，鼓足勇气，将几句承诺朗声撂下，随即从执事手中夺走参加任务的玉简，感激地看了你一眼，头也不回地走了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 481,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "小友，做的不错。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 482,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 483,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙赞许地向你点了点头，指了指手中的传音符，向你笑了笑。你低头一看，不知何时自己的传音符上已经留下了澹台仙和云秋兰的印记，再一抬头，澹台仙已经消失不见了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 529,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 530,
+          "CmdType": "Fungus.AddCyFriend"
+        },
+        {
+          "ItemID": 531,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 532,
+          "CmdType": "Fungus.AddCyFriend"
+        }
+      ]
+    },
+    {
+      "ItemID": 473,
+      "Name": "挺身相助",
+      "Description": "挺身相助",
+      "Position": "(-2433.469,-754.412)",
+      "Commands": [
+        {
+          "ItemID": 389,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "你看不下去了，挺身而出，将云秋兰护在身后。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 390,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "诸位同门！宗门广场，怎能随意喧哗！这么多人，居然在这里欺负一个小姑娘，怕是不妥当吧！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 465,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 391,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "你是哪根葱？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 392,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "是啊，你知道这姑娘是谁吗你就为她出头？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 393,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "她可是云秋兰！云家的后人！你知道吗！当年她父母害死了多少我们的人？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 394,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "这回她改名换姓易容想要混入我们当中，谁知道她是不是古神教的奸细？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 395,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 956,
+          "AvatarBindKey": "",
+          "StoryText": "你不知道原委就少管闲事！我认得你！你是封山后才入宗门的修士吧！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 396,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 957,
+          "AvatarBindKey": "",
+          "StoryText": "她父母可是当年化尘教最大的奸细！叛徒！现在还在逍遥法外！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 397,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 955,
+          "AvatarBindKey": "",
+          "StoryText": "我看你和她就是一伙的！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 398,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一群人七嘴八舌差点给你整晕了，一时百口莫辩。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 400,
+          "CmdType": "Fungus.Menu",
+          "Text": "怒极出手",
+          "TargetBlockID": "this:246(宵小看剑)"
+        },
+        {
+          "ItemID": 401,
+          "CmdType": "Fungus.Menu",
+          "Text": "保持克制",
+          "TargetBlockID": "this:470(保持理智)"
+        }
+      ]
+    },
+    {
+      "ItemID": 474,
+      "Name": "拔刀相助",
+      "Description": "拔刀相助",
+      "Position": "(-2246.485,-887.5128)",
+      "Commands": [
+        {
+          "ItemID": 344,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "眼看他们越说越过分，你体内气血逐渐翻涌，攥紧拳头，准备向为首之人一点教训。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 468,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 350,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "别，别冲动...为了我，不值得......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 351,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "纤纤玉手拉住了你，你下意识地回头，正好对上云秋兰澄澈的双眸。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 362,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "她的眼神里没有了先前的慌乱，取而代之的是释然与平静，如碧波般澄净明亮，有人愿意挺身而出显然鼓舞了她。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 363,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 530,
+          "AvatarBindKey": "",
+          "StoryText": "谢谢你。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 462,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "263(英雄登场)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2466.231,-1135.019)",
+      "Commands": [
+        {
+          "ItemID": 475,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 387,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "241(路见不平)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

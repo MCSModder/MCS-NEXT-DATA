@@ -531,6 +531,10 @@
       "Position": "(-2628.676,-1303.139)",
       "Commands": [
         {
+          "ItemID": 479,
+          "CmdType": "Fungus.SetTaskDisabled"
+        },
+        {
           "ItemID": 409,
           "CmdType": "Fungus.GetStaticValue"
         },

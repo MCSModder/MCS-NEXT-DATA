@@ -1,0 +1,310 @@
+{
+  "Name": "Talk13105",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2808.441,-1449.073)",
+      "Commands": [
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 166,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "284(第一次神剑重铸长老会议)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 281,
+      "Name": "第一次会议 2",
+      "Description": "第一次会议 2",
+      "Position": "(-2986.667,-1067.278)",
+      "Commands": [
+        {
+          "ItemID": 338,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 336,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 337,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 320,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "\n",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 312,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "333(任务进度更新)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 326,
+      "Name": "对话框",
+      "Description": "对话框",
+      "Position": "(-3178.667,-1241.278)",
+      "Commands": [
+        {
+          "ItemID": 285,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        }
+      ]
+    },
+    {
+      "ItemID": 327,
+      "Name": "第一次会议 1",
+      "Description": "第一次会议 1",
+      "Position": "(-2986.667,-1135.278)",
+      "Commands": [
+        {
+          "ItemID": 287,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 299,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "281(第一次会议 2)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 281,
+      "Name": "第二次会议 2",
+      "Description": "第二次会议 2",
+      "Position": "(-2610.667,-1070.278)",
+      "Commands": [
+        {
+          "ItemID": 921,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 922,
+          "CmdType": "CmdSetJiaoHuNPC"
+        },
+        {
+          "ItemID": 923,
+          "CmdType": "CmdInitNPC"
+        },
+        {
+          "ItemID": 924,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "\n",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 925,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "333(任务进度更新 2)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 282,
+      "Name": "分支框",
+      "Description": "分支框",
+      "Position": "(-3203.667,-1170.278)",
+      "Commands": [
+        {
+          "ItemID": 901,
+          "CmdType": "Fungus.If",
+          "Condition": "Error: No variable selected"
+        },
+        {
+          "ItemID": 902,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "Error: No variable selected"
+        },
+        {
+          "ItemID": 903,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 904,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 905,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 333,
+      "Name": "任务进度更新 2",
+      "Description": "任务进度更新 2",
+      "Position": "(-2615.678,-994.6881)",
+      "Commands": [
+        {
+          "ItemID": 931,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 932,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 933,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    },
+    {
+      "ItemID": 328,
+      "Name": "处理框",
+      "Description": "处理框",
+      "Position": "(-3185.678,-1099.688)",
+      "Commands": []
+    },
+    {
+      "ItemID": 284,
+      "Name": "第一次神剑重铸长老会议",
+      "Description": "第一次神剑重铸长老会议",
+      "Position": "(-2834.79,-1376.896)",
+      "Commands": [
+        {
+          "ItemID": 334,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 335,
+          "CmdType": "Fungus.SetVariable"
+        },
+        {
+          "ItemID": 332,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "916(分支)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 916,
+      "Name": "分支",
+      "Description": "分支",
+      "Position": "(-2807.667,-1283.278)",
+      "Commands": [
+        {
+          "ItemID": 913,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 908,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 914,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "327(第一次会议 1)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 909,
+          "CmdType": "Fungus.ElseIf",
+          "Condition": "TempValue == 2"
+        },
+        {
+          "ItemID": 915,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        },
+        {
+          "ItemID": 911,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 912,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": null,
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 333,
+      "Name": "任务进度更新",
+      "Description": "任务进度更新",
+      "Position": "(-2987.678,-996.6881)",
+      "Commands": [
+        {
+          "ItemID": 930,
+          "CmdType": "Fungus.SetTask"
+        },
+        {
+          "ItemID": 330,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 900,
+          "CmdType": "CmdRefreshNPCUI"
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

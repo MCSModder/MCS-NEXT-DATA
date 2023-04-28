@@ -1,4 +1,48 @@
 {
+	"92":{
+		"id":92,
+		"EventValue":[
+			2205,
+			1
+		],
+		"fuhao":"=",
+		"StartTime":"",
+		"EndTime":"",
+		"Type":1
+	},
+	"93":{
+		"id":93,
+		"EventValue":[
+			2205,
+			2
+		],
+		"fuhao":"=",
+		"StartTime":"",
+		"EndTime":"",
+		"Type":1
+	},
+	"94":{
+		"id":94,
+		"EventValue":[
+			2205,
+			1
+		],
+		"fuhao":"=",
+		"StartTime":"",
+		"EndTime":"",
+		"Type":1
+	},
+	"95":{
+		"id":95,
+		"EventValue":[
+			2205,
+			2
+		],
+		"fuhao":"=",
+		"StartTime":"",
+		"EndTime":"",
+		"Type":1
+	},
 	"96":{
 		"id":96,
 		"EventValue":[

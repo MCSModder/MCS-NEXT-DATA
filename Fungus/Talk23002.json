@@ -1,0 +1,339 @@
+{
+  "Name": "Talk23002",
+  "Blocks": [
+    {
+      "ItemID": 101,
+      "Name": "Splash",
+      "Description": "Splash",
+      "Position": "(-2428.181,-1223.257)",
+      "Commands": [
+        {
+          "ItemID": 147,
+          "CmdType": "Fungus.TryinitFungaus"
+        },
+        {
+          "ItemID": 240,
+          "CmdType": "Fungus.CallMethod"
+        },
+        {
+          "ItemID": 86,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "154(判定)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 277,
+      "Name": "同意",
+      "Description": "同意",
+      "Position": "(-2576.433,-878.5205)",
+      "Commands": [
+        {
+          "ItemID": 336,
+          "CmdType": "Fungus.AddTask"
+        },
+        {
+          "ItemID": 338,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "那就先谢过道友了，只需要五块凝神玉髓就可以了。去风雷谷采集或者去百宝行购买都是可以的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 339,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "这是用于采买的灵石，还请拿好。到时候直接让当值神兵阁执事转交给我就行。我还有要事在身，就先告辞了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 340,
+          "CmdType": "Fungus.AddMoney"
+        },
+        {
+          "ItemID": 342,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙向你施了一礼，又向炼器执事租了一间炼器房，马不停蹄地忙活起来。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 341,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "好嘛，这女娃钻研起来，可真是认真啊......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 247,
+      "Name": "New Block",
+      "Description": "New Block",
+      "Position": "(-2429.181,-1009.29)",
+      "Commands": [
+        {
+          "ItemID": 249,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "砰！———",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 252,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "一声巨响从不远处的炼器房中传来，把刚走进神兵阁的你吓了一跳。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 251,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "不远处正在打瞌睡的执事慌不迭地放出了护体法器，睡意全无，随即着急忙慌地带着几个炼器弟子前去施法救火。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 250,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "滚滚浓烟当中，一个高挑美丽的身影缓步走出，竟是大师姐澹台仙。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 259,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "她身上蒙着一层土灰，虽然显得有些狼狈，但神色依旧从容，似乎在沉思着什么。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 261,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "回过神来回头看了看已经惨不忍睹的炼器室，澹台仙表情有些尴尬，似乎很不好意思，挠了挠头。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 260,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "这，这实在不好意思，有劳各位善后了，炼器房的损失，在下会全部赔偿的...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 262,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "炼器执事哭笑不得，显得很是无奈，不过澹台仙毕竟是首席弟子，在众弟子中名声极佳，素有威信，倒也没追究什么。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 263,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 516,
+          "AvatarBindKey": "",
+          "StoryText": "我的姑奶奶欸，这...这是您最近炸的第四个炼器室了吧...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 264,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 516,
+          "AvatarBindKey": "",
+          "StoryText": "罢了，澹台师姐啊，炸了炼器室事小，伤及自身事大，您这得多加小心才行啊。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 265,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "唉，您说的我都明白。可是师父给我的这古籍中的炼器之法甚是诡异，每次稍有不慎便会灵力失控，依书上说，需要一些增强神念的材料作为辅助。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 266,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "现在看来，普通的凝神玉还是不够，若有五个凝神玉髓，想必定能解决炼器中存在的问题，不知宗门可还有库存？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 267,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 516,
+          "AvatarBindKey": "",
+          "StoryText": "这...材料库里暂时倒是没有，不过我记得应该是出产自风雷谷吧，这样吧，我正好要去广场发布采买任务，这条给您加上。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 268,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "多谢道友费心了，不过我这个需求不想公之于众，不知能不能您直接指派手下弟子前去采买？放心，这个报酬肯定是只多不少的。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 269,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 516,
+          "AvatarBindKey": "",
+          "StoryText": "最近宗门有一批大的炼器任务，所有神兵阁弟子都在加班加点赶工，怕是力不从心啊。这......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 270,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "执事倒是一时犯了难。此时，铁剑里的魏老突然向你传音道。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 271,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "这炼器之法听描述倒是怪得很，居然需要使用增强神念的材料辅助，听着好像有点印象...说不定是个机缘，{xiaozi}，要不帮帮她？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 272,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "怎么，道友有兴趣帮忙？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 273,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙向你温婉一笑，和善地看着你，等待着你的答复。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 274,
+          "CmdType": "Fungus.Menu",
+          "Text": "欣然同意",
+          "TargetBlockID": "this:277(同意)"
+        },
+        {
+          "ItemID": 275,
+          "CmdType": "Fungus.Menu",
+          "Text": "委婉拒绝",
+          "TargetBlockID": "this:276(拒绝)"
+        }
+      ]
+    },
+    {
+      "ItemID": 276,
+      "Name": "拒绝",
+      "Description": "拒绝",
+      "Position": "(-2276.435,-876.3231)",
+      "Commands": [
+        {
+          "ItemID": 278,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "",
+          "StoryText": "不好意思，我有其他要事在身，实在是爱莫能助。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 279,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "",
+          "StoryText": "没关系没关系，是在下孟浪了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 281,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "",
+          "StoryText": "澹台仙向你作了一揖，继续和执事讨论解决之法去了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 280,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "",
+          "StoryText": "可惜...可惜...",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        }
+      ]
+    },
+    {
+      "ItemID": 154,
+      "Name": "判定",
+      "Description": "判定",
+      "Position": "(-2428.995,-1098.599)",
+      "Commands": [
+        {
+          "ItemID": 242,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 248,
+          "CmdType": "Fungus.Call",
+          "targetFlowchartName": null,
+          "targetBlockID": "247(New Block)",
+          "startLabel": "",
+          "startIndex": 0,
+          "callMode": 0
+        }
+      ]
+    }
+  ],
+  "Variables": []
+}

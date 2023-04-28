@@ -1300,8 +1300,40 @@
       "ItemID": 515,
       "Name": "无事",
       "Description": "无事",
-      "Position": "(-3205.61,-974.0285)",
-      "Commands": []
+      "Position": "(-3205.61,-975.248)",
+      "Commands": [
+        {
+          "ItemID": 1119,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 1121,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 1118,
+          "CmdType": "Fungus.If",
+          "Condition": "year < 20"
+        },
+        {
+          "ItemID": 1120,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 0"
+        },
+        {
+          "ItemID": 1122,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 1123,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 4"
+        },
+        {
+          "ItemID": 1117,
+          "CmdType": "Fungus.SpawnObject"
+        }
+      ]
     },
     {
       "ItemID": 581,

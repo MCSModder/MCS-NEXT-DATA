@@ -324,7 +324,7 @@
           "CmdType": "Fungus.Say",
           "AvatarIDInt": 1,
           "AvatarBindKey": "",
-          "StoryText": "显然，眼前的物事和林沐心预期中的烤肉也存在”些许“差别，以致于她并没有第一时间回答你，而是试图说服自己。",
+          "StoryText": "显然，眼前的物事和林沐心预期中的烤肉也存在“些许”差别，以致于她并没有第一时间回答你，而是试图说服自己。",
           "Description": "",
           "AvatarIDSetType": "FungusVariable"
         },

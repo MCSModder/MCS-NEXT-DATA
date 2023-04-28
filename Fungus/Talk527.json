@@ -309,6 +309,38 @@
           "TargetBlockID": "this:439(开始炼器)"
         },
         {
+          "ItemID": 516,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 517,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 518,
+          "CmdType": "Fungus.If",
+          "Condition": "year <= 35"
+        },
+        {
+          "ItemID": 519,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 520,
+          "CmdType": "Fungus.Menu",
+          "Text": "交付澹台仙的委托",
+          "TargetBlockID": "this:512(澹台仙炼器交付)"
+        },
+        {
+          "ItemID": 522,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 521,
+          "CmdType": "Fungus.End"
+        },
+        {
           "ItemID": 449,
           "CmdType": "Fungus.Menu",
           "Text": "算了",
@@ -376,6 +408,38 @@
           "CmdType": "Fungus.Menu",
           "Text": "我想要开启一间炼器室",
           "TargetBlockID": "this:439(开始炼器)"
+        },
+        {
+          "ItemID": 566,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 567,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 568,
+          "CmdType": "Fungus.If",
+          "Condition": "year <= 35"
+        },
+        {
+          "ItemID": 569,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 570,
+          "CmdType": "Fungus.Menu",
+          "Text": "交付澹台仙的委托",
+          "TargetBlockID": "this:512(澹台仙炼器交付)"
+        },
+        {
+          "ItemID": 571,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 572,
+          "CmdType": "Fungus.End"
         },
         {
           "ItemID": 452,
@@ -698,6 +762,38 @@
           "TargetBlockID": "this:439(开始炼器)"
         },
         {
+          "ItemID": 559,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 560,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 561,
+          "CmdType": "Fungus.If",
+          "Condition": "year <= 35"
+        },
+        {
+          "ItemID": 562,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 563,
+          "CmdType": "Fungus.Menu",
+          "Text": "交付澹台仙的委托",
+          "TargetBlockID": "this:512(澹台仙炼器交付)"
+        },
+        {
+          "ItemID": 564,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 565,
+          "CmdType": "Fungus.End"
+        },
+        {
           "ItemID": 451,
           "CmdType": "Fungus.Menu",
           "Text": "算了",
@@ -737,6 +833,38 @@
           "CmdType": "Fungus.Menu",
           "Text": "我想要开启一间炼器室",
           "TargetBlockID": "this:439(开始炼器)"
+        },
+        {
+          "ItemID": 523,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 524,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 525,
+          "CmdType": "Fungus.If",
+          "Condition": "year <= 35"
+        },
+        {
+          "ItemID": 526,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 527,
+          "CmdType": "Fungus.Menu",
+          "Text": "交付澹台仙的委托",
+          "TargetBlockID": "this:512(澹台仙炼器交付)"
+        },
+        {
+          "ItemID": 528,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 529,
+          "CmdType": "Fungus.End"
         },
         {
           "ItemID": 450,
@@ -796,6 +924,213 @@
           "startLabel": "",
           "startIndex": 0,
           "callMode": 0
+        }
+      ]
+    },
+    {
+      "ItemID": 512,
+      "Name": "澹台仙炼器交付",
+      "Description": "澹台仙炼器交付",
+      "Position": "(-3191.426,-946.7324)",
+      "Commands": [
+        {
+          "ItemID": 530,
+          "CmdType": "Fungus.ItemCheck"
+        },
+        {
+          "ItemID": 531,
+          "CmdType": "Fungus.If",
+          "Condition": "enough == True"
+        },
+        {
+          "ItemID": 539,
+          "CmdType": "Fungus.ItemRemove"
+        },
+        {
+          "ItemID": 538,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "你把一袋凝神玉髓交给了神兵阁执事。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 533,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "辛苦道友了，我这就去通禀澹台道友。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
+        },
+        {
+          "ItemID": 537,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "很快，澹台仙便匆匆向你走来，笑颜如花。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 536,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "多谢道友了，这是给您的报酬，还请不要客气。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 540,
+          "CmdType": "Fungus.AddMoney"
+        },
+        {
+          "ItemID": 541,
+          "CmdType": "Fungus.AddHaoGanDu"
+        },
+        {
+          "ItemID": 543,
+          "CmdType": "Fungus.SetTaskIndexFinish"
+        },
+        {
+          "ItemID": 542,
+          "CmdType": "Fungus.SetTaskCompelet"
+        },
+        {
+          "ItemID": 545,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "对了，澹台道友，不知您这炼器之法是何来头？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 546,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "澹台仙向你不好意思地笑了笑，似乎思索了一下，向你说道。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 547,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "此法内容虽是机密，但其实来头倒不是什么秘密。这是我派掌门晟慧真君闭关前留给云氏夫妻的秘本。在云氏夫妻下落不明之后，便落到其他三大长老手中。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 552,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "秘本中有掌门慧晟真君手谕，研究此术对我教至关重要。必须尽快培养出能够掌握的人。然而此术习练条件颇为苛刻，我也只是勉强摸到门槛而已。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 548,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "我素来对炼器兴趣颇深，又恰好符合此法门的学习要求，便奉命对秘本进行研究。不过没想到此法门竟如此危险，希望凝神玉髓能够管用。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 549,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 517,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "不管怎样，都得先试一试才行，那我就先告辞了，多谢道友！",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 550,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "我想起来了，古籍中记载过，有一种古化尘炼器秘术，有神妙效果，但极其不稳定，对资质和神识要求极高，神念不足者需借凝神之物才能实施，但似乎早已失传...有点意思，没想到如今又出现在了化尘教手中。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 553,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "所以说，到底有什么神妙效果？",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 554,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "嘿嘿，失传的秘术，我哪里知道。我要是知道的话，就不会只说是神妙效果了。不过可以肯定的是，一定是有用的东西。不然怎么会建议你掺和这事呢。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 555,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 2,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "等等，有印象了，好像是用于炼制...炼制....一种很重要的东西，欸，什么来着......",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 556,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "看着陷入沉思的魏老，你一时有些无语。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 557,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 1,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "算了算了，以后有机缘自然就知道了，魏老您好好歇着吧。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 558,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "魏老尴尬地笑了笑，似乎还在思索。和魏老同行这么久，你早已习惯，便也不再打扰他，继续做自己的事情去了。",
+          "Description": "",
+          "AvatarIDSetType": "Normal"
+        },
+        {
+          "ItemID": 544,
+          "CmdType": "Fungus.SetStaticValue"
+        },
+        {
+          "ItemID": 532,
+          "CmdType": "Fungus.Else"
+        },
+        {
+          "ItemID": 534,
+          "CmdType": "Fungus.Say",
+          "AvatarIDInt": 0,
+          "AvatarBindKey": "MonsterID",
+          "StoryText": "您身上的凝神玉髓不够啊。",
+          "Description": "",
+          "AvatarIDSetType": "FungusVariable"
         }
       ]
     },
@@ -899,6 +1234,38 @@
           "CmdType": "Fungus.Menu",
           "Text": "我想要开启一间炼器室",
           "TargetBlockID": "this:439(开始炼器)"
+        },
+        {
+          "ItemID": 510,
+          "CmdType": "Fungus.GetStaticValue"
+        },
+        {
+          "ItemID": 515,
+          "CmdType": "Fungus.GetNowTime"
+        },
+        {
+          "ItemID": 513,
+          "CmdType": "Fungus.If",
+          "Condition": "year <= 35"
+        },
+        {
+          "ItemID": 508,
+          "CmdType": "Fungus.If",
+          "Condition": "TempValue == 1"
+        },
+        {
+          "ItemID": 511,
+          "CmdType": "Fungus.Menu",
+          "Text": "交付澹台仙的委托",
+          "TargetBlockID": "this:512(澹台仙炼器交付)"
+        },
+        {
+          "ItemID": 509,
+          "CmdType": "Fungus.End"
+        },
+        {
+          "ItemID": 514,
+          "CmdType": "Fungus.End"
         },
         {
           "ItemID": 460,

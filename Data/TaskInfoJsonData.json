@@ -2182,5 +2182,53 @@
 		"Desc":"探索神秘洞府",
 		"mapIndex":0,
 		"IsFinal":0
+	},
+	"277":{
+		"id":277,
+		"TaskID":128,
+		"TaskIndex":1,
+		"Desc":"前往风雷谷采集五个凝神玉髓，或前往广陵城百宝行采购，集齐后交至神兵阁执事。",
+		"mapIndex":0,
+		"IsFinal":0
+	},
+	"278":{
+		"id":278,
+		"TaskID":127,
+		"TaskIndex":1,
+		"Desc":"前往宗门大殿参加长老会议",
+		"mapIndex":0,
+		"IsFinal":0
+	},
+	"279":{
+		"id":279,
+		"TaskID":127,
+		"TaskIndex":2,
+		"Desc":"前往藏经阁查阅有关金虹神剑的古籍",
+		"mapIndex":0,
+		"IsFinal":0
+	},
+	"280":{
+		"id":280,
+		"TaskID":127,
+		"TaskIndex":3,
+		"Desc":"前往宗门大殿商讨、汇总查阅得到的信息",
+		"mapIndex":0,
+		"IsFinal":0
+	},
+	"281":{
+		"id":281,
+		"TaskID":127,
+		"TaskIndex":4,
+		"Desc":"前往神剑所在位置，考察临时驻地",
+		"mapIndex":0,
+		"IsFinal":0
+	},
+	"282":{
+		"id":282,
+		"TaskID":127,
+		"TaskIndex":5,
+		"Desc":"参加金虹门派大会",
+		"mapIndex":0,
+		"IsFinal":1
 	}
 }

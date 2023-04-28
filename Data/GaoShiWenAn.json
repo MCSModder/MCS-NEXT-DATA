@@ -1,0 +1,20 @@
+{
+	"1":{
+		"id":1,
+		"type":0,
+		"param":"",
+		"text":"近日，我{didian}需要{itemnumber}份{itemname}，道友若是寻来，这份情谊我们不会忘记了。"
+	},
+	"1001":{
+		"id":1001,
+		"type":1,
+		"param":"",
+		"text":"近日，我{didian}急需{itemnumber}份{itemname}，道友若是寻来，这份情谊我们不会忘记了。"
+	},
+	"2001":{
+		"id":2001,
+		"type":2,
+		"param":"S9401",
+		"text":"{didian}处需要{itemnumber}份{itemname}，望宗门长老和弟子积极收集，助我派早日重铸神剑。"
+	}
+}
